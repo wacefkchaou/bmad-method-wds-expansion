@@ -3,8 +3,8 @@ const path = require('node:path');
 const chalk = require('chalk');
 
 /**
- * CIS Module Installer
- * Standard module installer function that executes after IDE installations
+ * WDS Module Installer
+ * Creates the alphabetized folder structure for Whiteport Design Studio
  *
  * @param {Object} options - Installation options
  * @param {string} options.projectRoot - The root directory of the target project
@@ -13,79 +13,81 @@ const chalk = require('chalk');
  * @param {Object} options.logger - Logger instance for output
  * @returns {Promise<boolean>} - Success status
  */
-async function install(options) {
-  const { projectRoot, config, installedIDEs, logger } = options;
-
+async function install({ projectRoot, installedIDEs, logger }) {
   try {
-    logger.log(chalk.blue('🎨 Installing CIS Module...'));
+    logger.log(chalk.blue('🎨 Installing WDS Module...'));
 
-    // Create output directory if configured
-    if (config['output_folder']) {
-      // Strip {project-root}/ prefix if present
-      const outputConfig = config['output_folder'].replace('{project-root}/', '');
-      const outputPath = path.join(projectRoot, outputConfig);
-      if (!(await fs.pathExists(outputPath))) {
-        logger.log(chalk.yellow(`Creating CIS output directory: ${outputConfig}`));
-        await fs.ensureDir(outputPath);
+    // Create docs directory if it doesn't exist
+    const docsPath = path.join(projectRoot, 'docs');
+    if (!(await fs.pathExists(docsPath))) {
+      logger.log(chalk.yellow('Creating docs directory'));
+      await fs.ensureDir(docsPath);
+    }
 
-        // Add any default CIS templates or assets here
-        const templatesSource = path.join(__dirname, 'assets');
-        const templateFiles = await fs.readdir(templatesSource).catch(() => []);
+    // Create WDS alphabetized folder structure
+    const wdsFolders = [
+      'A-Product-Brief',
+      'B-Trigger-Map',
+      'C-Platform-Requirements',
+      'C-Scenarios',
+      'D-Design-System',
+      'E-PRD',
+      'F-Testing',
+      'G-Product-Development',
+    ];
 
-        for (const file of templateFiles) {
-          const source = path.join(templatesSource, file);
-          const dest = path.join(outputPath, file);
+    logger.log(chalk.cyan('Creating WDS folder structure...'));
 
-          if (!(await fs.pathExists(dest))) {
-            await fs.copy(source, dest);
-            logger.log(chalk.green(`✓ Added ${file}`));
-          }
-        }
+    for (const folder of wdsFolders) {
+      const folderPath = path.join(docsPath, folder);
+      if (await fs.pathExists(folderPath)) {
+        logger.log(chalk.dim(`  → ${folder}/ (already exists)`));
+      } else {
+        await fs.ensureDir(folderPath);
+        logger.log(chalk.dim(`  ✓ ${folder}/`));
       }
     }
+
+    // Create Design-Deliveries subfolder in E-PRD
+    const designDeliveriesPath = path.join(docsPath, 'E-PRD', 'Design-Deliveries');
+    if (!(await fs.pathExists(designDeliveriesPath))) {
+      await fs.ensureDir(designDeliveriesPath);
+      logger.log(chalk.dim('  ✓ E-PRD/Design-Deliveries/'));
+    }
+
+    // Create .gitkeep files to preserve empty directories
+    for (const folder of wdsFolders) {
+      const gitkeepPath = path.join(docsPath, folder, '.gitkeep');
+      if (!(await fs.pathExists(gitkeepPath))) {
+        await fs.writeFile(gitkeepPath, '# This file ensures the directory is tracked by git\n');
+      }
+    }
+
+    // Create .gitkeep in Design-Deliveries
+    const ddGitkeepPath = path.join(designDeliveriesPath, '.gitkeep');
+    if (!(await fs.pathExists(ddGitkeepPath))) {
+      await fs.writeFile(ddGitkeepPath, '# This file ensures the directory is tracked by git\n');
+    }
+
+    logger.log(chalk.green('✓ WDS folder structure created'));
 
     // Handle IDE-specific configurations if needed
     if (installedIDEs && installedIDEs.length > 0) {
-      logger.log(chalk.cyan(`Configuring CIS for IDEs: ${installedIDEs.join(', ')}`));
-
-      // Add any IDE-specific CIS configurations here
-      for (const ide of installedIDEs) {
-        await configureForIDE(ide, projectRoot, config, logger);
-      }
+      logger.log(chalk.cyan(`Configuring WDS for IDEs: ${installedIDEs.join(', ')}`));
+      // WDS doesn't need IDE-specific configuration currently
+      logger.log(chalk.dim('  No IDE-specific configuration needed for WDS'));
     }
 
-    logger.log(chalk.green('✓ CIS Module installation complete'));
+    logger.log(chalk.green('✓ WDS Module installation complete'));
+    logger.log(chalk.cyan('\n📋 Next steps:'));
+    logger.log(chalk.dim('  1. Activate Saga (WDS Analyst) to start with Product Brief'));
+    logger.log(chalk.dim('  2. Or activate Idunn (WDS PM) for Platform Requirements'));
+    logger.log(chalk.dim('  3. Or activate Freya (WDS Designer) for UX Design'));
+
     return true;
   } catch (error) {
-    logger.error(chalk.red(`Error installing CIS module: ${error.message}`));
+    logger.error(chalk.red(`Error installing WDS module: ${error.message}`));
     return false;
-  }
-}
-
-/**
- * Configure CIS module for specific IDE
- * @private
- */
-async function configureForIDE(ide) {
-  // Add IDE-specific configurations here
-  switch (ide) {
-    case 'claude-code': {
-      // Claude Code specific CIS configurations
-      break;
-    }
-    case 'cursor': {
-      // Cursor specific CIS configurations
-      break;
-    }
-    case 'windsurf': {
-      // Windsurf specific CIS configurations
-      break;
-    }
-    // Add more IDEs as needed
-    default: {
-      // No specific configuration needed
-      break;
-    }
   }
 }
 
