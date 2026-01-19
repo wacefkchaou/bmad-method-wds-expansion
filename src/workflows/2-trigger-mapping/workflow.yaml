@@ -1,8 +1,11 @@
-# WDS Phase 2: Trigger Mapping
+---
 name: trigger-mapping
 description: "Map business goals to user psychology through structured workshops"
 author: "Whiteport Design Studio"
 phase: 2
+web_bundle: true
+standalone: true
+primary_agent: "saga-analyst"
 
 # Based on Effect Mapping by Mijo Balic & Ingrid Domingues (inUse)
 # Adapted by WDS: simplified (no features), enhanced with negative driving forces
@@ -49,9 +52,4 @@ output_files:
   - "trigger-map.md"
   - "personas/"
   - "feature-impact-analysis.md"
-
-# Agent assignment
-primary_agent: "saga-analyst"
-
-standalone: true
-web_bundle: false
+---

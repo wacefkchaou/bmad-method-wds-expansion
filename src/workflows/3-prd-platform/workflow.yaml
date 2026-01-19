@@ -1,11 +1,11 @@
 ---
-name: PRD Platform Workflow
+name: prd-platform
 description: Establish technical foundation, validate risky features, and set up experimental endpoints
+author: "Whiteport Design Studio"
+phase: 3
 web_bundle: true
----
-# WDS Phase 3: PRD Platform (Technical Foundation)
-name: "Phase 3: PRD Platform (Technical Foundation)"
-agent: "Freya the PM"
+standalone: true
+primary_agent: "idunn-pm"
 version: "1.0.0"
 
 paths:
@@ -36,3 +36,4 @@ optional_inputs:
   - "Existing technical constraints"
 
 estimated_duration: "2-4 hours (plus PoC development time)"
+---

@@ -1,5 +1,11 @@
-name: Phase 5 - Design System
+---
+name: design-system
 description: Extract and maintain design system components (optional)
+author: "Whiteport Design Studio"
+phase: 5
+web_bundle: true
+standalone: true
+primary_agent: "freya-ux"
 version: 1.0.0
 
 trigger:
@@ -13,3 +19,4 @@ outputs:
   - D-Design-System/components/*.md
   - D-Design-System/design-tokens.md
   - D-Design-System/component-library-config.md
+---
