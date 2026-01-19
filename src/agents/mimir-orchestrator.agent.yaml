@@ -2,6 +2,8 @@
 # Wise advisor from Norse mythology who guides users through their WDS journey
 
 agent:
+  webskip: false
+  discussion: true
   metadata:
     id: "{bmad_folder}/wds/agents/mimir-orchestrator.agent.yaml"
     name: Mimir

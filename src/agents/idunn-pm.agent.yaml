@@ -2,6 +2,8 @@
 # Goddess of renewal & youth - keeps projects vital and thriving
 
 agent:
+  webskip: false
+  discussion: true
   metadata:
     id: "{bmad_folder}/wds/agents/idunn-pm.md"
     name: Idunn

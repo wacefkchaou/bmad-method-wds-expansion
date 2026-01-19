@@ -2,6 +2,8 @@
 # Goddess of beauty, magic & strategy - creates experiences users love
 
 agent:
+  webskip: false
+  discussion: true
   metadata:
     id: "{bmad_folder}/wds/agents/freya-ux.md"
     name: Freya

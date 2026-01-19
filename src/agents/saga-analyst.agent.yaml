@@ -2,6 +2,8 @@
 # Goddess of stories and wisdom who uncovers your product's strategic narrative
 
 agent:
+  webskip: false
+  discussion: true
   metadata:
     id: "{bmad_folder}/wds/agents/saga-analyst.agent.yaml"
     name: Saga
