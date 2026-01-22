@@ -18,7 +18,7 @@ Guide user to identify constraints including timeline, budget, technical require
 
 ## Next Step
 
-After capturing constraints, proceed to step-11-tone-of-voice.md
+After capturing constraints, proceed to step-10a-platform-strategy.md
 
 ## State Update
 

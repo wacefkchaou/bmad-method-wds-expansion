@@ -7,6 +7,18 @@
 
 ---
 
+## Page Metadata
+
+**Platform:** {platform from scenario - e.g., Responsive Web Application, Native Mobile App (iOS/Android), Desktop Application, PWA}  
+**Page Type:** {Full Page / Modal Dialog / Drawer / Popup / Toast / Email Template / System Notification}  
+**Primary Viewport:** {Mobile-first (< 768px) / Desktop-first (≥ 1024px) / Tablet-optimized / Universal}  
+**Interaction Model:** {Touch-first / Mouse/keyboard-first / Touch and mouse/keyboard / Voice / Accessibility-first}  
+**Navigation Context:** {Public (unauthenticated) / Authenticated / Admin/privileged / Onboarding flow / Error state}
+
+**Inherits From:** Scenario Platform Strategy (see scenario overview)
+
+---
+
 ## Overview
 
 **Page Purpose:** {What job must this page accomplish?}

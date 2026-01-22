@@ -1,23 +1,32 @@
-# Page Specification Quality Workflow
+# Page Specification Quality Workflow - Automated Execution
 
 **Purpose:** Ensure every page specification follows WDS standards with complete structure, Object IDs, and traceability.
 
-**Use Cases:**
-1. **During Page Creation** - Build specs correctly from the start
-2. **After Page Updates** - Validate changes maintain standards
-3. **Quality Audit** - Check existing specs for missing elements
+**For Freya (AI Agent):** This file provides automated workflow execution instructions.
 
 ---
 
-## Process Overview
+## Automated Workflow Execution
 
-This workflow guides you through creating or validating a page specification step by step. Each step focuses on one structural element to ensure nothing is missed.
+<action>Load and execute: workflow.md</action>
 
-**Sequential Flow:** Each step must be completed before moving to the next.
+This will initialize the BMAD v6 micro-step workflow architecture and guide you through all 8 validation steps sequentially.
 
 ---
 
-## Workflow Steps
+## Workflow Architecture
 
-<action>Load and execute: step-01-navigation.md</action>
+This workflow follows **BMAD v6 step-file architecture**:
 
+- **8 Sequential Steps** - Each step is a self-contained validation check
+- **Just-In-Time Loading** - Only current step in memory
+- **Diagnostic Reporting** - Identify issues, suggest fixes, let designer decide
+- **State Tracking** - Track validation progress through steps
+
+---
+
+## Reference Documentation
+
+- **workflow.md** - Main entry point and workflow architecture
+- **quality-guide.md** - Overview reference of all checks and why they matter
+- **steps-v/** - Individual validation step files (step-01 through step-08)

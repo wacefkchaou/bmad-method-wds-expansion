@@ -17,7 +17,11 @@ This process helps you identify:
 
 ---
 
-## The 6 Steps
+## The 7 Steps
+
+### [0A. Confirm Platform Strategy](00a-platform-confirmation.md)
+
+Inherit platform strategy from Product Brief and confirm for this scenario
 
 ### [1. What Feature Delivers Value?](01-feature-selection.md)
 

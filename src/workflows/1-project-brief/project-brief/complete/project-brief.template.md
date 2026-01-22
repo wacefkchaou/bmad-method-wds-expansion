@@ -82,6 +82,36 @@
 
 ---
 
+## Platform & Device Strategy
+
+**Primary Platform:** {{primary_platform}}
+
+**Supported Devices:**
+{{supported_devices}}
+
+**Device Priority:** {{device_priority}}
+
+**Interaction Models:**
+{{interaction_models}}
+
+**Technical Requirements:**
+- **Offline Functionality:** {{offline_requirements}}
+- **Native Features:** {{native_features_needed}}
+
+**Platform Rationale:**
+{{platform_rationale}}
+
+**Future Platform Plans:**
+{{future_platform_plans}}
+
+**Design Implications:**
+{{design_implications}}
+
+**Development Implications:**
+{{development_implications}}
+
+---
+
 ## Tone of Voice
 
 **For UI Microcopy & System Messages**
