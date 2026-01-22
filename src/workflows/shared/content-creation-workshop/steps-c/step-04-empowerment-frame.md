@@ -18,13 +18,9 @@ This step frames content to make users feel capable, show their transformation, 
 
 ---
 
-## What You're Doing
+## The Single Task
 
-Applying Badass Users principles to determine:
-- How to frame the user's transformation
-- What "aha moment" this content creates
-- How to make them feel capable, not overwhelmed
-- How to reduce cognitive load
+**Apply Badass Users framework to frame content around user capability and transformation**
 
 ---
 
@@ -36,36 +32,18 @@ Applying Badass Users principles to determine:
 
 ---
 
-## Kathy Sierra's Badass Users Principles (Quick Reference)
+## Badass Users Framework
 
-**Core Philosophy:**
-> "Users don't care about your product. They care about being awesome at what your product helps them do."
+**Quick Reference:** See [substeps/04-badass-users-principles.md](substeps/04-badass-users-principles.md) for detailed framework.
 
-**Key Principles:**
+**Core:** "You'll be able to..." not "Our product has..."
 
-1. **Make Them Better, Not Your Product Better**
-   - Frame: "You'll be able to..." not "Our product has..."
-   - Focus on THEIR capability, not your features
-
-2. **Show The Transformation**
-   - From: Current state (struggling, uncertain)
-   - To: Badass state (capable, confident)
-   - Make the path visible
-
-3. **Create "Aha Moments"**
-   - Insights that shift perspective
-   - "Oh! THAT'S how this works!"
-   - Moments of clarity that build confidence
-
-4. **Reduce Cognitive Load**
-   - Don't make them think unnecessarily
-   - Simplify decisions
-   - Remove friction
-   - Guide, don't overwhelm
-
-5. **Focus on Skills, Not Tools**
-   - "You'll spot trends before your competitors" (skill)
-   - Not: "Our algorithm analyzes 10,000 sources" (tool)
+**Five Principles:**
+1. Make Them Better (not product better)
+2. Show The Transformation (current → badass)
+3. Create "Aha Moments" (perspective shifts)
+4. Reduce Cognitive Load (simplify ruthlessly)
+5. Focus on Skills (not tools)
 
 ---
 
@@ -87,7 +65,7 @@ Paint the picture:
 - How will they feel? (confident, capable, ahead?)
 - What transformation happened?
 
-**"Can you describe the before/after transformation?"**
+---
 
 ### 2. Identify the "Aha Moment"
 
@@ -102,6 +80,8 @@ The "aha moment" isn't just understanding—it's a perspective shift:
 
 **"What's the key insight that unlocks confidence?"**
 
+---
+
 ### 3. Frame Around Capability
 
 **"How do we frame this content to highlight THEIR capability, not our features?"**
@@ -111,14 +91,14 @@ Transform feature-focused language:
 **Before (feature-focus):**
 - "Our AI analyzes 10,000 beauty sources"
 - "We send weekly emails with 5 trends"
-- "Our platform has been trusted since 2018"
 
 **After (capability-focus):**
 - "You'll spot trends before your competitors"
 - "You'll always have something new to talk about with clients"
-- "You'll feel confident when clients ask about the latest looks"
 
 **"How can we reframe essential information to focus on what THEY can do?"**
+
+---
 
 ### 4. Show the Transformation Path
 
@@ -132,9 +112,11 @@ Users need to see:
 **"What makes the transformation feel real and achievable, not aspirational?"**
 
 Examples:
-- Specific numbers: "60 seconds per trend" (concrete, not vague)
+- Specific numbers: "60 seconds per trend" (concrete)
 - Social proof: "2,000 stylists already there" (others did it)
-- Quick win: "Try it on your next client" (immediate application)
+- Quick win: "Try it on your next client" (immediate)
+
+---
 
 ### 5. Reduce Cognitive Load
 
@@ -146,9 +128,9 @@ Look for cognitive load issues:
 - Too many steps? → Break down or simplify
 - Unclear what to do? → Make next step obvious
 
-**"How can we make this easier to understand and act on?"**
-
 **"What can we simplify or cut to reduce mental effort?"**
+
+---
 
 ### 6. Focus on Skills Over Tools
 
@@ -157,11 +139,9 @@ Look for cognitive load issues:
 Not:
 - "Using our platform"
 - "Receiving emails"
-- "Accessing our database"
 
 But:
 - "Staying current effortlessly"
-- "Impressing your clients"
 - "Becoming the local authority"
 
 **"Can we frame this around the skill they gain, not the tool they use?"**
@@ -248,63 +228,9 @@ Once empowerment framing is defined:
 
 ## Example
 
-**VTC Context:** Hairdresser newsletter signup
+**See:** [substeps/04-example-empowerment-frame.md](substeps/04-example-empowerment-frame.md)
 
-**Empowerment Frame:**
-
-```yaml
-empowerment_frame:
-  transformation:
-    current_state:
-      description: "Harriet feels behind when clients ask about trends she hasn't heard of"
-      feelings: ["frustrated", "embarrassed", "uncertain"]
-      capabilities: "Can't confidently discuss latest trends with clients"
-    
-    badass_state:
-      description: "Harriet is always ahead—clients see her as their beauty authority"
-      feelings: ["confident", "proud", "expert"]
-      capabilities: "Spots trends before competitors, impresses clients, leads conversations"
-    
-    visibility: "2,000 stylists already there + 'Try it on next client Monday' = immediate, real path"
-  
-  aha_moment:
-    insight: "Oh! I don't need to follow 100 accounts or read for hours—60 seconds on Monday morning is enough!"
-    why_powerful: "Removes the overwhelm barrier. Being ahead doesn't require massive effort—just smart curation."
-  
-  capability_framing:
-    - feature: "AI analyzes 10,000 beauty sources weekly"
-      reframed: "You'll spot trends before your competitors even hear about them"
-    
-    - feature: "Weekly email with 5 top trends"
-      reframed: "You'll always have something new and exciting to talk about with clients"
-    
-    - feature: "60-second explainers for each trend"
-      reframed: "You'll understand trends fast enough to use them the same day"
-    
-    - feature: "2,000 stylist subscribers"
-      reframed: "You'll join successful stylists who are already ahead"
-  
-  cognitive_load:
-    potential_issues:
-      - issue: "Fear of email overload / another thing to manage"
-        solution: "Emphasize: 'Weekly, not daily' + '60 seconds' + 'Monday morning ritual'"
-      
-      - issue: "Uncertainty about what trends are or how to use them"
-        solution: "'Client conversation starters included' = no guesswork"
-    
-    simplifications:
-      - "Cut: Technical details about AI or sources (doesn't help capability)"
-      - "Cut: Company history (irrelevant to their transformation)"
-      - "Simplify: One clear CTA, not multiple options"
-  
-  skill_focus:
-    primary_skill: "Staying ahead of beauty trends effortlessly"
-    supporting_skills: 
-      - "Impressing clients with current knowledge"
-      - "Leading beauty conversations in their town"
-      - "Building authority and reputation"
-    tools_secondary: "Newsletter is the vehicle, but skill is what matters"
-```
+This shows complete Badass Users framework application for hairdresser newsletter, demonstrating transformation framing, aha moment, capability reframing, cognitive load reduction, and skill focus
 
 ---
 

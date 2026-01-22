@@ -210,44 +210,9 @@ Once the required action is clear and information is filtered:
 
 ## Example
 
-**VTC Context:** Hairdresser newsletter signup
+**See:** [substeps/03-action-filter-example.md](substeps/03-action-filter-example.md)
 
-**Action Filter:**
-
-```yaml
-action_filter:
-  required_action:
-    description: "Click the 'Start Staying Ahead' button to begin email signup"
-    success_criteria: "User clicks with confidence, clear on what they'll get"
-  
-  business_impact:
-    connection: "Email capture drives 500 newsletter signups goal"
-    logic: "Click button → Enter email → Confirm subscription → New subscriber"
-  
-  user_motivation:
-    positive_driver: "Satisfies wish to 'be local beauty authority' by getting trend info"
-    negative_driver: "Addresses fear of 'missing industry trends' with regular updates"
-  
-  essential_information:
-    - "WHAT they'll get: Weekly trend alerts (enables confident click)"
-    - "HOW OFTEN: Every Monday (sets expectation, reduces uncertainty)"
-    - "TIME INVESTMENT: 60 seconds per trend (shows it's manageable)"
-    - "SOCIAL PROOF: 2,000 stylists (reduces risk, builds trust)"
-    - "COMMITMENT LEVEL: Free, cancel anytime (removes fear barrier)"
-  
-  cut_list:
-    - "Company founding story (doesn't enable signup action)"
-    - "Technical newsletter platform details (irrelevant to action)"
-    - "Full team bios (nice but doesn't reduce barriers)"
-  
-  action_barriers:
-    - barrier: "Fear of email overload"
-      solution: "Weekly (not daily), 60-second reads, unsubscribe anytime"
-    - barrier: "Uncertainty about value"
-      solution: "Specific: 'Top 5 trends' + testimonial about client reactions"
-    - barrier: "Distrust of free offers"
-      solution: "2,000 stylists already using it (social proof)"
-```
+This shows complete Action Mapping for hairdresser newsletter signup, demonstrating how to filter essential information through required action, identify barriers, and create a cut list.
 
 ---
 

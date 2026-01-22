@@ -16,12 +16,9 @@ Simon Sinek's Golden Circle provides the structural order that makes content per
 
 ---
 
-## What You're Doing
+## The Single Task
 
-Using the Golden Circle model to determine:
-- The WHY-HOW-WHAT sequence for this content
-- What content belongs in each section
-- How to create a persuasive flow from motivation to action
+**Map all content from previous steps into WHY → HOW → WHAT sequence**
 
 ---
 
@@ -34,34 +31,17 @@ Using the Golden Circle model to determine:
 
 ---
 
-## The Golden Circle (Quick Reference)
+## The Golden Circle
 
-**Simon Sinek's Model:**
+**Quick Reference:** See [substeps/05-golden-circle-guide.md](substeps/05-golden-circle-guide.md) for detailed framework explanation.
 
 ```
-    WHY (Core)
-     ↓
-    HOW (Process)
-     ↓
-    WHAT (Proof)
+WHY (Emotion) → HOW (Method) → WHAT (Specifics)
 ```
 
-**WHY** - The purpose, cause, belief
-- Why does this matter?
-- Why should the user care?
-- What's the emotional truth?
-
-**HOW** - The process, approach, differentiator
-- How does this work?
-- How do you do it differently?
-- What's the method?
-
-**WHAT** - The tangible, proof, specifics
-- What exactly do you do/offer?
-- What are the features?
-- What's the concrete evidence?
-
-**Key Insight:** Start with WHY (emotion/purpose), then HOW (method), then WHAT (specifics).
+**WHY** - Emotional truth, purpose (connects to driving forces)  
+**HOW** - Method, approach (bridges emotion to action)  
+**WHAT** - Specifics, proof (enables action)
 
 ---
 
@@ -69,108 +49,74 @@ Using the Golden Circle model to determine:
 
 ### 1. Identify the WHY
 
-**"What's the emotional truth or purpose that opens this content?"**
+**"What's the emotional opening that connects to their driving forces?"**
 
-The WHY connects to:
-- User's driving forces (from VTC)
-- Current emotional state (from Empowerment Frame)
-- The problem or aspiration that matters
+- Opens with user's current emotional state (from Empowerment Frame)
+- Connects to driving forces (from VTC)
+- Makes them care before explaining solution
 
-**Good WHY examples:**
-- "Are your clients asking about trends you haven't heard of?" (emotional truth)
-- "You deserve to feel ahead, not behind" (aspiration)
-- "Every stylist feels this—you're not alone" (validation)
+**"What's the opening that makes them say 'that's me'?"**
 
-**Bad WHY examples:**
-- "Our company was founded in 2018" (not emotional)
-- "TrendWeek is a beauty newsletter" (WHAT, not WHY)
-- "Sign up now" (jumping to action without motivation)
-
-**"What's the opening that connects emotionally and makes them care?"**
+---
 
 ### 2. Identify the HOW
 
-**"What's the method or approach that bridges WHY to WHAT?"**
+**"What's the method that bridges emotional need to specific solution?"**
 
-The HOW explains:
-- How this solves the emotional need
-- How you do it differently
-- How the transformation happens
+- Explains the approach or process
+- Shows how transformation happens
+- Uses capability framing (from Step 4)
+- Contains the "aha moment" insight
 
-From previous steps, we have:
-- Essential information (Action Filter)
-- Capability framing (Empowerment Frame)
+**"Which essential information belongs in the HOW section?"**
 
-**"Which of these belongs in HOW—the bridging explanation?"**
-
-**Example HOW content:**
-- "Here's how stylists stay ahead: Weekly trend alerts delivered Monday morning"
-- "60-second explainers—understand trends fast enough to use them same day"
-- "Client conversation starters included—no guesswork"
+---
 
 ### 3. Identify the WHAT
 
-**"What are the concrete specifics and proof?"**
+**"What are the concrete specifics and call to action?"**
 
-The WHAT provides:
-- Specific features or offers
-- Tangible evidence
-- Social proof
-- The ask/action
+- Names the product/offer
+- Provides social proof
+- Clear CTA with capability framing
+- Risk removal
 
-**"Which information belongs in WHAT—the concrete details?"**
+**"Which information belongs in WHAT—the final specifics?"**
 
-**Example WHAT content:**
-- "Join TrendWeek—Free for Stylists"
-- "2,000 stylists already ahead"
-- "Start Staying Ahead" (CTA button)
-- "Free. Cancel anytime."
+---
 
 ### 4. Map Content to Structure
 
-**"Let's organize all our essential information into WHY-HOW-WHAT:"**
+**"Let's organize all essential information into WHY-HOW-WHAT:"**
 
-Present all the essential information from Step 3 (Action Filter) and capability framing from Step 4 (Empowerment Frame).
+Present all content from Steps 3-4 (Action Filter + Empowerment Frame).
 
 **Work together to assign each piece:**
 - This goes in WHY (emotional opening)
 - This goes in HOW (method/bridge)
 - This goes in WHAT (specifics/proof)
 
+---
+
 ### 5. Sequence Within Sections
 
 **"Within each section, what's the most persuasive order?"**
 
-Even within WHY, HOW, and WHAT, there's micro-sequencing:
+**WHY section:** Problem → Validation → Aspiration  
+**HOW section:** Approach → Differentiator → Transformation  
+**WHAT section:** Naming → Proof → Action → Risk Removal
 
-**WHY section might be:**
-1. Problem recognition (emotional hook)
-2. Validation (you're not alone)
-3. Aspiration (you can feel different)
+**"Does the sequence within each section flow smoothly?"**
 
-**HOW section might be:**
-1. Introduce solution approach
-2. Explain key differentiator
-3. Show transformation path
-
-**WHAT section might be:**
-1. Name the product/offer
-2. Social proof
-3. Clear CTA
-4. Risk removal
-
-**"What order within each section creates the smoothest flow?"**
+---
 
 ### 6. Validate Persuasive Flow
 
-**"Does this sequence feel natural and persuasive?"**
+**"Does WHY → HOW → WHAT create natural emotional → logical → action flow?"**
 
-Read through the complete structure:
-- WHY → [content]
-- HOW → [content]
-- WHAT → [content]
-
-**"Does it flow logically from emotion → method → specifics?"**
+- Can user understand WHY without knowing WHAT yet?
+- Does HOW bridge the gap naturally?
+- Does WHAT feel like natural conclusion (not premature)?
 
 **"Does anything feel out of order or jarring?"**
 
@@ -261,69 +207,9 @@ Once structure is determined:
 
 ## Example
 
-**VTC Context:** Hairdresser newsletter signup
+**See:** [substeps/05-example-golden-circle.md](substeps/05-example-golden-circle.md)
 
-**Structural Order:**
-
-```yaml
-structural_order:
-  section_why:
-    purpose: "Emotional connection—problem recognition and aspiration"
-    content_elements:
-      - order: 1
-        element: "Headline: 'Are Your Clients Asking About Trends You Haven't Heard Of?'"
-        rationale: "Opens with emotional pain point—immediate recognition"
-      
-      - order: 2
-        element: "Subhead: 'Stop feeling behind. Become your town's go-to beauty authority.'"
-        rationale: "Validation (you're not alone) + aspiration (badass state)"
-      
-      - order: 3
-        element: "Visual: Split image—uncertain hairdresser → confident trendsetter"
-        rationale: "Shows transformation visually, reinforces emotional journey"
-  
-  section_how:
-    purpose: "Solution approach—how stylists stay ahead"
-    content_elements:
-      - order: 1
-        element: "Heading: 'Here's How Stylists Stay Ahead:'"
-        rationale: "Introduces solution category (trend newsletters) to Problem Aware users"
-      
-      - order: 2
-        element: "Weekly trend alerts delivered Monday morning"
-        rationale: "Explains the method—simple, regular, manageable"
-      
-      - order: 3
-        element: "60-second explainers—understand it fast"
-        rationale: "Key differentiator—reduces cognitive load fear"
-      
-      - order: 4
-        element: "Client conversation starters included"
-        rationale: "Shows transformation path—immediate application"
-  
-  section_what:
-    purpose: "Product naming, proof, and action"
-    content_elements:
-      - order: 1
-        element: "Heading: 'Join TrendWeek—Free for Stylists'"
-        rationale: "NOW we can name the product (moved to Product Aware)"
-      
-      - order: 2
-        element: "2,000 stylists already ahead"
-        rationale: "Social proof builds credibility before ask"
-      
-      - order: 3
-        element: "Button: 'Start Staying Ahead'"
-        rationale: "Capability-framed CTA (not 'sign up')"
-      
-      - order: 4
-        element: "Subtext: 'Free. No credit card. Cancel anytime.'"
-        rationale: "Risk removal last—addresses final barrier"
-  
-  flow_validation:
-    feels_natural: "Yes—emotion → method → specifics flows smoothly"
-    persuasive_arc: "WHY connects emotionally, HOW builds confidence, WHAT enables action without jumping too fast"
-```
+This shows complete WHY → HOW → WHAT sequencing for hairdresser newsletter content, with detailed rationale for each element's placement and order
 
 ---
 

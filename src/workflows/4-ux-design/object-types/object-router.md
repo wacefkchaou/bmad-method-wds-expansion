@@ -25,7 +25,7 @@
   - Routing to text analysis for detailed specification...
   </output>
   
-  <action>Route immediately to `object-types/heading-text.md`</action>
+  <action>Route immediately to `object-types/templates/heading-text.md`</action>
   <action>Pass detected pairs to heading-text.md for analysis using SKETCH-TEXT-ANALYSIS-GUIDE.md</action>
   
   **→ Loading text-specific instructions...**
@@ -136,24 +136,24 @@ Choice [1/2/3]:</ask>
 
 **TEXT ELEMENTS (DETECTED FIRST):**
 
-- Horizontal line groups → `object-types/heading-text.md`
+- Horizontal line groups → `object-types/templates/heading-text.md`
   - Handles: Headings (H1-H6), Paragraphs, Labels, Captions
   - Includes: Sketch text analysis, character capacity, content guidance
 
 **INTERACTIVE ELEMENTS:**
 
-- **Button shapes** → `object-types/button.md`
-- **Input fields** → `object-types/text-input.md`
+- **Button shapes** → `object-types/templates/button.md`
+- **Input fields** → `object-types/templates/text-input.md`
 - **Textarea boxes** → `object-types/textarea.md`
 - **Dropdown indicators** → `object-types/select-dropdown.md`
 - **Checkbox squares** → `object-types/checkbox.md`
 - **Radio circles** → `object-types/radio-button.md`
 - **Toggle switches** → `object-types/toggle-switch.md`
-- **Underlined text/arrows** → `object-types/link.md`
+- **Underlined text/arrows** → `object-types/templates/link.md`
 
 **MEDIA ELEMENTS:**
 
-- **Image placeholders (X or box)** → `object-types/image.md`
+- **Image placeholders (X or box)** → `object-types/templates/image.md`
 - **Video frame** → `object-types/video.md`
 
 **CONTAINER ELEMENTS:**

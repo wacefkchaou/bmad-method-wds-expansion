@@ -19,31 +19,31 @@ This process helps you identify:
 
 ## The 7 Steps
 
-### [0A. Confirm Platform Strategy](00a-platform-confirmation.md)
+### [1. Confirm Platform Strategy](01-platform-confirmation.md)
 
 Inherit platform strategy from Product Brief and confirm for this scenario
 
-### [1. What Feature Delivers Value?](01-feature-selection.md)
+### [2. What Feature Delivers Value?](02-feature-selection.md)
 
 Which core feature serves your primary target group?
 
-### [2. Where Do They Encounter It?](02-entry-point.md)
+### [3. Where Do They Encounter It?](03-entry-point.md)
 
 Where does the user first come into contact with your solution?
 
-### [3. What's Their Mental State?](03-mental-state.md)
+### [4. What's Their Mental State?](04-mental-state.md)
 
 How are they feeling at this moment?
 
-### [4. What's Mutual Success?](04-mutual-success.md)
+### [5. What's Mutual Success?](05-mutual-success.md)
 
 What does winning look like for both business and user?
 
-### [5. What's the Shortest Path?](05-shortest-path.md)
+### [6. What's the Shortest Path?](06-shortest-path.md)
 
 Minimum steps from starting point to mutual success
 
-### [6. Create Value Trigger Chain](06-create-vtc.md)
+### [7. Create Value Trigger Chain](07-create-vtc.md)
 
 Crystallize scenario strategy before sketching
 
@@ -67,7 +67,7 @@ Appointment-driven trust-building flow
 
 ## Next Step
 
-Once you have clarity on all 6 steps (including VTC), **start sketching the journey.**
+Once you have clarity on all 7 steps (including VTC), **start sketching the journey.**
 
 Each sketch serves the path from trigger to mutual success, guided by the VTC.
 
