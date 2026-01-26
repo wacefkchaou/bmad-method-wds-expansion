@@ -80,20 +80,43 @@ From David Allen's "Getting Things Done": planning overhead should not exceed ta
 
 1. **CLASSIFY** — What type of feedback is this?
 2. **TIMING** — When should it be addressed?
-3. **CONFIRM** — For additions and change requests, confirm before proceeding
-4. **EXECUTE** — Implement or document as appropriate
+3. **DOCUMENT** — For bugs, add to plan BEFORE fixing
+4. **CONFIRM** — For additions and change requests, confirm before proceeding
+5. **EXECUTE** — Implement or document as appropriate
 
-### Bug/Issue (Fix Now)
+### Bug/Issue (Document First, Then Fix)
 
 **User says:** "This is broken" / "Error occurred" / "Not working"
 
 **Agent response:**
 ```
-This is a bug — something's broken.
-Let me fix it now.
+This is a bug — [brief description of issue].
+Let's call it 10A and let me add it to the plan, then fix it.
 ```
 
-Then fix and iterate until resolved.
+**Required sequence:**
+1. **Identify** — Understand and describe the bug clearly
+2. **Document** — Add to dialog plan as sub-step (e.g., 21a, 21b)
+3. **Execute** — Fix and iterate until resolved
+4. **Log** — Record resolution in progress log
+
+**If user reports multiple issues at once:**
+1. Identify and list each issue separately
+2. Add ALL to the plan first
+3. Then work through them one by one
+
+**Why document first:** Bugs discovered during implementation are valuable context. Recording them ensures traceability, prevents forgotten fixes, and creates a clear record for handoff.
+
+**Example:**
+```
+User: "The drawer appears behind the overlay and the reassign doesn't work"
+
+Agent: "I see two issues:
+        1. Drawer z-index (appears behind overlay)
+        2. Reassign not working
+
+        Let me add both to the plan as 21a and 21b, then fix them."
+```
 
 ### Quick Adjustment (Fix Now)
 
