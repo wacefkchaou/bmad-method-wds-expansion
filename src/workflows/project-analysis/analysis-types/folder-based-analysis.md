@@ -16,7 +16,7 @@ Scan folder structure to determine project status, then suggest creating outline
 **Check folder patterns**:
 
 **WDS v6** (numbered): 1-project-brief, 2-trigger-mapping, 4-ux-design  
-**WPS2C v4** (letters): A-Product-Brief, B-Trigger-Map, C-Scenarios
+**WPS2C v4** (letters): A-Product-Brief, B-Trigger-Map, C-UX-Scenarios
 
 **Load methodology instructions**:
 

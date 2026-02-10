@@ -6,7 +6,7 @@ Templates for designing incremental updates in Phase 8.
 
 ## Change Scope Template
 
-**File:** `C-Scenarios/XX-update-name/change-scope.md`
+**File:** `C-UX-Scenarios/XX-update-name/change-scope.md`
 
 ```markdown
 # Change Scope: [Update Name]
@@ -54,7 +54,7 @@ and interaction improvements only."
 
 ## Update Specification Template
 
-**File:** `C-Scenarios/XX-update-name/Frontend/specifications.md`
+**File:** `C-UX-Scenarios/XX-update-name/Frontend/specifications.md`
 
 ```markdown
 # Frontend Specification: [Screen Name] UPDATE
@@ -202,7 +202,7 @@ Needed because analytics show 40% drop-off due to confusion."
 
 ## Before/After Comparison Template
 
-**File:** `C-Scenarios/XX-update-name/before-after.md`
+**File:** `C-UX-Scenarios/XX-update-name/before-after.md`
 
 ```markdown
 # Before/After: [Update Name]

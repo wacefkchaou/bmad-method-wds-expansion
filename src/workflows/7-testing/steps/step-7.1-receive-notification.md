@@ -72,7 +72,7 @@ WDS Designer: "Received! Starting validation testing for DD-XXX.
 ### Design Artifacts
 
 - [ ] Design Delivery file: `deliveries/DD-XXX.yaml`
-- [ ] Scenario specifications: `C-Scenarios/`
+- [ ] Scenario specifications: `C-UX-Scenarios/`
 - [ ] Design system specs: `D-Design-System/`
 
 ---

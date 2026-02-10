@@ -25,10 +25,10 @@ The Dog Week project demonstrates **production-ready interactive prototypes** th
 
 | Page                     | Location                                                              | Features Demonstrated                                                      |
 | ------------------------ | --------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| **1.2 Sign In**          | `C-Scenarios/01-Customer-Onboarding/1.2-Sign-In/Frontend/`            | Google SSO, Magic Link, Multi-language, State transitions                  |
-| **1.3 Profile Setup**    | `C-Scenarios/01-Customer-Onboarding/1.3-Profile-Setup/Frontend/`      | Image upload/crop, Form validation, Multi-language, Terms acceptance       |
-| **1.6 Add Dog**          | `C-Scenarios/01-Customer-Onboarding/1.6-Add-Dog/Frontend/`            | Image cropping, Breed search/filter, Split buttons, Character counters     |
-| **3.1 Calendar Booking** | `C-Scenarios/03-Booking-Dog-Walks/3.1-Dog-Calendar-Booking/Frontend/` | Swedish week calendar, Leaderboard, Dev tools menu, Multi-member switching |
+| **1.2 Sign In**          | `C-UX-Scenarios/01-Customer-Onboarding/1.2-Sign-In/Frontend/`            | Google SSO, Magic Link, Multi-language, State transitions                  |
+| **1.3 Profile Setup**    | `C-UX-Scenarios/01-Customer-Onboarding/1.3-Profile-Setup/Frontend/`      | Image upload/crop, Form validation, Multi-language, Terms acceptance       |
+| **1.6 Add Dog**          | `C-UX-Scenarios/01-Customer-Onboarding/1.6-Add-Dog/Frontend/`            | Image cropping, Breed search/filter, Split buttons, Character counters     |
+| **3.1 Calendar Booking** | `C-UX-Scenarios/03-Booking-Dog-Walks/3.1-Dog-Calendar-Booking/Frontend/` | Swedish week calendar, Leaderboard, Dev tools menu, Multi-member switching |
 
 ---
 

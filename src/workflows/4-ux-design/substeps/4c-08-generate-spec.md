@@ -24,12 +24,12 @@ Fill in all sections with data collected:
   </action>
 
 <action>Save complete specification to:
-`{output_folder}/C-Scenarios/{scenario}/{page}/{page}.md`
+`{output_folder}/C-UX-Scenarios/{scenario}/{page}/{page}.md`
 </action>
 
 <output>✅ **Complete specification generated!**
 
-**Saved to:** `C-Scenarios/{scenario}/{page}/{page}.md`
+**Saved to:** `C-UX-Scenarios/{scenario}/{page}/{page}.md`
 
 **What we documented:**
 

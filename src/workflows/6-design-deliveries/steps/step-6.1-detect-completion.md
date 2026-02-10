@@ -18,7 +18,7 @@ Check if you have a complete testable flow ready for handoff.
 - [ ] Interactions are defined
 - [ ] Error states are designed
 
-**Location:** `C-Scenarios/XX-scenario-name/`
+**Location:** `C-UX-Scenarios/XX-scenario-name/`
 
 ---
 

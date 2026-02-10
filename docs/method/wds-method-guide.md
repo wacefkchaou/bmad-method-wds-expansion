@@ -98,7 +98,7 @@ Prove your concept works technically - in parallel with design work. Validate pl
 
 ### Phase 4: UX Design (UX-Sketches & Usage Scenarios)
 
-**Output:** `C-Scenarios/`  
+**Output:** `C-UX-Scenarios/`  
 **Agent:** Baldr the UX Expert
 
 Transform ideas into detailed visual specifications. Your agent helps you think out the design, assists in sketching, creates specifications, and builds HTML prototypes. Each page adds functional requirements to the PRD.
@@ -171,7 +171,7 @@ docs/
 ├── A-Product-Brief/
 ├── B-Trigger-Map/
 ├── C-Platform-Requirements/
-├── C-Scenarios/
+├── C-UX-Scenarios/
 ├── D-Design-System/
 └── E-PRD-Finalization/
 ```
@@ -352,7 +352,7 @@ C-Requirements/           ────►   C-Requirements/      ────►
 └── Security                      └── Functional reqs ◄──┐     └── Handoff checklist
                                       (from each page)  │
                                                         │
-                                  C-Scenarios/ ─────────┘
+                                  C-UX-Scenarios/ ─────────┘
                                   (Page specs add features via 4E)
 ```
 

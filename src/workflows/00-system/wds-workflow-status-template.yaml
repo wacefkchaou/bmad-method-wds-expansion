@@ -87,7 +87,7 @@ workflow_status: "{{workflow_items}}"
 #   phase_4_ux_design:
 #     status: required
 #     agent: freya-wds-designer
-#     folder: C-Scenarios/
+#     folder: C-UX-Scenarios/
 #     artifacts: []  # Grows as scenarios are created
 #   phase_5_design_system:
 #     status: conditional  # or skipped

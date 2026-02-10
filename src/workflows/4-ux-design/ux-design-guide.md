@@ -201,7 +201,7 @@ The complete Dog Week Start Page specification demonstrates the pattern in actio
 
 ```
 docs/
-  C-Scenarios/
+  C-UX-Scenarios/
     {scenario-name}/
       00-{scenario-name}-overview.md
       01-{page-name}.md

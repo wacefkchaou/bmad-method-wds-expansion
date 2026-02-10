@@ -133,9 +133,9 @@ Choice [1/2]:</ask>
 
 **Created:**
 
-- ✅ Specification: `C-Scenarios/{scenario}/{page}/{page}.md`
+- ✅ Specification: `C-UX-Scenarios/{scenario}/{page}/{page}.md`
   {{#if prototype_created}}
-- ✅ Prototype: `C-Scenarios/{scenario}/{page}/Prototype/`
+- ✅ Prototype: `C-UX-Scenarios/{scenario}/{page}/Prototype/`
   {{/if}}
 - ✅ PRD Requirements: Added to `D-PRD/PRD.md`
 

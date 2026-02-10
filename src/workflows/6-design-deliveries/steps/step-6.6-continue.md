@@ -30,7 +30,7 @@ While BMad builds the current flow, start designing the next complete testable f
 Design scenarios for the next flow:
 1. Identify trigger moment
 2. Design scenarios (entry, actions, responses, exit)
-3. Create specifications in `C-Scenarios/XX-scenario-name/`
+3. Create specifications in `C-UX-Scenarios/XX-scenario-name/`
 4. Document user flows (happy path, errors, edge cases)
 
 ### Phase 5: Design System

@@ -340,7 +340,7 @@
 
 ## ✅ **Step 12: Create Scenario Specification**
 
-**Agent creates**: `docs/C-Scenarios/[Number]-[Name]/[Number]-[Name].md`
+**Agent creates**: `docs/C-UX-Scenarios/[Number]-[Name]/[Number]-[Name].md`
 
 **File structure**:
 ```markdown
@@ -442,7 +442,7 @@ _(If no Trigger Map exists, omit this section)_
 
 > "✅ **Scenario specification created!**
 >
-> **File**: `docs/C-Scenarios/[Number]-[Name]/[Number]-[Name].md`
+> **File**: `docs/C-UX-Scenarios/[Number]-[Name]/[Number]-[Name].md`
 >
 > **Next steps**:
 > 1. **Update Trigger Map** (add link to this scenario from triggers)
@@ -462,7 +462,7 @@ _(If no Trigger Map exists, omit this section)_
 1. Read `docs/B-Trigger-Map/[Trigger-Map-File].md` for each linked trigger
 2. Add scenario link to each trigger's "How We Address This" or "Related Scenarios" section:
    ```markdown
-   **Addressed in**: [Scenario 03: Booking Dog Walks](../C-Scenarios/03-Booking-Dog-Walks/03-Booking-Dog-Walks.md)
+   **Addressed in**: [Scenario 03: Booking Dog Walks](../C-UX-Scenarios/03-Booking-Dog-Walks/03-Booking-Dog-Walks.md)
    ```
 3. Confirm updates complete
 

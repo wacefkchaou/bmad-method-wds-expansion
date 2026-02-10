@@ -91,8 +91,8 @@ Your PRD is growing incrementally with every page you design. This creates compl
 
 **Created:**
 
-- ✅ Specification: `C-Scenarios/{scenario}/{page}/{page}.md`
-- ✅ Prototype: `C-Scenarios/{scenario}/{page}/Prototype/`
+- ✅ Specification: `C-UX-Scenarios/{scenario}/{page}/{page}.md`
+- ✅ Prototype: `C-UX-Scenarios/{scenario}/{page}/Prototype/`
 - ✅ PRD Requirements: Added to `D-PRD/PRD.md`
 
 **Your page is development-ready with:**

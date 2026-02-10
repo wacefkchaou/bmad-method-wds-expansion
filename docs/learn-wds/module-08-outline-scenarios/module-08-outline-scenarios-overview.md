@@ -209,7 +209,7 @@ Error states and edge cases are documented in the page specifications, not the s
 ## Output
 
 ```
-C-Scenarios/
+C-UX-Scenarios/
 └── S01-User-Registration/
     └── scenario-overview.md
 ```

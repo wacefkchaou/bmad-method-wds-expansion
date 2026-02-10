@@ -88,7 +88,7 @@ wds figma inject --batch components-to-refine.txt --file abc123 --page "01-Custo
 **Page Naming Convention:**
 - Format: `[Scenario-Number]-[Scenario-Name] / [Page-Number]-[Page-Name]`
 - Example: `01-Customer-Onboarding / 1.2-Sign-In`
-- Matches WDS specification structure in `docs/C-Scenarios/`
+- Matches WDS specification structure in `docs/C-UX-Scenarios/`
 - Maintains traceability from spec → prototype → Figma
 
 **Output:**
@@ -326,7 +326,7 @@ sync:
 naming_conventions:
   page_format: "{scenario-number}-{scenario-name} / {page-number}-{page-name}"
   example: "01-Customer-Onboarding / 1.2-Sign-In"
-  source: "docs/C-Scenarios/"
+  source: "docs/C-UX-Scenarios/"
 ```
 
 ---
@@ -363,7 +363,7 @@ naming_conventions:
 **Page Naming:**
 - Use exact scenario and page numbers from specs
 - Format: `[Number]-[Name]` (e.g., `1.2-Sign-In`)
-- Matches folder structure in `docs/C-Scenarios/`
+- Matches folder structure in `docs/C-UX-Scenarios/`
 
 ---
 

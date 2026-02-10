@@ -1,13 +1,17 @@
 # Empty Project Analysis
 
-**You were routed here because**: Docs folder exists but is empty  
-**Analysis type**: Complete project scan
+**You were routed here because**: Docs folder exists but is empty
+**Analysis type**: Complete project scan + Phase 0 setup
 
 ---
 
 ## What to Do
 
-Even though docs/ is empty, perform a complete analysis of what exists.
+The docs/ folder exists but is empty. This means either:
+- Someone started WDS setup but didn't complete it
+- The folder was created manually or by a template
+
+Perform a complete analysis, then **route to Phase 0 to complete setup**.
 
 ---
 
@@ -38,56 +42,97 @@ For each project repo:
 
 ---
 
-## 3. Assess Your Domain
+## 3. Determine Project Type
 
-**Filter by YOUR agent's domain**:
+**Scenario A**: Empty docs + No code = GREENFIELD
 
-- **Saga**: Look for business docs, research, strategy
-- **Freya**: Look for design files, prototypes, UI code
-- **Idunn**: Look for architecture, API specs, technical docs
+- Ready for fresh WDS setup
+- Will follow Phase 1-7
+
+**Scenario B**: Empty docs + Code exists = BROWNFIELD
+
+- Has implementation without documentation
+- Will follow Phase 8 (Kaizen approach)
 
 ---
 
-## 4. Present Complete Status Report
+## 4. Present Analysis & Route to Phase 0
 
 **Format**:
 
 ```
-🎨 [Your Agent Name]
+[Your Agent Icon] [Your Agent Name]
 
 Complete Project Analysis:
 
 📁 Project: [Name from package.json or folder]
-🔧 Tech Stack: [List key technologies]
+🔧 Tech Stack: [List key technologies or "Not yet defined"]
 📂 Structure: [Describe what folders exist]
 
-Design Documentation Status:
-├─ docs/ folder: Empty (no WDS structure set up)
-├─ Implementation: [X] files in app/ directory
-└─ Status: Project has code but no design documentation
+WDS Documentation Status:
+├─ docs/ folder: Empty (WDS setup incomplete)
+├─ .wds-project-outline.yaml: Not found
+└─ Status: Ready to complete WDS setup
 
-[If code exists in your domain - be specific]:
-Implementation found (no specifications):
-├─ [File/feature 1]
-├─ [File/feature 2]
-└─ [File/feature 3]
+---
 
-💡 Observation:
-This project has [implementation/config/setup] but hasn't started the WDS design process yet.
+[SCENARIO A - Empty docs + No code]:
 
-Recommended Next Steps:
-1. Set up WDS documentation structure (docs/ folders)
-2. Create Product Brief to document vision and strategy
-3. Document existing implementation (if any)
-4. [Specific suggestion based on what you found]
+Project Status: GREENFIELD - Ready for WDS setup
+├─ Code: None
+├─ Configuration: [List any config files]
+└─ Status: Fresh start
 
-**Saga WDS Analyst Agent** specializes in setting up project structure
-and creating Product Briefs. Would you like me to hand over to Saga?
+🚀 **This is a GREENFIELD project!**
+
+The docs/ folder exists but is empty. Let's complete the setup properly.
+This takes 3-5 minutes and ensures you follow the right workflow.
+
+→ **Starting Phase 0: Project Setup**
+
+---
+
+[SCENARIO B - Empty docs + Code exists]:
+
+Project Status: BROWNFIELD - Implementation exists, no documentation
+├─ Implementation: [X] files in [app/src/] directory
+├─ Tech Stack: [List detected technologies]
+└─ Status: Code without specifications
+
+Implementation found:
+├─ [Feature/file 1]
+├─ [Feature/file 2]
+└─ [Feature/file 3]
+
+⚠️ **This is a BROWNFIELD project!**
+
+You have existing code but no WDS documentation.
+Phase 0 will set up the right workflow (Phase 8 for improvements).
+
+→ **Starting Phase 0: Project Setup**
 ```
 
 ---
 
-## 5. Example Output (Freya analyzing Dog Week)
+## 5. Execute Phase 0
+
+**CRITICAL**: After presenting the analysis, immediately load and execute Phase 0.
+
+**Load**: `{project-root}/{bmad_folder}/wds/workflows/0-project-setup/steps/step-0.1-welcome.md`
+
+**Why Phase 0 first**:
+- Confirms greenfield vs brownfield (user validates your detection)
+- Configures project complexity, tech stack, brief level
+- Generates `.wds-project-outline.yaml` (enables fast path next time)
+- Creates proper folder structure inside docs/
+- Routes to correct phase (1-7 for greenfield, 8 for brownfield)
+
+**DO NOT** skip Phase 0 and jump to Phase 1 or Phase 8 directly.
+Phase 0 takes 3-5 minutes and prevents hours of wrong-path work.
+
+---
+
+## 6. Example Output (Freya analyzing Dog Week with empty docs/)
 
 ```
 🎨 Freya WDS Designer Agent
@@ -98,44 +143,65 @@ Complete Project Analysis:
 🔧 Tech Stack: Next.js 14, React, TypeScript, Tailwind, shadcn/ui, Supabase
 📂 Structure: Next.js app directory structure
 
-Design Documentation Status:
-├─ docs/ folder: Empty (no WDS structure set up)
-├─ Implementation: 47 files in app/ directory
-└─ Status: Significant implementation exists without specifications
+WDS Documentation Status:
+├─ docs/ folder: Empty (WDS setup incomplete)
+├─ .wds-project-outline.yaml: Not found
+└─ Status: Ready to complete WDS setup
 
-Implementation found (no specifications):
+Project Status: BROWNFIELD - Implementation exists, no documentation
+├─ Implementation: 47 files in app/ directory
+├─ Tech Stack: Modern Next.js setup with Supabase
+└─ Status: Significant code without specifications
+
+Implementation found:
 ├─ Authentication flow (Supabase auth)
 ├─ Profile setup pages
 ├─ Family management features
 ├─ Calendar booking system
 └─ Component library (shadcn/ui)
 
-💡 Observation:
-This is an active project with substantial implementation, but no design
-documentation. The app appears to be a family dog care coordination tool.
+⚠️ **This is a BROWNFIELD project!**
 
-Recommended Next Steps:
-1. Document existing implementation with specifications
-2. Create Product Brief to capture current vision
-3. Set up scenario documentation for implemented features
-4. Define what's been built vs what's planned
+You have existing code but no WDS documentation.
+Phase 0 will set up the right workflow (Phase 8 for improvements).
 
-**Saga WDS Analyst Agent** specializes in setting up project structure
-and creating Product Briefs. Would you like me to hand over to Saga?
+---
 
-Alternatively, I can help you:
-- Document existing UI patterns
-- Create specifications for implemented features
-- Define design system based on current code
+**Phase 0: Project Setup**
+
+Welcome to Whiteport Design Studio (WDS)!
+
+I detected existing code in your project. Let me confirm:
+
+**What type of project is this?**
+
+[A] NEW Product (Greenfield)
+    You're starting fresh, ignore the existing code.
+    → Leads to Phase 1: Project Brief
+
+[B] EXISTING Product (Brownfield) ← Recommended based on scan
+    You're improving what exists.
+    → Leads to Phase 8: Existing Product Entry
+
+[C] NOT SURE
+    → We'll analyze together
+
+Your choice (A, B, or C):
 ```
 
 ---
 
-## After User Responds
+## 7. After Phase 0 Completes
 
-**If task in YOUR domain**: Continue in same conversation  
-**If task in ANOTHER domain**: Use `../agent-handoff-guide.md`
+Once `.wds-project-outline.yaml` is generated:
+- docs/ folder populated with correct structure
+- Future agent activations use **fast path** (<5 seconds)
+- Project configuration is preserved
+- Correct workflow is pre-determined
+
+**Activation complete** - User is now in Phase 1 or Phase 8.
 
 ---
 
-**Total time: 15-20 seconds** (scanning code takes time)
+**Total time: 3-5 minutes** (Phase 0 setup)
+**Future activations: <5 seconds** (outline exists)

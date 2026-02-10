@@ -55,7 +55,7 @@ Choice [1/2/3/4/5]:</ask>
 
 ### Choice 4: Review Progress
 
-<action>List all scenarios in C-Scenarios/</action>
+<action>List all scenarios in C-UX-Scenarios/</action>
 <action>Show completion status for each</action>
 <action>Count total pages designed</action>
 <action>Show PRD requirement count</action>

@@ -57,7 +57,7 @@ WDS creates a clean, alphabetized folder structure in your project's `docs/` fol
 | ------------------ | ----- | -------------------------------------------- | ------------------- |
 | `A-Product-Brief/` | 1     | Strategic foundation & vision                | Start here          |
 | `B-Trigger-Map/`   | 2     | User psychology & business goals             | After Phase 1       |
-| `C-Scenarios/`     | 4     | UX specifications (HOW it works)             | After Phase 2       |
+| `C-UX-Scenarios/`     | 4     | UX specifications (HOW it works)             | After Phase 2       |
 | `D-Design-System/` | 5     | Visual identity & components (HOW it looks)  | **Anytime** 🎨      |
 | `D-PRD/`           | 3     | Technical requirements (optional)            | Before development  |
 | `E-UI-Roadmap/`    | 6     | Development handoff                          | After Phase 4       |
@@ -72,7 +72,7 @@ Define vision, positioning, and success criteria
 **Phase 2: User Research** → `B-Trigger-Map/`  
 Connect business goals to user psychology and triggers
 
-**Phase 4: UX Design** → `C-Scenarios/`  
+**Phase 4: UX Design** → `C-UX-Scenarios/`  
 **HOW it works** - Functionality, interactions, content structure
 
 **Phase 5: Visual Design** → `D-Design-System/`  

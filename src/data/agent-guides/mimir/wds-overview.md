@@ -153,7 +153,7 @@ docs/
 ├── A-Product-Brief/
 ├── B-Trigger-Map/
 ├── C-Platform-Requirements/
-├── C-Scenarios/
+├── C-UX-Scenarios/
 ├── D-Design-System/
 ├── E-PRD/
 └── F-Testing/

@@ -94,7 +94,7 @@ sync:
 naming_conventions:
   page_format: "{scenario-number}-{scenario-name} / {page-number}-{page-name}"
   example: "01-Customer-Onboarding / 1.2-Sign-In"
-  source: "docs/C-Scenarios/"
+  source: "docs/C-UX-Scenarios/"
 ```
 
 ### 4. Initialize MCP Server

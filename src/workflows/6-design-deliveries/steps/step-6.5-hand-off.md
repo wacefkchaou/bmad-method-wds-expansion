@@ -32,7 +32,7 @@ Officially hand off the Design Delivery to BMad and confirm they have everything
 - [ ] Sign-off criteria clear
 
 **Scenario Specifications:**
-- [ ] All scenarios in `C-Scenarios/` are complete
+- [ ] All scenarios in `C-UX-Scenarios/` are complete
 - [ ] All specifications are up-to-date
 - [ ] All design references are valid
 

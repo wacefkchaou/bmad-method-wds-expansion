@@ -540,11 +540,11 @@ changes:
 
 affected_scenarios:
   - id: '02-login'
-    path: 'C-Scenarios/02-login/'
+    path: 'C-UX-Scenarios/02-login/'
     changes: "Added 'Remember me' checkbox, fixed alignment"
 
   - id: '06-task-list'
-    path: 'C-Scenarios/06-task-list/'
+    path: 'C-UX-Scenarios/06-task-list/'
     changes: 'Improved empty state design'
 
 user_value:

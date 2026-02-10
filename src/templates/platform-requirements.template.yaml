@@ -65,5 +65,5 @@ security_requirements:
 wds_metadata:
   project_brief: "A-Project-Brief/project-brief.md"
   trigger_map: "B-Trigger-Map/trigger-map.md"
-  scenarios: "C-Scenarios/"
+  scenarios: "C-UX-Scenarios/"
   design_system: "D-Design-System/"

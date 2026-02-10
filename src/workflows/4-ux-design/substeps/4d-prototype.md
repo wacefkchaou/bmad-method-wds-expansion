@@ -107,7 +107,7 @@ Choice [1/2/3]:</ask>
 
 </action>
 
-<action>Save files to {output_folder}/C-Scenarios/{scenario}/{page}/Prototype/</action>
+<action>Save files to {output_folder}/C-UX-Scenarios/{scenario}/{page}/Prototype/</action>
 
 <output>✅ **Prototype created!**
 

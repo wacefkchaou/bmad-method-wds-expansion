@@ -22,7 +22,7 @@ Acknowledge completion and transition to next steps.
 
 **Created:**
 
-- Scenario folder: `C-Scenarios/{nn}-{scenario-name}/`
+- Scenario folder: `C-UX-Scenarios/{nn}-{scenario-name}/`
 - Page specifications: {{page_count}} pages
   {{#if prototype_count > 0}}
 - HTML prototypes: {{prototype_count}} prototypes

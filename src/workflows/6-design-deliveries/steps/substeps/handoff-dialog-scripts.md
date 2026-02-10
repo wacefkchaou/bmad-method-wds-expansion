@@ -54,7 +54,7 @@ Scenario 1: [Name]
 - User action: [What they do]
 - System response: [What happens]
 - User sees: [What's displayed]
-- Design reference: C-Scenarios/XX-name/
+- Design reference: C-UX-Scenarios/XX-name/
 
 [Repeat for each scenario]
 
@@ -215,7 +215,7 @@ Questions or concerns?"
 "So to confirm:
 - You have DD-XXX.yaml (Design Delivery)
 - You have TS-XXX.yaml (Test Scenario)
-- You have all scenario specs in C-Scenarios/
+- You have all scenario specs in C-UX-Scenarios/
 - You have all component specs in D-Design-System/
 - You'll break this into [number] epics
 - Estimated [time] to implement

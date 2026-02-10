@@ -66,23 +66,6 @@ Complete documentation for Whiteport Design Studio - a design-first methodology 
 
 ---
 
-## 📋 Deliverables
-
-**What you create with WDS:** Specifications for each deliverable.
-
-- **[Product Brief](deliverables/product-brief.md)** - Strategic vision & positioning
-- **[Trigger Map](deliverables/trigger-map.md)** - User psychology & business goals
-- **[Platform PRD](deliverables/platform-prd.md)** - Technical requirements
-- **[Page Specifications](deliverables/page-specifications.md)** - Detailed page specs
-- **[Design System](deliverables/design-system.md)** - Component library
-- **[Design Delivery PRD](deliverables/design-delivery-prd.md)** - Complete handoff package
-- **[Project Pitch](deliverables/project-pitch.md)** - External presentations
-- **[Service Agreement](deliverables/service-agreement.md)** - Client contracts
-
-**These specs are universal** - defining structure regardless of how you create them.
-
----
-
 ## 🎨 Examples
 
 **See WDS in action:** Real projects showing complete WDS workflows and documentation.
@@ -135,9 +118,9 @@ Complete documentation for Whiteport Design Studio - a design-first methodology 
 → Take the [Complete WDS Course](learn-wds/)  
 → Follow sequential modules
 
-**See what WDS creates**  
-→ Browse [Deliverables](deliverables/)  
+**See what WDS creates**
 → Check [Examples](examples/)
+→ Browse [Quick Start](quick-start/00-start-here.md)
 
 **Start using WDS now**  
 → Follow [Getting Started](getting-started/getting-started-overview.md)  
@@ -153,20 +136,19 @@ Complete documentation for Whiteport Design Studio - a design-first methodology 
 
 ```
 docs/
-├── getting-started/      # Quick start guides (15 min total)
+├── quick-start/          # Action-focused tutorials
+├── learn-wds/            # WDS course (deep learning)
+├── method/               # Methodology guides (tool-agnostic)
 ├── models/               # External strategic frameworks
-├── method/               # Whiteport's methodology guides
-├── learn-wds/            # WDS-specific course (agent-driven)
-├── deliverables/         # Specifications for what you create
 ├── examples/             # Real project examples
-└── README.md             # This navigation hub
+└── getting-started/      # Legacy getting started (redirects)
 ```
 
 **Four clear purposes:**
 
-1. **models/** → "What are the foundational frameworks?" (external, attributed)
-2. **method/** → "How does WDS methodology work?" (Whiteport instruments)
-3. **learn-wds/** → "How do I use WDS agents?" (WDS-specific)
+1. **quick-start/** → "Just show me how to do it" (action reference)
+2. **learn-wds/** → "Teach me the methodology" (comprehensive course)
+3. **method/** → "How does WDS work?" (tool-agnostic guides)
 4. **examples/** → "Show me a real project" (reference implementation)
 
 ---

@@ -100,7 +100,7 @@ Choice [1/2/3]:</ask>
 
 ### Choice 3: Review Structure
 
-- List scenarios in `{output_folder}/C-Scenarios/`
+- List scenarios in `{output_folder}/C-UX-Scenarios/`
 - Show completion status for each
 - Return to this menu
 - Do NOT proceed to next step

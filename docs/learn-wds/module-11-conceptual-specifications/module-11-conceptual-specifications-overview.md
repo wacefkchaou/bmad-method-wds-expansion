@@ -165,7 +165,7 @@ These IDs trace through implementation. Developers reference them. Testers verif
 ## Output
 
 ```
-C-Scenarios/
+C-UX-Scenarios/
 └── S01-User-Registration/
     ├── scenario-overview.md
     ├── P01-signup-form.md      ← Page specification

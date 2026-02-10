@@ -17,7 +17,7 @@ Create specification document using the project's specification format.
 
 Determine appropriate location:
 - Design system component → `docs/D-Design-System/03-Atomic-Components/{category}/`
-- Page component → `docs/C-Scenarios/{scenario}/{page}/`
+- Page component → `docs/C-UX-Scenarios/{scenario}/{page}/`
 - Shared component → `docs/D-Design-System/04-Molecules/` or `05-Organisms/`
 </action>
 

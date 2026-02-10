@@ -136,7 +136,7 @@ Tokens ensure consistency across all visuals.
 Visual prototypes for each page:
 
 ```
-C-Scenarios/
+C-UX-Scenarios/
 └── S01-User-Registration/
     ├── scenario-overview.md
     ├── P01-signup-form.md

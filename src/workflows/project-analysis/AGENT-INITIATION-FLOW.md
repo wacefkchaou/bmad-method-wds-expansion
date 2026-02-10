@@ -71,7 +71,7 @@
 │ │   phase_4_ux_design:          │ │
 │ │     active: true              │ │
 │ │     status: "in_progress"     │ │
-│ │     folder: "C-Scenarios"     │ │
+│ │     folder: "C-UX-Scenarios"     │ │
 │ │     intent: "3 MVP scenarios" │ │
 │ │     scenarios:                │ │
 │ │       - id: "01-onboarding"   │ │
@@ -124,7 +124,7 @@
 methodology.type: "wps2c-v4"
 → Loads: wps2c-v4-instructions.md
 → Knows: Folders are {letter}-{name}
-→ Knows: C-Scenarios is Phase 4
+→ Knows: C-UX-Scenarios is Phase 4
 ```
 
 **FALLBACK PATH (no outline):**
@@ -238,7 +238,7 @@ methodology:
 
 phases:
   phase_4_ux_design:
-    folder: 'C-Scenarios'
+    folder: 'C-UX-Scenarios'
     intent: 'Mobile-first Swedish family dog coordination'
     scenarios:
       - id: '01-customer-onboarding'

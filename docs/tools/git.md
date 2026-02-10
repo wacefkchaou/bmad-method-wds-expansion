@@ -117,7 +117,7 @@ Thumbs.db
 **1. Commit Frequently**
 ```bash
 # After completing each phase
-git add docs/C-Scenarios/01-Customer-Onboarding/
+git add docs/C-UX-Scenarios/01-Customer-Onboarding/
 git commit -m "feat: Complete customer onboarding scenario specification"
 
 # After design system updates
@@ -213,7 +213,7 @@ git pull
 # ...
 
 # Stage and commit changes
-git add docs/C-Scenarios/
+git add docs/C-UX-Scenarios/
 git commit -m "feat: Add product detail page specification"
 
 # Push to remote

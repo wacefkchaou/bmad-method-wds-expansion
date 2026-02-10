@@ -50,7 +50,7 @@ Gather all materials and set up your testing environment before starting validat
 
 **Load all scenario specs:**
 
-- Directory: `C-Scenarios/`
+- Directory: `C-UX-Scenarios/`
 - Review each scenario specification
 - Note design details
 - Understand expected behavior
@@ -58,7 +58,7 @@ Gather all materials and set up your testing environment before starting validat
 **Example:**
 
 ```
-C-Scenarios/
+C-UX-Scenarios/
 ├── 01-welcome/Frontend/specifications.md
 ├── 02-login/Frontend/specifications.md
 ├── 03-signup/Frontend/specifications.md

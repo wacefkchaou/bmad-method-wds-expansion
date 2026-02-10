@@ -112,7 +112,7 @@ There are **two methods** for exporting to Figma, each with different capabiliti
 ### Step 2.1: Search for Specification
 
 **Search Locations (priority order):**
-1. `docs/C-Scenarios/` - Scenario specifications
+1. `docs/C-UX-Scenarios/` - Scenario specifications
 2. `docs/D-Design-System/` - Component specifications
 3. Project root - Any related markdown files
 
@@ -406,7 +406,7 @@ only - your source code remains unchanged.
 - **Figma Node**: 3:150
 - **OBJECT IDs** (via aria-label): start-hero-section, start-hero-content, start-hero-headline, start-hero-cta
 - **Purpose**: Design review for spacing and gradient adjustments
-- **Specification**: docs/C-Scenarios/01-Customer-Onboarding/1.1-Start-Page/1.1-Start-Page.md
+- **Specification**: docs/C-UX-Scenarios/01-Customer-Onboarding/1.1-Start-Page/1.1-Start-Page.md
 ```
 
 ---

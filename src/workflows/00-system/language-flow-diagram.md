@@ -168,7 +168,7 @@ SE: Varje promenad. i tid. Varje gång.
 
 ## 6. Generate Specification
 
-**Agent writes to:** `docs/C-Scenarios/01-Customer-Onboarding/1.1-Start-Page/1.1-Start-Page.md`
+**Agent writes to:** `docs/C-UX-Scenarios/01-Customer-Onboarding/1.1-Start-Page/1.1-Start-Page.md`
 
 ```markdown
 # 1.1 Start Page
@@ -337,7 +337,7 @@ function setLanguage(lang: 'en' | 'se') {
                ▼
 ┌─────────────────────────────────────┐
 │  6. Generate Page Specification     │
-│  docs/C-Scenarios/.../page.md       │
+│  docs/C-UX-Scenarios/.../page.md       │
 │  - Structure/logic in EN            │
 │  - All text in EN + SE              │
 └──────────────┬──────────────────────┘

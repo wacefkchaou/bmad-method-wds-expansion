@@ -25,7 +25,7 @@ Ensure all components have proper OBJECT IDs from specifications for consistent 
 <action>
 Search for specification files that may contain OBJECT IDs:
 
-1. Search in `docs/C-Scenarios/` for scenario specifications
+1. Search in `docs/C-UX-Scenarios/` for scenario specifications
 2. Search in `docs/D-Design-System/` for component documentation
 3. Use grep_search to find files containing "OBJECT ID"
 4. Look for markdown files matching component/page name

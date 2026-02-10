@@ -102,7 +102,7 @@ Styles: Typography
 **1. Match WDS Structure**
 - Page names: `[Scenario-Number]-[Scenario-Name] / [Page-Number]-[Page-Name]`
 - Example: `01-Customer-Onboarding / 1.2-Sign-In`
-- Mirrors `docs/C-Scenarios/` structure
+- Mirrors `docs/C-UX-Scenarios/` structure
 
 **2. Preserve Object IDs**
 - Include Object IDs in layer names

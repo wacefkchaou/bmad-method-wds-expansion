@@ -1,7 +1,7 @@
 # Phase 4: UX Design (UX-Sketches & Usage Scenarios)
 
 **Agent:** Freya the WDS Designer  
-**Output:** `C-Scenarios/` (or your configured prefix)
+**Output:** `C-UX-Scenarios/` (or your configured prefix)
 
 ---
 
@@ -163,7 +163,7 @@ Capturing these while the page is fresh ensures nothing is forgotten. The PRD be
 Scenarios organize your design work into a clear hierarchy:
 
 ```
-C-Scenarios/
+C-UX-Scenarios/
 ├── 00-Scenario-Overview.md
 ├── 01-User-Onboarding/
 │   ├── 1.1-Start-Page/
@@ -362,7 +362,7 @@ Your specifications enable:
 
 ## Example Output
 
-See: `examples/dog-week-patterns/C-Scenarios/` for complete scenario specifications from a real project.
+See: `examples/dog-week-patterns/C-UX-Scenarios/` for complete scenario specifications from a real project.
 
 ---
 

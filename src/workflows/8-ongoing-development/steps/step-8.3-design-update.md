@@ -33,7 +33,7 @@ Design the incremental improvement - not a complete redesign, but a targeted upd
 
 ### 1. Define What's Changing vs What's Staying
 
-**Create:** `C-Scenarios/XX-update-name/change-scope.md`
+**Create:** `C-UX-Scenarios/XX-update-name/change-scope.md`
 
 **See:** [substeps/design-templates.md](substeps/design-templates.md) for Change Scope template
 
@@ -43,7 +43,7 @@ Design the incremental improvement - not a complete redesign, but a targeted upd
 
 **For each screen/feature being updated:**
 
-**File:** `C-Scenarios/XX-update-name/Frontend/specifications.md`
+**File:** `C-UX-Scenarios/XX-update-name/Frontend/specifications.md`
 
 **See:** [substeps/design-templates.md](substeps/design-templates.md) for Update Specification template
 
@@ -70,7 +70,7 @@ Key sections:
 
 **Visual documentation of the change:**
 
-**File:** `C-Scenarios/XX-update-name/before-after.md`
+**File:** `C-UX-Scenarios/XX-update-name/before-after.md`
 
 **See:** [substeps/design-templates.md](substeps/design-templates.md) for Before/After template
 

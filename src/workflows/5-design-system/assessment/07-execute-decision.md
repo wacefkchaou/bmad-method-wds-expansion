@@ -67,7 +67,7 @@ Create reference to existing component:
 **Output:**
 
 ```yaml
-# C-Scenarios/onboarding-page.md
+# C-UX-Scenarios/onboarding-page.md
 
 Continue Button:
   component: Button.primary [btn-001]
@@ -181,7 +181,7 @@ Create reference with variant specified:
 **Output:**
 
 ```yaml
-# C-Scenarios/onboarding-page.md
+# C-UX-Scenarios/onboarding-page.md
 
 Continue Button:
   component: Button.navigation [btn-001]  ← Variant specified
@@ -324,7 +324,7 @@ Create reference in page spec:
 **Output:**
 
 ```yaml
-# C-Scenarios/onboarding-page.md
+# C-UX-Scenarios/onboarding-page.md
 
 Continue Button:
   component: NavigationButton [btn-002]
@@ -509,7 +509,7 @@ Reference: NavigationButton [btn-002]
 Files Updated:
 
 - D-Design-System/components/navigation-button.md (created)
-- C-Scenarios/onboarding-page.md (reference added)
+- C-UX-Scenarios/onboarding-page.md (reference added)
 - D-Design-System/components/README.md (index updated)
 
 Next: Continue with next component in Phase 4

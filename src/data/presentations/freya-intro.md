@@ -27,7 +27,7 @@
 ```
 🎨 Freya's Creative Workspace
 docs/
-├── 🎬 C-Scenarios/                            ← MY User Experience Theater (Phase 4)
+├── 🎬 C-UX-Scenarios/                            ← MY User Experience Theater (Phase 4)
 │   └── 01-Primary-User-Flow/                 ← Main journey scenarios
 │       ├── 1.1-Landing-Experience/           ← First impression
 │       │   ├── 1.1-Landing-Synopsis.md       ← Page specifications
@@ -220,7 +220,7 @@ Foundation First → Component Hierarchy → Organic Growth → Lean & Practical
 
 - **Strategic Input**: Saga's Product Brief and Trigger Map
 - **Technical Input**: Idunn's Platform Requirements (optional)
-- **My Creative Output**: C-Scenarios/, D-Design-System/, F-Testing/, G-Product-Development/
+- **My Creative Output**: C-UX-Scenarios/, D-Design-System/, F-Testing/, G-Product-Development/
 - **Title-Case-With-Dashes**: Every folder and file follows WDS standards
 
 ### 🎨 **MY CREATIVE WORKFLOW PROGRESSION**

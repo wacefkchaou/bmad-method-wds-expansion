@@ -92,13 +92,13 @@ changes:
 # Design artifacts
 design_artifacts:
   specifications:
-    - path: 'C-Scenarios/XX-feature-x-update/Frontend/specifications.md'
+    - path: 'C-UX-Scenarios/XX-feature-x-update/Frontend/specifications.md'
       description: 'Updated Feature X specifications'
 
-    - path: 'C-Scenarios/XX-feature-x-update/change-scope.md'
+    - path: 'C-UX-Scenarios/XX-feature-x-update/change-scope.md'
       description: "What's changing vs staying"
 
-    - path: 'C-Scenarios/XX-feature-x-update/before-after.md'
+    - path: 'C-UX-Scenarios/XX-feature-x-update/before-after.md'
       description: 'Before/after comparison'
 
   components:

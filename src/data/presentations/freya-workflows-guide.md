@@ -10,7 +10,7 @@ After selection, run project analysis then start the chosen workflow.
 ### 1. UX Design
 **When to use:** You need scenarios, page specs, and prototypes.
 **What it does:** Creates complete user journey specifications with interactive prototypes.
-**Output:** `docs/C-Scenarios/` with specs, sketches, and HTML prototypes
+**Output:** `docs/C-UX-Scenarios/` with specs, sketches, and HTML prototypes
 **Best for:** The core design work — this is where most of my time goes.
 
 ### 2. Visual Design

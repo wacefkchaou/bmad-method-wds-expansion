@@ -51,14 +51,14 @@ description: |
 
 scenarios:
   - name: "New User Signup"
-    path: "docs/C-Scenarios/1.1-signup-flow/"
+    path: "docs/C-UX-Scenarios/1.1-signup-flow/"
     pages:
       - "01-signup-form.md"
       - "02-email-verification.md"
       - "03-welcome-onboarding.md"
     
   - name: "Existing User Login"
-    path: "docs/C-Scenarios/1.2-login-flow/"
+    path: "docs/C-UX-Scenarios/1.2-login-flow/"
     pages:
       - "01-login-form.md"
       - "02-two-factor-auth.md"
@@ -219,7 +219,7 @@ DD-001:
 DD-001:
   scenarios:
     - name: "Signup Flow"
-      path: "docs/C-Scenarios/1.1-signup-flow/"
+      path: "docs/C-UX-Scenarios/1.1-signup-flow/"
       pages:
         - "01-signup-form.md"
         - "02-verification.md"

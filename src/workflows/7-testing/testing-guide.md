@@ -54,7 +54,7 @@ WDS Analyst: "Received! Starting validation testing..."
 
 - [ ] Test scenario file (TS-XXX.yaml)
 - [ ] Design Delivery file (DD-XXX.yaml)
-- [ ] Scenario specifications (C-Scenarios/)
+- [ ] Scenario specifications (C-UX-Scenarios/)
 - [ ] Design system specs (D-Design-System/)
 
 **Set up environment:**
@@ -78,7 +78,7 @@ happy_path:
     steps:
       - action: 'Open app'
         expected: 'Welcome screen appears'
-        design_ref: 'C-Scenarios/01-welcome/Frontend/specifications.md'
+        design_ref: 'C-UX-Scenarios/01-welcome/Frontend/specifications.md'
 ```
 
 **For each step:**

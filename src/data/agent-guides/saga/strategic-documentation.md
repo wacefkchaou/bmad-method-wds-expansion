@@ -345,7 +345,7 @@ Good structure:
 ```
 docs/A-Product-Brief/product-brief.md
 docs/B-Trigger-Map/trigger-map.md
-docs/C-Scenarios/landing-page/01-hero-section.md
+docs/C-UX-Scenarios/landing-page/01-hero-section.md
 ```
 
 **Why:** Clear, unambiguous, no confusion about location

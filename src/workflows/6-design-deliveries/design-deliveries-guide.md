@@ -102,9 +102,9 @@ delivery:
 design_artifacts:
   scenarios:
     - id: '01-welcome'
-      path: 'C-Scenarios/01-welcome-screen/'
+      path: 'C-UX-Scenarios/01-welcome-screen/'
     - id: '02-login'
-      path: 'C-Scenarios/02-login/'
+      path: 'C-UX-Scenarios/02-login/'
     # ... etc
 
 user_value:
@@ -146,7 +146,7 @@ happy_path:
     steps:
       - action: 'Open app'
         expected: 'Welcome screen appears'
-        design_ref: 'C-Scenarios/01-welcome/Frontend/specifications.md'
+        design_ref: 'C-UX-Scenarios/01-welcome/Frontend/specifications.md'
       # ... etc
 ```
 

@@ -19,7 +19,7 @@ and ready for implementation.
 📦 Artifacts:
 - Design Delivery: deliveries/DD-XXX-name.yaml
 - Test Scenario: test-scenarios/TS-XXX-name.yaml
-- Scenarios: C-Scenarios/ ([number] scenarios)
+- Scenarios: C-UX-Scenarios/ ([number] scenarios)
 - Components: D-Design-System/ ([number] components)
 - Handoff Log: deliveries/DD-XXX-handoff-log.md
 

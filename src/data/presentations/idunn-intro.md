@@ -121,7 +121,7 @@ User Flows → Page Requirements → Epic Mapping → Test Scenarios → Systema
 **Each Design Delivery (DD-XXX.yaml) contains:**
 
 - Flow metadata (name, epic, priority)
-- Scenario references (which pages in C-Scenarios/)
+- Scenario references (which pages in C-UX-Scenarios/)
 - Component references (which components in D-Design-System/)
 - Functional requirements discovered during design
 - Test scenarios (validation criteria)

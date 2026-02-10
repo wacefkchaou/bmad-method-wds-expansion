@@ -71,7 +71,7 @@ Load and execute `steps/step-7.1-receive-notification.md` to begin the workflow.
 
 - Test Scenario: `test-scenarios/TS-XXX.yaml`
 - Design Delivery: `deliveries/DD-XXX.yaml`
-- Scenario Specs: `C-Scenarios/`
+- Scenario Specs: `C-UX-Scenarios/`
 - Design System: `D-Design-System/`
 
 ---

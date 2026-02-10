@@ -27,16 +27,16 @@ user_value:
 design_artifacts:
   scenarios:
     - id: "XX-scenario-name"
-      path: "C-Scenarios/XX-scenario-name/"
+      path: "C-UX-Scenarios/XX-scenario-name/"
       screens: ["screen1", "screen2"]
 
     - id: "XX-scenario-name"
-      path: "C-Scenarios/XX-scenario-name/"
+      path: "C-UX-Scenarios/XX-scenario-name/"
       screens: ["screen1"]
 
   user_flows:
     - name: "Flow Name"
-      path: "C-Scenarios/flows/flow-name.excalidraw"
+      path: "C-UX-Scenarios/flows/flow-name.excalidraw"
       entry: "entry-screen"
       exit: "exit-screen"
 

@@ -28,7 +28,7 @@ Create interactive prototypes when:
 ### Create Folder Structure
 
 ```
-docs/C-Scenarios/[Scenario-Name]/[Page-Number]-[Page-Name]/
+docs/C-UX-Scenarios/[Scenario-Name]/[Page-Number]-[Page-Name]/
 ├── [Page-Number]-[Page-Name].md          ← Specification
 ├── Sketches/
 │   └── [sketch-files].jpg
@@ -42,7 +42,7 @@ docs/C-Scenarios/[Scenario-Name]/[Page-Number]-[Page-Name]/
 ### Example (Add Dog page):
 
 ```
-docs/C-Scenarios/01-Customer-Onboarding/1.6-Add-Dog/
+docs/C-UX-Scenarios/01-Customer-Onboarding/1.6-Add-Dog/
 ├── 1.6-Add-Dog.md
 ├── Sketches/
 │   └── add-dog-sketch.jpg

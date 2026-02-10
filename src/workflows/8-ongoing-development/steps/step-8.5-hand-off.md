@@ -53,8 +53,8 @@ Example:
 
 📁 **Artifacts:**
 - Design Delivery: deliveries/DD-XXX-name.yaml
-- Specifications: C-Scenarios/XX-update/Frontend/specifications.md
-- Before/After: C-Scenarios/XX-update/before-after.md
+- Specifications: C-UX-Scenarios/XX-update/Frontend/specifications.md
+- Before/After: C-UX-Scenarios/XX-update/before-after.md
 - Components: D-Design-System/03-Atomic-Components/...
 - Test Scenario: test-scenarios/TS-XXX.yaml
 
