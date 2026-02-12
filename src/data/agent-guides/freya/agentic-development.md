@@ -101,6 +101,28 @@ During implementation, classify and handle feedback naturally:
 
 ---
 
+## Inline Testing
+
+**The agent tests its own work before presenting it to the user.**
+
+During agentic development, use Puppeteer to verify measurable criteria after each implementation step. This ensures the user only evaluates qualitative aspects (feel, clarity, hierarchy) rather than checking things the agent can measure.
+
+**Key rules:**
+
+1. **Verify before presenting** — After implementing a section, open the page with Puppeteer and check all measurable criteria
+2. **Narrate findings** — Use ✓/✗ marks with actual vs expected values
+3. **Fix before showing** — Never present with known measurable failures
+4. **Capture baselines** — Before modifying existing features, document current state with Puppeteer
+5. **Split test plans** — Story files divide criteria into agent-verifiable and user-evaluable
+
+**Responsibility split:**
+- **Agent handles:** Text content, colors, dimensions, touch targets, error states, visibility, state transitions
+- **Human handles:** Flow feel, visual hierarchy, user understanding, overall consistency
+
+**Full methodology:** `workflows/4-ux-design/agentic-development/guides/INLINE-TESTING-GUIDE.md`
+
+---
+
 ## Interactive Prototypes (Output Type)
 
 Interactive Prototypes are **one output** of Agentic Development.
@@ -164,7 +186,8 @@ Each step links to specifications (doesn't duplicate):
 For each Object ID:
 1. **Read** — Load the spec section
 2. **Implement** — Build to match spec
-3. **Verify** — Confirm Object ID present and behavior correct
+3. **Verify (Puppeteer)** — Open in browser, check measurable criteria with ✓/✗ narration
+4. **Fix** — Resolve any mismatches before presenting to user
 
 ---
 
@@ -194,6 +217,7 @@ For each Object ID:
 - **Dialog Template:** `workflows/9-agent-dialogs/templates/dialog.template.md`
 - **Step Template:** `workflows/9-agent-dialogs/templates/step.template.md`
 - **Phase 4 UX Design:** `workflows/4-ux-design/workflow.md`
+- **Inline Testing Guide:** `workflows/4-ux-design/agentic-development/guides/INLINE-TESTING-GUIDE.md`
 
 ---
 

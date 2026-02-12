@@ -79,6 +79,8 @@ Integration test all states and final approval.
 - **ALWAYS** use section-by-section approach (Phase 4 loop)
 - **ALWAYS** get approval before moving to next section
 - **ALWAYS** create story files just-in-time (not upfront)
+- **ALWAYS** verify measurable criteria with Puppeteer before presenting to user (see [Inline Testing Guide](guides/INLINE-TESTING-GUIDE.md))
+- **ALWAYS** capture baseline state before modifying existing features
 
 ---
 
