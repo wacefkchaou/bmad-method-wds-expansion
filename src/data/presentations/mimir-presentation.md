@@ -29,7 +29,7 @@ Your Journey with Mimir:
    ├─ Verify folder structure
    ├─ Create project documentation
    └─ 📖 Folder Structure Guide:
-      ├─ Tutorial: docs/learn-wds/module-02-installation-setup/lesson-04-clone-and-wds/tutorial.md
+      ├─ Tutorial: docs/learn/module-02-installation-setup/lesson-04-clone-and-wds/tutorial.md
       └─ Reference: docs/method/wds-method-guide.md (Folder Structure section)
 
 3. Project Analysis

@@ -47,59 +47,101 @@ This uses **step-file architecture** for disciplined execution:
 
 ## AGENT DIALOG INTEGRATION
 
-This workflow creates and maintains an **agent dialog** to track the conversation and decisions.
+This workflow creates and maintains **agent dialogs** using a micro-file structure to track conversations and decisions.
 
 ### Purpose
 
 Agent dialogs provide:
-- Full conversation history (questions asked, answers given)
+- Full conversation history (questions asked, answers given, reflection checkpoints)
 - Context for resuming if interrupted
-- Documentation of "why" behind decisions
+- Documentation of "why" behind decisions (not just what)
+- Quality tracking (reflection checkpoints show agent understanding accuracy)
 - Audit trail for future reference
 - Handoff context for next workflow phases
 
+### Dialog Structure (Micro-File Architecture)
+
+The Product Brief uses **8 separate dialog files** (not one monolithic file):
+
+```
+{root_folder}/progress/dialog/
+├── README.md              - Progress tracker & overview
+├── 00-context.md          - Working relationship context
+├── 02-vision.md           - Vision conversation & reflection
+├── 03-users.md            - User definition & reflection
+├── 04-concept.md          - Product concept & reflection
+├── 06-inspiration.md      - Visual preferences & references
+├── 07-positioning.md      - Positioning & reflection
+├── decisions.md           - Append-only decision log
+└── USAGE.md               - How agents use these files
+```
+
+**Why micro-files?**
+- BMad V6 compliance (250-line maximum per file)
+- Focused, easy to navigate
+- Update only relevant sections
+- Scales without bloat
+
 ### On Workflow Start (Before Step 1)
 
-**1. Create agent dialog file:**
+**MANDATORY: Create dialog folder structure**
+
+**1. Create folder:**
 ```
-Location: {output_folder}/progress/agent-dialogs/{date}-product-brief.md
-Template: {project-root}/{bmad_folder}/wds/templates/agent-dialog.template.md
+Location: {root_folder}/progress/dialog/
 ```
 
-**2. Initialize with:**
-- **Workflow:** Phase 1 - Product Brief (Complete)
-- **Project:** {project_name}
-- **Status:** in_progress
-- **Context:** "Creating comprehensive product brief through collaborative discovery"
-- **Plan:** List the 12 steps to be completed
+**2. Copy template files from:**
+```
+Source: {project-root}/{bmad_folder}/wds/templates/project-brief-dialog/
+Files:
+  - README.md (progress tracker)
+  - 00-context.md
+  - 02-vision.md
+  - 03-users.md
+  - 04-concept.md
+  - 06-inspiration.md
+  - 07-positioning.md
+  - decisions.md
+  - USAGE.md
+```
 
 **3. Inform user:**
-> "I'm creating an agent dialog to track our conversation. This helps us resume if interrupted and documents decisions."
+> "I'm creating a dialog folder to track our conversations. This uses micro-files (one per topic) and helps us resume if interrupted while documenting why decisions were made."
+
+**THIS IS NOT OPTIONAL.** Dialog tracking is mandatory for all Product Brief processes.
 
 ### During Each Step
 
-After completing each step's work and before loading the next step, update the agent dialog with:
+Each step file has an **"Agent Dialog Update"** section specifying which dialog file to update.
 
-```markdown
-### [Step Name]
-**Q:** [Key questions asked]
-**A:** [User responses - summarized]
-**Documented in:** product-brief.md ([section name])
-**Key insights:** [Any important revelations or decisions]
-**Status:** Complete
-**Timestamp:** [HH:MM]
-```
+**Steps with specific dialog files:**
+- Step 1 (Init) → `dialog/00-context.md`
+- Step 2 (Vision) → `dialog/02-vision.md`
+- Step 3 (Positioning) → `dialog/07-positioning.md`
+- Step 7 (Target Users) → `dialog/03-users.md`
+
+**Steps using decision log:**
+- Steps 4-6, 8-12 → append to `dialog/decisions.md`
+
+**Every dialog update must include:**
+- Opening question + user's initial response
+- Key exchanges that revealed insights
+- **Reflection checkpoint:** Agent synthesis + user confirmation/correction
+- Final artifact documented
+- Key insights captured
+
+**Then:** Mark step complete in `dialog/README.md` progress tracker
 
 ### On Workflow Complete
 
-**1. Update agent dialog:**
-- Status: `complete`
-- Last Updated: timestamp
-- Mark all sections complete in Progress Status
-- List final artifact in Generated Artifacts
+**1. Update `dialog/README.md`:**
+- Mark all steps complete
+- Update status to `complete`
+- List final artifacts generated
 
 **2. Note what's next:**
-- "Ready for Content & Language, Platform Requirements, and Visual Direction workflows"
+> "Product Brief complete! Dialog files in `progress/dialog/` document our full conversation. Ready for Phase 2: Trigger Mapping."
 
 ---
 
@@ -111,9 +153,25 @@ Load and read full config from {project-root}/{bmad_folder}/wds/config.yaml and 
 
 - `project_name`, `output_folder`, `user_name`, `communication_language`, `document_output_language`, `user_skill_level`
 
-### 2. Agent Dialog Creation
+### 2. Agent Dialog Folder Creation (MANDATORY)
 
-Create agent dialog file following the AGENT DIALOG INTEGRATION instructions above.
+**BEFORE executing Step 1, create dialog folder structure:**
+
+1. Create folder: `{root_folder}/progress/dialog/`
+2. Copy ALL template files from `{project-root}/{bmad_folder}/wds/templates/project-brief-dialog/`:
+   - README.md (progress tracker)
+   - 00-context.md
+   - 02-vision.md
+   - 03-users.md
+   - 04-concept.md
+   - 06-inspiration.md
+   - 07-positioning.md
+   - decisions.md
+   - USAGE.md
+
+3. Inform user about dialog tracking (see AGENT DIALOG INTEGRATION section above)
+
+**This step CANNOT be skipped.** All workflow steps depend on dialog files existing.
 
 ### 3. First Step EXECUTION
 

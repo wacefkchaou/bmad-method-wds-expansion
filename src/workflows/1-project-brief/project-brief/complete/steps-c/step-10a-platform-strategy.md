@@ -44,17 +44,14 @@ Capture platform strategy, validate alignment with vision and constraints, and d
 
 ## Agent Dialog Update
 
-After completing this step, update the agent dialog:
+**Mandatory:** Append to `dialog/decisions.md` if key decisions were made.
 
-```markdown
-### [Step Name]
-**Q:** [Key questions asked]
-**A:** [User responses - summarized]
-**Documented in:** product-brief.md ([section name])
-**Key insights:** [Important decisions or revelations]
-**Status:** Complete
-**Timestamp:** [HH:MM]
-```
+**Record:**
+- Platform/device strategy chosen
+- Responsive vs native vs hybrid decision
+- Technical approach and rationale
+
+**Then:** Mark Step 10a complete in `dialog/README.md` progress tracker
 
 ## Next Step
 

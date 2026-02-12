@@ -2,57 +2,62 @@
 
 ## Purpose
 
-Help user articulate their vision for the product.
+Help user explore and articulate their vision through natural conversation, then synthesize it into a clear vision statement.
 
 ## Context for Agent
 
-You are exploring the big picture with the user. Your goal is to help them crystallize their aspirational vision into a clear statement that will guide all decisions.
+**Philosophy:** Don't ask the user to produce a vision statement. Have an exploratory conversation where they dump their ideas, and YOU synthesize the substance into a vision statement.
 
-## Key Elements
+**Your role:** Curious listener + strategic synthesizer.
 
-This step captures the high-level, aspirational direction that will guide all decisions.
+## Prerequisites
 
-## Instructions
+**Load agent guides:**
+- `src/data/agent-guides/saga/conversational-followups.md` - Follow-up patterns
+- `src/data/agent-guides/saga/discovery-conversation.md` - General principles
 
-1. **Ask vision question**
-   - "What's your vision for this product?"
-   - "If this project succeeds beyond your wildest dreams, what does that look like? Don't worry about being realistic yet - dream big."
+**Load project context from** `wds-project-outline.yaml`:
+- `project_context.stakes` - Shapes tone and documentation depth
+- `working_relationship.involvement_level` - Shapes explanation level
+- `working_relationship.recommendation_style` - Shapes directness
 
-2. **Listen for key elements**
-   - Aspirational outcomes
-   - Impact on users
-   - Market position
-   - Emotional drivers
+---
 
-3. **Reflect and crystallize**
-   - Reflect back what you heard
-   - Help crystallize into a clear vision statement
-   - Use collaborative language: "What I'm hearing is..." or "It sounds like..."
+## Workflow Steps
 
+This step executes 4 micro substeps sequentially:
 
-## Agent Dialog Update
+### Substep 1: Open Conversation
+**File:** `substeps/01-open-conversation.md`
+**Task:** Adapt opening question to context, invite user to think out loud
 
-After completing this step, update the agent dialog:
+### Substep 2: Explore Vision
+**File:** `substeps/02-explore-vision.md`
+**Task:** Listen for signals, ask follow-ups until essence is captured
 
-```markdown
-### [Step Name]
-**Q:** [Key questions asked]
-**A:** [User responses - summarized]
-**Documented in:** product-brief.md ([section name])
-**Key insights:** [Important decisions or revelations]
-**Status:** Complete
-**Timestamp:** [HH:MM]
-```
+### Substep 3: Reflect & Confirm
+**File:** `substeps/03-reflect-confirm.md`
+**Task:** Synthesize understanding, get confirmation before proceeding
 
-## Next Step
+### Substep 4: Synthesize & Document
+**File:** `substeps/04-synthesize-document.md`
+**Task:** Create vision statement, document with context
 
-After capturing vision, proceed to step-03-positioning.md
+---
+
+## Execution
+
+Execute substeps in order. Each substep completes before moving to next.
+
+**Start:** Load and execute `substeps/01-open-conversation.md`
+
+---
 
 ## State Update
 
-Update frontmatter of output file:
+After completing all substeps, update frontmatter:
 
 ```yaml
 stepsCompleted: ['step-01-init.md', 'step-02-vision.md']
-vision: '[captured vision statement]'
+vision: '[synthesized vision statement]'
 ```

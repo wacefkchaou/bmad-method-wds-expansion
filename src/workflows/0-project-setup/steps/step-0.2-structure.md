@@ -168,7 +168,131 @@ Store as `strategic_analysis`:
 
 ---
 
-## 8. CREATE STRUCTURE & OUTLINE
+## 8. WORKING RELATIONSHIP CONTEXT
+
+<output>
+**Let's understand the project context and how we'll work together.**
+
+This helps me adapt communication style and documentation depth to fit your situation.
+</output>
+
+<ask>
+**What are the stakes of this project?**
+
+[A] **Personal/Hobby**
+    - Side project, learning, portfolio
+    - Low financial investment
+    - Just you (or small team/friends)
+    → Encouragement-focused, minimal documentation
+
+[B] **Small Business Investment**
+    - Professional project with business impact
+    - Moderate investment, clear ROI needed
+    - Small team, maybe 2-5 stakeholders
+    → Balanced rationale, professional but friendly
+
+[C] **Departmental/Organizational**
+    - Multiple stakeholders, approval processes
+    - Significant investment or organizational change
+    - Needs to convince others, potential resistance
+    → Comprehensive justification, evidence-based
+
+[D] **Enterprise/High Stakes**
+    - Major transformation, affects many people
+    - High sensitivity (jobs, departments, politics)
+    - Multiple approval layers, competing interests
+    → Rigorous documentation, proof for every point
+
+Choice:
+</ask>
+
+<action>Store as `project_context.stakes`</action>
+
+<ask>
+**How involved do you want to be in the process?**
+
+[A] **Highly collaborative** - Understand every decision, explore together
+[B] **Balanced** - Key decisions together, trust expertise for details
+[C] **Autonomous execution** - Trust recommendations, review milestones
+
+Choice:
+</ask>
+
+<action>Store as `working_relationship.involvement_level`</action>
+
+<ask>
+**What's your role in this project?**
+
+[A] **Client/Stakeholder** - Receiving the work
+[B] **Product Owner** - Driving the vision
+[C] **Design Partner** - Collaborating as equals
+[D] **Project Manager** - Coordinating team
+[E] **Other** - Describe
+
+Choice:
+</ask>
+
+<action>Store as `working_relationship.user_role`</action>
+
+<ask>
+**How should I present recommendations?**
+
+[A] **Suggest options** - Present choices with pros/cons, you decide
+[B] **Recommend with rationale** - State best path with reasoning
+[C] **Direct guidance** - Tell me what works, explain key decisions only
+
+Choice:
+</ask>
+
+<action>Store as `working_relationship.recommendation_style`</action>
+
+<ask if="stakes in [C, D]">
+**Who else needs to be convinced?**
+
+Examples: Executive team, department heads, budget holders, end users, etc.
+
+(Helps me ensure documentation addresses their concerns)
+</ask>
+
+<action>Store as `project_context.stakeholders` (if provided)</action>
+
+<ask if="stakes in [C, D]">
+**Any political sensitivities to be aware of?**
+
+Examples: Job security concerns, department competition, past failed attempts, etc.
+
+(Helps me address objections proactively and diplomatically)
+</ask>
+
+<action>Store as `project_context.sensitivities` (if provided)</action>
+
+<action>
+**Synthesize and store working relationship context:**
+
+```yaml
+project_context:
+  stakes: personal | business | departmental | enterprise
+  type: [derived from stakes choice]
+  stakeholders: [list if provided]
+  sensitivities: [notes if provided]
+
+working_relationship:
+  involvement_level: collaborative | balanced | autonomous
+  user_role: [from choice]
+  recommendation_style: options | recommend | direct
+  documentation_needs: minimal | standard | comprehensive
+  justification_level: trust_based | balanced | evidence_based
+```
+
+Automatically derive:
+- stakes A → documentation_needs: minimal, justification_level: trust_based
+- stakes B → documentation_needs: standard, justification_level: balanced
+- stakes C/D → documentation_needs: comprehensive, justification_level: evidence_based
+</action>
+
+---
+
+## 9. CREATE STRUCTURE & OUTLINE
 
 <action>
 **Check existing:** Look for `{{root_folder}}/` and `{{root_folder}}/progress/wds-project-outline.yaml`
@@ -204,6 +328,18 @@ config:
   strategic_analysis: {{full|simplified|skip}}
   skip_design_system: {{true|false}}
   skip_trigger_map: {{true|false}}
+
+project_context:
+  stakes: {{personal|business|departmental|enterprise}}
+  stakeholders: {{stakeholders_list|null}}
+  sensitivities: {{sensitivities_notes|null}}
+
+working_relationship:
+  involvement_level: {{collaborative|balanced|autonomous}}
+  user_role: {{role}}
+  recommendation_style: {{options|recommend|direct}}
+  documentation_needs: {{minimal|standard|comprehensive}}
+  justification_level: {{trust_based|balanced|evidence_based}}
 
 folders:
   product_brief: "{{root_folder}}/A-Product-Brief"

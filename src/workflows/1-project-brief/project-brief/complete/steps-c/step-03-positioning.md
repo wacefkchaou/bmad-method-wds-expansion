@@ -2,48 +2,85 @@
 
 ## Purpose
 
-Help user define clear positioning statement for their product.
+Help user explore and articulate their positioning through natural conversation, then synthesize it into a clear positioning statement.
 
 ## Context for Agent
 
-You are helping the user clarify how their product fits in the market and what makes it unique.
+**Philosophy:** Don't ask the user to produce a positioning statement. Have an exploratory conversation about who it's for, what makes it different, and what alternatives exist - then YOU synthesize this into a positioning statement.
 
-## Key Elements
+**Your role:** Strategic interviewer + positioning synthesizer.
 
-This step establishes market positioning and differentiation.
+## Prerequisites
 
-## Key Framework
+**Load agent guides:**
+- `src/data/agent-guides/saga/conversational-followups.md` - Follow-up patterns
+- `src/data/agent-guides/saga/discovery-conversation.md` - General principles
 
-Positioning statement format: "For [target customer] who [need/opportunity], [product name] is a [category] that [key benefit]. Unlike [alternatives], we [differentiator]."
+**Load project context from** `wds-project-outline.yaml`:
+- `project_context.stakes` - Shapes tone and documentation depth
+- `working_relationship.involvement_level` - Shapes explanation level
+- `working_relationship.recommendation_style` - Shapes directness
 
-## Instructions
+---
 
-Guide user through positioning framework. Ask them to complete the positioning statement, and break it down into components if they struggle. Help craft a clear statement that defines who the product is for and how it's different.
+## Workflow Steps
 
+This step executes 4 micro substeps sequentially:
+
+### Substep 1: Open Conversation
+**File:** `substeps/positioning/01-open-conversation.md`
+**Task:** Introduce positioning naturally, invite user to think about market fit
+
+### Substep 2: Explore Positioning
+**File:** `substeps/positioning/02-explore-positioning.md`
+**Task:** Listen for signals, capture all positioning components (target, need, category, benefit, alternatives, differentiator)
+
+### Substep 3: Reflect & Confirm
+**File:** `substeps/positioning/03-reflect-confirm.md`
+**Task:** Synthesize positioning components, get user confirmation before creating final statement
+
+### Substep 4: Synthesize & Document
+**File:** `substeps/positioning/04-synthesize-document.md`
+**Task:** Create positioning statement, document with components and rationale
+
+---
+
+## Execution
+
+Execute substeps in order. Each substep completes before moving to next.
+
+**Start:** Load and execute `substeps/positioning/01-open-conversation.md`
+
+---
 
 ## Agent Dialog Update
 
-After completing this step, update the agent dialog:
+**Mandatory:** Update `dialog/07-positioning.md` before marking this step complete.
 
-```markdown
-### [Step Name]
-**Q:** [Key questions asked]
-**A:** [User responses - summarized]
-**Documented in:** product-brief.md ([section name])
-**Key insights:** [Important decisions or revelations]
-**Status:** Complete
-**Timestamp:** [HH:MM]
+**Substep 4 handles this.**
+
+The dialog should capture:
+- Opening question + user's initial response
+- Key exchanges exploring target customer, need, alternatives, differentiation
+- Reflection checkpoint (synthesis + user confirmation/correction)
+- Final positioning statement (with all components)
+- Strategic rationale
+
+**Then:** Mark Step 3 complete in `dialog/README.md` progress tracker
+
+---
+
+## State Update
+
+After completing all substeps, update frontmatter:
+
+```yaml
+stepsCompleted: ['step-01-init.md', 'step-02-vision.md', 'step-03-positioning.md']
+positioning: '[synthesized positioning statement]'
 ```
+
+---
 
 ## Next Step
 
 Load, read full file, and execute: `step-04-create-vtc.md`
-
-## State Update
-
-Update frontmatter of output file:
-
-```yaml
-stepsCompleted: ['step-01-init.md', 'step-02-vision.md', 'step-03-positioning.md']
-positioning: '[captured positioning statement]'
-```

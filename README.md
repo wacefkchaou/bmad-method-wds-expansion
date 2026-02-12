@@ -21,7 +21,7 @@ To get the most out of WDS, you'll need to understand:
 2. **Agent collaboration** - Working with Saga, Idunn, and Freya to accomplish tasks
 3. **Tool integration** - Using Figma MCP, NanoBanana, and other design tools
 
-� **Start learning:** [docs/learn-wds/](docs/learn-wds/) - Interactive courses and tutorials
+� **Start learning:** [docs/learn/](docs/learn/) - Interactive courses and tutorials
 
 ---
 

@@ -694,8 +694,8 @@ Scenario-based: "Walk through this signup journey with me"
 - Scenario Specifications (Module 11)
 
 **Application in WDS:**
-- [Module 08: Outline Scenarios](../learn-wds/module-08-outline-scenarios/)
-- [Lesson 1: Design Experiences, Not Screens](../learn-wds/module-08-outline-scenarios/lesson-01-design-experiences-not-screens.md)
+- [Module 08: Outline Scenarios](../learn/module-08-outline-scenarios/)
+- [Lesson 1: Design Experiences, Not Screens](../learn/module-08-outline-scenarios/lesson-01-design-experiences-not-screens.md)
 
 ---
 

@@ -8,7 +8,7 @@ Complete documentation for Whiteport Design Studio - a design-first methodology 
 
 **New to WDS?** Start here:
 
-- **[About WDS](getting-started/about-wds.md)** - What WDS is and why it exists (5 min)
+- **[About WDS](getting-started/about.md)** - What WDS is and why it exists (5 min)
 - **[Installation](getting-started/installation.md)** - Set up WDS in your project (5 min)
 - **[Quick Start](getting-started/quick-start.md)** - Your first 5 minutes with WDS
 - **[Where to Go Next](getting-started/where-to-go-next.md)** - Choose your learning path
@@ -53,14 +53,14 @@ Complete documentation for Whiteport Design Studio - a design-first methodology 
 
 **How to use WDS with AI agents:** Step-by-step course using WDS agents + Cursor/Windsurf.
 
-- **[Complete WDS Course](learn-wds/)** - Sequential learning path
-- **[Course Overview](learn-wds/00-course-overview.md)** - What you'll learn
-- **[Module 01: Why WDS Matters](learn-wds/module-01-why-wds-matters/)** - The problem & solution
-- **[Module 02: Installation & Setup](learn-wds/module-02-installation-setup/)** - Get WDS running
-- **[Module 03: Alignment & Signoff](learn-wds/module-03-alignment-signoff/)** - Stakeholder alignment
-- **[Module 04: Product Brief](learn-wds/module-04-product-brief/)** - Create strategic foundation
-- **[Module 05: Trigger Mapping](learn-wds/module-05-map-triggers-outcomes/)** - Map user psychology
-- **[Module 06+](learn-wds/)** - Continue through all phases
+- **[Complete WDS Course](learn/)** - Sequential learning path
+- **[Course Overview](learn/00-course-overview.md)** - What you'll learn
+- **[Module 01: Why WDS Matters](learn/module-01-why-wds-matters/)** - The problem & solution
+- **[Module 02: Installation & Setup](learn/module-02-installation-setup/)** - Get WDS running
+- **[Module 03: Alignment & Signoff](learn/module-03-alignment-signoff/)** - Stakeholder alignment
+- **[Module 04: Product Brief](learn/module-04-product-brief/)** - Create strategic foundation
+- **[Module 05: Trigger Mapping](learn/module-05-map-triggers-outcomes/)** - Map user psychology
+- **[Module 06+](learn/)** - Continue through all phases
 
 **This course is WDS-specific** - teaching you to use Saga, Freya, and Idunn agents.
 
@@ -115,7 +115,7 @@ Complete documentation for Whiteport Design Studio - a design-first methodology 
 → Read phase guides as needed
 
 **Learn to use WDS with AI agents**  
-→ Take the [Complete WDS Course](learn-wds/)  
+→ Take the [Complete WDS Course](learn/)  
 → Follow sequential modules
 
 **See what WDS creates**
@@ -137,7 +137,7 @@ Complete documentation for Whiteport Design Studio - a design-first methodology 
 ```
 docs/
 ├── quick-start/          # Action-focused tutorials
-├── learn-wds/            # WDS course (deep learning)
+├── learn/            # WDS course (deep learning)
 ├── method/               # Methodology guides (tool-agnostic)
 ├── models/               # External strategic frameworks
 ├── examples/             # Real project examples
@@ -147,7 +147,7 @@ docs/
 **Four clear purposes:**
 
 1. **quick-start/** → "Just show me how to do it" (action reference)
-2. **learn-wds/** → "Teach me the methodology" (comprehensive course)
+2. **learn/** → "Teach me the methodology" (comprehensive course)
 3. **method/** → "How does WDS work?" (tool-agnostic guides)
 4. **examples/** → "Show me a real project" (reference implementation)
 

@@ -94,17 +94,14 @@ This VTC provides quick strategic reference and will inform all design decisions
 
 ## Agent Dialog Update
 
-After completing this step, update the agent dialog:
+**Mandatory:** Append to `dialog/decisions.md` if key decisions were made.
 
-```markdown
-### [Step Name]
-**Q:** [Key questions asked]
-**A:** [User responses - summarized]
-**Documented in:** product-brief.md ([section name])
-**Key insights:** [Important decisions or revelations]
-**Status:** Complete
-**Timestamp:** [HH:MM]
-```
+**Record:**
+- VTC framework decisions
+- Value/Transformation/Cost mapping
+- Strategic insights from framework
+
+**Then:** Mark Step 11 complete in `dialog/README.md` progress tracker
 
 ## Next Step
 

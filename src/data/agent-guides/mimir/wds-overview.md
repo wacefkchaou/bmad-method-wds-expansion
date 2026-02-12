@@ -267,7 +267,7 @@ Tell me about the user journey you want to map...
 
 ## WDS Training Course
 
-**Location**: `docs/learn-wds/`
+**Location**: `docs/learn/`
 
 **Modules Available:**
 - **Module 00:** Getting Started - Prerequisites, learning paths, and support

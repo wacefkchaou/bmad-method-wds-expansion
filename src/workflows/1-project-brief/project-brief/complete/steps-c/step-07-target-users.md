@@ -19,17 +19,16 @@ Guide user to describe their ideal users in detail. Ask about their role, demogr
 
 ## Agent Dialog Update
 
-After completing this step, update the agent dialog:
+**Mandatory:** Update `dialog/03-users.md` before marking this step complete.
 
-```markdown
-### [Step Name]
-**Q:** [Key questions asked]
-**A:** [User responses - summarized]
-**Documented in:** product-brief.md ([section name])
-**Key insights:** [Important decisions or revelations]
-**Status:** Complete
-**Timestamp:** [HH:MM]
-```
+**Fill in:**
+- Opening question about users + user's initial response
+- Key exchanges exploring who they are, frustrations, goals, current solutions
+- User scenarios captured
+- Reflection checkpoint (synthesis + user confirmation/correction)
+- Primary user definition + secondary users (if applicable)
+
+**Then:** Mark Step 7 complete in `dialog/README.md` progress tracker
 
 ## Next Step
 

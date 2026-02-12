@@ -148,7 +148,7 @@ Ask me questions one at a time.
 
 ## Learn More
 
-- [WDS Course](../learn-wds/00-course-overview.md) — Deep dive into methodology
+- [WDS Course](../learn/00-course-overview.md) — Deep dive into methodology
 - [Workflow Guide](../wds-workflows-guide.md) — Full documentation
 
 ---

@@ -15,17 +15,14 @@ If business model is B2B or Both, guide user to define their ideal business cust
 
 ## Agent Dialog Update
 
-After completing this step, update the agent dialog:
+**Mandatory:** Append to `dialog/decisions.md` if key decisions were made.
 
-```markdown
-### [Step Name]
-**Q:** [Key questions asked]
-**A:** [User responses - summarized]
-**Documented in:** product-brief.md ([section name])
-**Key insights:** [Important decisions or revelations]
-**Status:** Complete
-**Timestamp:** [HH:MM]
-```
+**Record:**
+- Business customer definition (B2B contexts)
+- Buyer vs end-user distinction
+- Business customer needs and decision criteria
+
+**Then:** Mark Step 6 complete in `dialog/README.md` progress tracker
 
 ## Next Step
 

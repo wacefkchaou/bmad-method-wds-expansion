@@ -25,17 +25,14 @@ Welcome the user and explain that this is their strategic foundation. Set time e
 
 ## Agent Dialog Update
 
-After completing this step, update the agent dialog:
+**Mandatory:** Update `dialog/00-context.md` before marking this step complete.
 
-```markdown
-### [Step Name]
-**Q:** [Key questions asked]
-**A:** [User responses - summarized]
-**Documented in:** product-brief.md ([section name])
-**Key insights:** [Important decisions or revelations]
-**Status:** Complete
-**Timestamp:** [HH:MM]
-```
+**Fill in:**
+- Project metadata, working relationship context
+- Project configuration decisions
+- Any initial context or expectations discussed
+
+**Then:** Mark Phase 0 / Step 1 complete in `dialog/README.md` progress tracker
 
 ## Next Step
 

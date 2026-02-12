@@ -409,4 +409,4 @@ The sooner you embrace this, the more effectively you'll build software with AI 
 
 ---
 
-*This model document captures key insights from Sean Grove's talk. For application to the WDS methodology, see [Lesson 2: Why Specifications Matter](../learn-wds/module-07-design-phase/lesson-02-why-specifications-matter.md).*
+*This model document captures key insights from Sean Grove's talk. For application to the WDS methodology, see [Lesson 2: Why Specifications Matter](../learn/module-07-design-phase/lesson-02-why-specifications-matter.md).*

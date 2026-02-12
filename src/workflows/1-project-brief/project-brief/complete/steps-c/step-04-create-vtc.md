@@ -86,17 +86,14 @@ VTC is saved but NOT yet added to brief document.
 
 ## Agent Dialog Update
 
-After completing this step, update the agent dialog:
+**Mandatory:** Append to `dialog/decisions.md` if key decisions were made.
 
-```markdown
-### [Step Name]
-**Q:** [Key questions asked]
-**A:** [User responses - summarized]
-**Documented in:** product-brief.md ([section name])
-**Key insights:** [Important decisions or revelations]
-**Status:** Complete
-**Timestamp:** [HH:MM]
-```
+**Record:**
+- Value/Transformation/Cost framework decisions
+- How value and transformation connect
+- Key insights about user journey
+
+**Then:** Mark Step 4 complete in `dialog/README.md` progress tracker
 
 ## Next Step
 

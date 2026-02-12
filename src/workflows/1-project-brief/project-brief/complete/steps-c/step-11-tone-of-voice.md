@@ -6,7 +6,9 @@ Establish the product's communication personality and style for consistent UI mi
 
 ## Context for Agent
 
-Now that you understand the product, users, positioning, and competitive landscape, you can suggest an appropriate Tone of Voice that aligns with the brand and resonates with target users.
+**Philosophy:** Don't ask the user to define tone of voice - YOU suggest appropriate attributes based on everything you've learned (users, positioning, context), then refine through conversation.
+
+**Your role:** Strategic brand guide synthesizing the right voice from product context.
 
 **Important:** Tone of Voice is for **UI microcopy** (buttons, labels, errors, system messages), NOT strategic content (headlines, feature descriptions, value propositions).
 
@@ -126,17 +128,14 @@ Before proceeding:
 
 ## Agent Dialog Update
 
-After completing this step, update the agent dialog:
+**Mandatory:** Append to `dialog/decisions.md` if key decisions were made.
 
-```markdown
-### [Step Name]
-**Q:** [Key questions asked]
-**A:** [User responses - summarized]
-**Documented in:** product-brief.md ([section name])
-**Key insights:** [Important decisions or revelations]
-**Status:** Complete
-**Timestamp:** [HH:MM]
-```
+**Record:**
+- Tone of voice characteristics chosen
+- Brand personality decisions
+- Communication style rationale
+
+**Then:** Mark Step 11 complete in `dialog/README.md` progress tracker
 
 ## Next Step
 
