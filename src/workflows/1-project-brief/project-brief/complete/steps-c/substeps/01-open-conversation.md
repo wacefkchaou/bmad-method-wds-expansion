@@ -9,14 +9,16 @@ Adapt opening question to project context and invite user to think out loud.
 ### 1. Check Project Context
 
 Read from `wds-project-outline.yaml`:
-- `project_context.stakes` 
+- `project_context.stakes`
 - `working_relationship.involvement_level`
+- `existing_materials.has_materials` (check if materials exist)
+- `existing_materials.previous_brief` (if has_materials = true)
 
 ### 2. Adapt Opening Question
 
-**DON'T ask:** "What's your vision statement?"
+**Check for existing materials FIRST:**
 
-**DO ask (adapt to stakes):**
+**WITHOUT existing materials** (`has_materials: false`):
 
 **If stakes = personal/hobby:**
 > "Tell me about this project! What are you building and what excites you about it?"
@@ -26,6 +28,21 @@ Read from `wds-project-outline.yaml`:
 
 **If stakes = departmental/enterprise:**
 > "Let's start with the big picture. What problem are you solving, and what does success look like organizationally?"
+
+---
+
+**WITH existing materials** (`has_materials: true` and `previous_brief` exists):
+
+Read the brief first, then adapt opening:
+
+**If stakes = personal/hobby:**
+> "I see you mentioned [reference from brief]. That sounds exciting! Tell me more about what you're envisioning."
+
+**If stakes = business:**
+> "I read your brief - you described [key vision element]. Let's build on that. Has your thinking evolved, or is that still the direction?"
+
+**If stakes = departmental/enterprise:**
+> "Your brief outlined [vision/problem]. Is that still accurate, or has the organizational picture shifted since you wrote it?"
 
 ### 3. Set Expectation
 

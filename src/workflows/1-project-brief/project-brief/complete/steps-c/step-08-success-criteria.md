@@ -15,6 +15,7 @@ Help user explore and define what success looks like through conversational ques
 **Load project context from** `wds-project-outline.yaml`:
 - `project_context.stakes` - Shapes how rigorous metrics need to be
 - `working_relationship.recommendation_style` - Shapes how directive to be
+- `existing_materials` - Check if success criteria already defined
 
 ---
 
@@ -22,9 +23,10 @@ Help user explore and define what success looks like through conversational ques
 
 ### 1. Open the Conversation
 
-**Start with the outcome, not the metric:**
+**Check for existing materials first:**
 
-**Context-adapted openings:**
+**WITHOUT existing materials** (`has_materials: false`):
+
 > "Let's talk about success. When this launches and it's working well, what's different? What changes?"
 
 **OR** (if business-focused):
@@ -32,6 +34,17 @@ Help user explore and define what success looks like through conversational ques
 
 **OR** (if user-focused):
 > "Picture this live and successful - what are users doing differently? What problems have disappeared?"
+
+---
+
+**WITH existing materials** that mention success:
+
+Read materials first, then adapt:
+
+> "Your brief mentioned success means [quote]. Is that still the goal? Let's make sure we're measuring the right things."
+
+**OR** (if criteria seem unclear):
+> "You wrote that success looks like [reference]. Let's dig into that - how will you actually KNOW it's working?"
 
 ### 2. Explore Success from Multiple Angles
 

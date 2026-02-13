@@ -16,6 +16,10 @@ Present a cohesive synthesis of everything captured, get final confirmation, and
 
 ### 1. Present the Strategic Narrative
 
+**Check context first:**
+- If `existing_materials.has_materials = true`: Frame as "Here's the refined strategic foundation..." (acknowledging we built on existing work)
+- If `existing_materials.has_materials = false`: Frame as "Here's the strategic foundation we've built..." (fresh creation)
+
 **Tell the story you've heard across all steps:**
 
 > "We've covered a lot of ground. Let me share back the strategic foundation we've built for {product name}:

@@ -19,6 +19,7 @@ Capture the designer's STRUCTURAL vision - the founding idea, key concept, or co
 
 **Load project context from** `wds-project-outline.yaml`:
 - `project_context.stakes` - Shapes how detailed concept needs to be
+- `existing_materials` - Check if previous brief or notes mention concept
 - Vision from Step 2 - Informs what kind of concept makes sense
 - Positioning from Step 3 - Informs what makes this distinct
 
@@ -28,16 +29,25 @@ Capture the designer's STRUCTURAL vision - the founding idea, key concept, or co
 
 ### 1. Open the Concept Conversation
 
-**Start by inviting them to describe the core idea:**
+**Check for existing materials first:**
 
-**Context-adapted openings:**
+**WITHOUT existing materials** (`has_materials: false`):
+
 > "Let's talk about the core concept - the structural idea that makes this product work. What's the KEY PRINCIPLE or founding feature that everything builds from?"
 
 **OR** (more casual):
 > "What's the BIG IDEA here? Not all the features, but the CORE CONCEPT that defines how this works?"
 
-**OR** (if they have a clear vision):
-> "You mentioned [signal from earlier conversation] - sounds like that's a core concept. Tell me more about that structural idea."
+---
+
+**WITH existing materials** that mention concept:
+
+Read materials first, then adapt opening:
+
+> "I see you're thinking about [concept from materials]. That sounds like the founding principle. Tell me more about that structural idea - why THIS approach?"
+
+**OR** (if concept is mentioned but unclear):
+> "You mentioned [concept reference] in your brief. I'm curious - is that the CORE CONCEPT, the organizing principle everything builds from?"
 
 **Listen for signals:**
 - They already described something structural ("I'm thinking it has a navigation bar showing vehicle types...")

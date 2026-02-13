@@ -103,7 +103,84 @@ Default if skipped: design-process
 
 ---
 
-## 6. BRIEF LEVEL
+## 6. EXISTING MATERIALS (Optional Context)
+
+<output>
+**Quick check:** Before we dive in, is there anything I should look at first to get oriented?
+
+This is totally optional - just helps if something already exists!
+</output>
+
+<ask>
+**Do you have any existing materials for this project?**
+
+Examples:
+- Existing website or landing page
+- Previous brief or strategy documents
+- Brand guidelines or visual identity
+- User research or customer data
+- Competitor analyses
+- Other related materials
+
+[A] **Yes** - I have some materials to share
+[B] **No** - Starting fresh (that's great!)
+
+Choice:
+</ask>
+
+<ask if="choice == A">
+**What materials do you have?** (Share what's relevant - I'll review them)
+
+Examples:
+- Website URL: https://...
+- Brief/docs: path/to/file.md
+- Brand guidelines: path/to/guidelines.pdf
+- Research notes: path/to/notes.md
+- Other: ...
+
+Materials:
+</ask>
+
+<action if="choice == A">
+**Review materials provided:**
+1. If URL given → note it for later review
+2. If file paths given → read them to understand current state
+3. Brief assessment: What's solid? What needs work?
+4. Note context for later steps
+
+**Store in outline:**
+
+```yaml
+existing_materials:
+  has_materials: true
+  website: "[URL if provided]"
+  previous_brief: "[path if provided]"
+  brand_guidelines: "[path if provided]"
+  research: "[path if provided]"
+  other: "[list other materials]"
+  context_notes: "[brief notes on what exists and what needs work]"
+```
+
+**For later reference:**
+- Phase 1 steps will reference these materials where relevant
+- Dialog will capture refinement conversation, not just creation
+- No wasted effort re-asking documented questions
+</action>
+
+<action if="choice == B">
+**Store in outline:**
+
+```yaml
+existing_materials:
+  has_materials: false
+```
+
+**That's perfectly fine!** Starting fresh means we'll explore everything together conversationally.
+</action>
+
+---
+
+## 7. BRIEF LEVEL
 
 <action if="greenfield">
 **Greenfield projects always use Complete Brief.**
@@ -133,7 +210,7 @@ Choice:
 
 ---
 
-## 7. STRATEGIC ANALYSIS LEVEL (Greenfield only)
+## 8. STRATEGIC ANALYSIS LEVEL (Greenfield only)
 
 <ask if="greenfield AND product_complexity != simple">
 **How deep should the user/market analysis go?**
@@ -168,7 +245,7 @@ Store as `strategic_analysis`:
 
 ---
 
-## 8. WORKING RELATIONSHIP CONTEXT
+## 9. WORKING RELATIONSHIP CONTEXT
 
 <output>
 **Let's understand the project context and how we'll work together.**
@@ -292,7 +369,7 @@ Automatically derive:
 
 ---
 
-## 9. CREATE STRUCTURE & OUTLINE
+## 10. CREATE STRUCTURE & OUTLINE
 
 <action>
 **Check existing:** Look for `{{root_folder}}/` and `{{root_folder}}/progress/wds-project-outline.yaml`
@@ -340,6 +417,15 @@ working_relationship:
   recommendation_style: {{options|recommend|direct}}
   documentation_needs: {{minimal|standard|comprehensive}}
   justification_level: {{trust_based|balanced|evidence_based}}
+
+existing_materials:
+  has_materials: {{true|false}}
+  website: {{URL|null}}
+  previous_brief: {{path|null}}
+  brand_guidelines: {{path|null}}
+  research: {{path|null}}
+  other: {{list|null}}
+  context_notes: {{notes|null}}
 
 folders:
   product_brief: "{{root_folder}}/A-Product-Brief"
@@ -390,7 +476,7 @@ _Use this log to track major decisions, insights, and progress through the desig
 
 ---
 
-## 9. SUMMARY & NEXT STEPS
+## 11. SUMMARY & NEXT STEPS
 
 <output>
 **Project configured!**
@@ -430,7 +516,7 @@ _Use this log to track major decisions, insights, and progress through the desig
 
 ---
 
-## 10. ROUTING
+## 12. ROUTING
 
 <action>
 **Greenfield:**
