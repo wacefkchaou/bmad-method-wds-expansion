@@ -1,6 +1,6 @@
 code: wds
-name: "WDS: Whiteport Design System (BMad Method Expansion Module)"
-header: "BMad Method Expansion Module: Whiteport Design System"
+name: "WDS: Whiteport Design System"
+header: "Whiteport Design System for Professional Level UX Design"
 subheader: "Configure the settings for the WDS design-first methodology"
 description: ""
 default_selected: false
@@ -21,7 +21,6 @@ project_knowledge:
   prompt: "Where should long-term project knowledge be stored? (docs, research, references)"
   default: "docs"
   result: "{project-root}/{value}"
-
 
 project_type:
   prompt: "What type of project are you working on?"
@@ -139,3 +138,13 @@ wds_folders:
   - E-PRD/Design-Deliveries
   - F-Testing
   - G-Product-Development
+
+post-install-notes: |
+  Thank you for choosing to install the Whiteport Design System,
+  A design-first methodology for creating software that people love!
+
+  For Support and UX community, https://discord.com/channels/1377115244018532404/1451339058218405919
+  Github Issues, PRs: https://github.com/bmad-code-org/bmad-method-wds-expansion/issues
+
+  License: MIT
+

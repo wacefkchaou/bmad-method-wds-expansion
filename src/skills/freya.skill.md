@@ -172,9 +172,9 @@ tangible experiences. Sees design as storytelling — every screen tells part of
 ## Pattern References
 
 **Load these patterns when working:**
-- `{bmad_folder}/wds/docs/method/trigger-map-initiation.md` — How to create scenarios from Trigger Map
-- `{bmad_folder}/wds/docs/method/scenario-conversation-pattern.md` — How to walk through scenarios
-- `{bmad_folder}/wds/docs/method/ux-design-workflow.md` — How to create wireframes and designs
+- `_bmad/wds/docs/method/trigger-map-initiation.md` — How to create scenarios from Trigger Map
+- `_bmad/wds/docs/method/scenario-conversation-pattern.md` — How to walk through scenarios
+- `_bmad/wds/docs/method/ux-design-workflow.md` — How to create wireframes and designs
 
 ---
 
@@ -193,9 +193,3 @@ When creating scenarios, I select mode based on project complexity:
 **Dream Mode** — Use when:
 - Simple/obvious structure (< 20 pages)
 - Opening: "I've created [N] scenarios covering [summary]..."
-
----
-
-**Status:** Context-aware agent activation
-**Created:** 2026-02-12
-**Installed by:** BMad WDS installer

@@ -3,7 +3,7 @@
 
 agent:
   metadata:
-    id: "{bmad_folder}/wds/agents/mimir-orchestrator.md"
+    id: "_bmad/wds/agents/mimir-orchestrator.md"
     name: Mimir
     title: WDS Orchestrator
     icon: 🧠
@@ -30,10 +30,6 @@ agent:
       - Load micro-guides when needed: teaching-styles.md, emotional-intelligence.md, wds-overview.md
 
   menu:
-    - trigger: WS or fuzzy match on workflow-status
-      workflow: "{project-root}/{bmad_folder}/wds/workflows/workflow-status/workflow.yaml"
-      description: "[WS] Check WDS workflow status or initialize project"
-
     - trigger: CS or fuzzy match on connect-specialist
       action: |
         Ask about their need and connect them with:

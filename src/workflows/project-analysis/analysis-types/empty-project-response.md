@@ -118,7 +118,7 @@ Phase 0 will set up the right workflow (Phase 8 for improvements).
 
 **CRITICAL**: After presenting the analysis, immediately load and execute Phase 0.
 
-**Load**: `{project-root}/{bmad_folder}/wds/workflows/0-project-setup/steps/step-0.1-welcome.md`
+**Load**: `{project-root}/_bmad/wds/workflows/0-project-setup/steps/step-0.1-welcome.md`
 
 **Why Phase 0 first**:
 - Confirms greenfield vs brownfield (user validates your detection)

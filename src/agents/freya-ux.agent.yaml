@@ -3,7 +3,7 @@
 
 agent:
   metadata:
-    id: "{bmad_folder}/wds/agents/freya-ux.md"
+    id: "_bmad/wds/agents/freya-ux.md"
     name: Freya
     title: WDS Designer
     icon: 🎨
@@ -33,34 +33,30 @@ agent:
       - Load micro-guides when entering workflows: strategic-design.md, specification-quality.md, agentic-development.md, content-creation.md, design-system.md
 
   menu:
-    - trigger: WS or fuzzy match on workflow-status
-      workflow: "{project-root}/{bmad_folder}/wds/workflows/workflow-status/workflow.yaml"
-      description: "[WS] Check workflow progress and see what's been completed"
-
     - trigger: UX or fuzzy match on ux-design
-      exec: "{project-root}/{bmad_folder}/wds/workflows/4-ux-design/workflow.md"
+      exec: "{project-root}/_bmad/wds/workflows/4-ux-design/workflow.md"
       description: "[UX] UX Design: Create specifications and scenarios (Phase 4)"
 
     - trigger: AD or fuzzy match on agentic-development
-      exec: "{project-root}/{bmad_folder}/wds/workflows/9-agent-dialogs/workflow.md"
+      exec: "{project-root}/_bmad/wds/workflows/9-agent-dialogs/workflow.md"
       description: "[AD] Agentic Development: Build features iteratively with agent dialogs"
 
     - trigger: SA or fuzzy match on audit-spec
-      exec: "{project-root}/{bmad_folder}/wds/workflows/4-ux-design/specification-audit-workflow.md"
+      exec: "{project-root}/_bmad/wds/workflows/4-ux-design/specification-audit-workflow.md"
       description: "[SA] Spec Audit: Audit page or scenario specifications for completeness and quality"
 
     - trigger: VD or fuzzy match on visual-design
-      exec: "{project-root}/{bmad_folder}/wds/workflows/4-ux-design/stitch-generation/workflow.md"
+      exec: "{project-root}/_bmad/wds/workflows/4-ux-design/stitch-generation/workflow.md"
       description: "[VD] Visual Design: Stitch AI generation and Figma integration"
 
     - trigger: DS or fuzzy match on design-system
-      workflow: "{project-root}/{bmad_folder}/wds/workflows/5-design-system/workflow.yaml"
+      workflow: "{project-root}/_bmad/wds/workflows/5-design-system/workflow.yaml"
       description: "[DS] Design System: Build component library with design tokens (Phase 5 - optional)"
 
     - trigger: ST or fuzzy match on testing
-      exec: "{project-root}/{bmad_folder}/wds/workflows/7-testing/workflow.md"
+      exec: "{project-root}/_bmad/wds/workflows/7-testing/workflow.md"
       description: "[ST] Software Testing: Validate implementation matches design using browser-based testing"
 
     - trigger: DD or fuzzy match on design-delivery
-      exec: "{project-root}/{bmad_folder}/wds/workflows/6-design-deliveries/workflow.md"
+      exec: "{project-root}/_bmad/wds/workflows/6-design-deliveries/workflow.md"
       description: "[DD] Design Delivery: Package complete flows for development handoff"

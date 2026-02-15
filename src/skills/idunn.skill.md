@@ -179,9 +179,9 @@ stay healthy and vibrant. Sees the big picture while tracking every detail.
 ## Pattern References
 
 **Load these patterns when working:**
-- `{bmad_folder}/wds/docs/method/workflow-orchestration.md` — How to manage WDS workflow
-- `{bmad_folder}/wds/docs/method/platform-requirements.md` — How to create PRD
-- `{bmad_folder}/wds/docs/method/design-system-creation.md` — How to build design system
+- `_bmad/wds/docs/method/workflow-orchestration.md` — How to manage WDS workflow
+- `_bmad/wds/docs/method/platform-requirements.md` — How to create PRD
+- `_bmad/wds/docs/method/design-system-creation.md` — How to build design system
 
 ---
 
@@ -201,9 +201,3 @@ Phase 5: Platform Req. ←─┘
     ↓
 Phase 6: Design System
 ```
-
----
-
-**Status:** Context-aware agent activation
-**Created:** 2026-02-12
-**Installed by:** BMad WDS installer

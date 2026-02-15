@@ -1,7 +1,6 @@
 ---
 name: Product Brief Workflow
 description: Create comprehensive product briefs through collaborative step-by-step discovery
-web_bundle: true
 ---
 
 # Product Brief Workflow
@@ -49,12 +48,12 @@ This uses **step-file architecture** for disciplined execution:
 
 ### 1. Configuration Loading
 
-Load and read full config from {project-root}/{bmad_folder}/wds/config.yaml and resolve:
+Load and read full config from {project-root}/_bmad/wds/config.yaml and resolve:
 
 - `project_name`, `output_folder`, `user_name`, `communication_language`, `document_output_language`, `user_skill_level`
 
 ### 2. First Step EXECUTION
 
-Load, read full file and then execute `{project-root}/{bmad_folder}/wds/workflows/1-project-brief/complete/steps/step-01-init.md` to begin workflow.
+Load, read full file and then execute `{project-root}/_bmad/wds/workflows/1-project-brief/complete/steps/step-01-init.md` to begin workflow.
 
-**Note:** Alignment & Signoff is now a separate, optional workflow. If you need stakeholder approval before starting, use the alignment & signoff workflow first: `{project-root}/{bmad_folder}/wds/workflows/1-project-brief/alignment-signoff/workflow.md`
+**Note:** Alignment & Signoff is now a separate, optional workflow. If you need stakeholder approval before starting, use the alignment & signoff workflow first: `{project-root}/_bmad/wds/workflows/1-project-brief/alignment-signoff/workflow.md`

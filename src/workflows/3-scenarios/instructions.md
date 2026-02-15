@@ -13,11 +13,11 @@
 **Read prerequisite artifacts:**
 1. Product Brief: `{output_folder}/A-Product-Brief/product-brief.md`
 2. Trigger Map: `{output_folder}/B-Trigger-Map/trigger-map.md`
-3. Project Outline: `{project-root}/{bmad_folder}/project-outline.md`
+3. Project Outline: `{project-root}/_bmad/project-outline.md`
 
 **Check for existing work:**
 - Look for `{output_folder}/C-UX-Scenarios/` folder
-- Check for unfinished agent dialogs in `{project-root}/{bmad_folder}/wds/agent-dialogs/`
+- Check for unfinished agent dialogs in `{project-root}/_bmad/wds/agent-dialogs/`
 - Find most recent scenario-related dialog (if any)
 
 ### Step 2: Resume or Start Decision
@@ -133,7 +133,7 @@ Here's what I documented..."
 
 **On workflow start:**
 ```
-Create agent dialog: {project-root}/{bmad_folder}/wds/agent-dialogs/[date]-scenarios.md
+Create agent dialog: {project-root}/_bmad/wds/agent-dialogs/[date]-scenarios.md
 Track progress with visual status indicators (⏳/✅/⚠️/⏸)
 ```
 

@@ -1,7 +1,6 @@
 ---
 name: Visual Direction Workflow
 description: Establish visual style, brand aesthetics, and design direction
-web_bundle: true
 ---
 
 # Visual Direction Workflow
@@ -59,7 +58,7 @@ Agent dialogs provide:
 **1. Create agent dialog file:**
 ```
 Location: {output_folder}/progress/agent-dialogs/{date}-visual-direction.md
-Template: {project-root}/{bmad_folder}/wds/templates/agent-dialog.template.md
+Template: {project-root}/_bmad/wds/templates/agent-dialog.template.md
 ```
 
 **2. Initialize with:**
@@ -127,7 +126,7 @@ Use this vocabulary to describe visual direction precisely.
 
 ### 1. Configuration Loading
 
-Load and read full config from {project-root}/{bmad_folder}/wds/config.yaml and resolve:
+Load and read full config from {project-root}/_bmad/wds/config.yaml and resolve:
 
 - `project_name`, `output_folder`, `user_name`
 
@@ -137,7 +136,7 @@ Create agent dialog file following the AGENT DIALOG INTEGRATION instructions abo
 
 ### 3. First Step EXECUTION
 
-Load, read full file and then execute `{project-root}/{bmad_folder}/wds/workflows/1-project-brief/visual-direction/steps-c/step-01-init.md` to begin workflow.
+Load, read full file and then execute `{project-root}/_bmad/wds/workflows/1-project-brief/visual-direction/steps-c/step-01-init.md` to begin workflow.
 
 ---
 

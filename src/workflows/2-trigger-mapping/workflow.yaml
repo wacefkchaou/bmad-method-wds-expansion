@@ -3,15 +3,13 @@ name: trigger-mapping
 description: "Map business goals to user psychology through structured workshops"
 author: "Whiteport Design Studio"
 phase: 2
-web_bundle: true
-standalone: true
 primary_agent: "saga-analyst"
 
 # Based on Effect Mapping by Mijo Balic & Ingrid Domingues (inUse)
 # Adapted by WDS: simplified (no features), enhanced with negative driving forces
 
 # Critical variables from config
-config_source: "{project-root}/{bmad_folder}/wds/config.yaml"
+config_source: "{project-root}/_bmad/wds/config.yaml"
 output_folder: "{config_source}:output_folder"
 user_name: "{config_source}:user_name"
 project_name: "{config_source}:project_name"
@@ -20,7 +18,7 @@ document_output_language: "{config_source}:document_output_language"
 date: system-generated
 
 # Workflow components
-installed_path: "{project-root}/{bmad_folder}/wds/workflows/2-trigger-mapping"
+installed_path: "{project-root}/_bmad/wds/workflows/2-trigger-mapping"
 instructions: "{installed_path}/instructions.md"
 
 # Workshop micro-workflows

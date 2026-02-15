@@ -45,7 +45,7 @@ warnings: 0
 
 **Line 58 references:**
 ```
-{project-root}/{bmad_folder}/wds/workflows/1-project-brief/complete/steps/step-01-init.md
+{project-root}/_bmad/wds/workflows/1-project-brief/complete/steps/step-01-init.md
 ```
 
 **Reality:** No steps/ folder exists in this location

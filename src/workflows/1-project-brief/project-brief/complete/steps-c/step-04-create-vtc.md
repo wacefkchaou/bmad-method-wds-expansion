@@ -38,7 +38,7 @@ This VTC will be used for:
 **If user agrees:**
 
 Load and execute the VTC Workshop Router:
-`{project-root}/{bmad_folder}/wds/workflows/shared/vtc-workshop/vtc-workshop-router.md`
+`{project-root}/_bmad/wds/workflows/shared/vtc-workshop/vtc-workshop-router.md`
 
 **Note:** Since Product Brief stage typically has NO Trigger Map yet, the router will likely send you to the **Creation Workshop**.
 
@@ -120,7 +120,7 @@ status: 'in-progress'
 
 **Response:**
 > "No problem! You can create a VTC later using:
-> `{bmad_folder}/wds/workflows/shared/vtc-workshop/vtc-workshop-router.md`
+> `_bmad/wds/workflows/shared/vtc-workshop/vtc-workshop-router.md`
 > 
 > However, I recommend creating it before pitching to stakeholders or starting Phase 4 (UX Design). It takes 30 minutes and provides valuable strategic clarity.
 > 

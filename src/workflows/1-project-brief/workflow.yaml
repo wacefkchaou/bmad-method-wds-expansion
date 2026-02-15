@@ -3,12 +3,10 @@ name: project-brief
 description: Establish project context - foundation for all design work
 author: "Whiteport Design Studio"
 phase: 1
-web_bundle: true
-standalone: true
 primary_agent: "saga-analyst"
 
 # Critical variables from config
-config_source: "{project-root}/{bmad_folder}/wds/config.yaml"
+config_source: "{project-root}/_bmad/wds/config.yaml"
 output_folder: "{config_source}:output_folder"
 user_name: "{config_source}:user_name"
 project_name: "{config_source}:project_name"
@@ -20,7 +18,7 @@ date: system-generated
 brief_level: "{output_folder}/wds-workflow-status.yaml:config.brief_level"
 
 # Workflow components
-installed_path: "{project-root}/{bmad_folder}/wds/workflows/1-project-brief"
+installed_path: "{project-root}/_bmad/wds/workflows/1-project-brief"
 
 # Route to appropriate workflow based on brief_level
 workflows:

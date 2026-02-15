@@ -1,7 +1,6 @@
 ---
 name: Platform Requirements Workflow
 description: Define technical boundaries and platform decisions that constrain UX and development
-web_bundle: true
 ---
 
 # Platform Requirements Workflow
@@ -62,7 +61,7 @@ Agent dialogs provide:
 **1. Create agent dialog file:**
 ```
 Location: {output_folder}/progress/agent-dialogs/{date}-platform-requirements.md
-Template: {project-root}/{bmad_folder}/wds/templates/agent-dialog.template.md
+Template: {project-root}/_bmad/wds/templates/agent-dialog.template.md
 ```
 
 **2. Initialize with:**
@@ -112,7 +111,7 @@ This workflow should be run **after** the Product Brief is complete. It uses inf
 
 ### 1. Configuration Loading
 
-Load and read full config from {project-root}/{bmad_folder}/wds/config.yaml and resolve:
+Load and read full config from {project-root}/_bmad/wds/config.yaml and resolve:
 
 - `project_name`, `output_folder`, `user_name`, `communication_language`, `document_output_language`, `user_skill_level`
 
@@ -122,7 +121,7 @@ Create agent dialog file following the AGENT DIALOG INTEGRATION instructions abo
 
 ### 3. First Step EXECUTION
 
-Load, read full file and then execute `{project-root}/{bmad_folder}/wds/workflows/1-project-brief/platform-requirements/steps-c/step-01-init.md` to begin workflow.
+Load, read full file and then execute `{project-root}/_bmad/wds/workflows/1-project-brief/platform-requirements/steps-c/step-01-init.md` to begin workflow.
 
 ---
 

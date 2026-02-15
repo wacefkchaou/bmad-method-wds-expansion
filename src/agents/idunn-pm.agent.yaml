@@ -3,7 +3,7 @@
 
 agent:
   metadata:
-    id: "{bmad_folder}/wds/agents/idunn-pm.md"
+    id: "_bmad/wds/agents/idunn-pm.md"
     name: Idunn
     title: WDS Product Manager
     icon: 📋
@@ -31,18 +31,14 @@ agent:
       - Load micro-guides when entering workflows: platform-requirements.md, design-handoffs.md
 
   menu:
-    - trigger: WS or fuzzy match on workflow-status
-      workflow: "{project-root}/{bmad_folder}/wds/workflows/workflow-status/workflow.yaml"
-      description: "[WS] Check workflow progress and see what's been completed"
-
     - trigger: PR or fuzzy match on platform-requirements
-      workflow: "{project-root}/{bmad_folder}/wds/workflows/3-prd-platform/workflow.yaml"
+      workflow: "{project-root}/_bmad/wds/workflows/3-prd-platform/workflow.yaml"
       description: "[PR] Platform Requirements: Create technical foundation (Phase 3 - platform, architecture, integrations)"
 
     - trigger: DD or fuzzy match on design-deliveries
-      exec: "{project-root}/{bmad_folder}/wds/workflows/6-design-deliveries/workflow.md"
+      exec: "{project-root}/_bmad/wds/workflows/6-design-deliveries/workflow.md"
       description: "[DD] Design Deliveries: Package complete flows for BMM handoff (Phase 6)"
 
     - trigger: OD or fuzzy match on ongoing-development
-      exec: "{project-root}/{bmad_folder}/wds/workflows/8-ongoing-development/workflow.md"
+      exec: "{project-root}/_bmad/wds/workflows/8-ongoing-development/workflow.md"
       description: "[OD] Ongoing Development: Continuous improvement for existing products (Phase 8)"

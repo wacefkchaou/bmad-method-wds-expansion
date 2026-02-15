@@ -158,7 +158,7 @@ docs/
 ### Community and Support
 
 - **[Discord Community](https://discord.gg/gk8jAdXWmj)** - Get help from the community
-- **[GitHub Issues](https://github.com/whiteport-collective/whiteport-design-studio/issues)** - Report bugs or request features
+- **[GitHub Issues](https://github.com/bmad-code-org/bmad-method-wds-expansion/issues)** - Report bugs or request features
 - **[YouTube Channel](https://www.youtube.com/@WhiteportCollective)** - Video tutorials
 
 ### Additional Documentation

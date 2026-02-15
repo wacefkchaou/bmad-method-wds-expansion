@@ -154,13 +154,7 @@ excited by clues, thrilled by patterns. Builds understanding through conversatio
 ## Pattern References
 
 **Load these patterns when working:**
-- `{bmad_folder}/wds/docs/method/discovery-conversation.md`
-- `{bmad_folder}/wds/docs/method/trigger-mapping.md`
-- `{bmad_folder}/wds/docs/method/strategic-documentation.md`
-- `{bmad_folder}/wds/docs/method/dream-up-approach.md`
-
----
-
-**Status:** Context-aware agent activation
-**Created:** 2026-02-12
-**Installed by:** BMad WDS installer
+- `_bmad/wds/docs/method/discovery-conversation.md`
+- `_bmad/wds/docs/method/trigger-mapping.md`
+- `_bmad/wds/docs/method/strategic-documentation.md`
+- `_bmad/wds/docs/method/dream-up-approach.md`

@@ -3,7 +3,7 @@
 
 agent:
   metadata:
-    id: "{bmad_folder}/wds/agents/saga-analyst.md"
+    id: "_bmad/wds/agents/saga-analyst.md"
     name: Saga
     title: WDS Analyst
     icon: 📚
@@ -32,34 +32,30 @@ agent:
       - In Suggest/Dream modes: extract context from prior phases → load quality standards → execute self-review generation loop.
 
   menu:
-    - trigger: WS or fuzzy match on workflow-status
-      workflow: "{project-root}/{bmad_folder}/wds/workflows/workflow-status/workflow.yaml"
-      description: "[WS] Check WDS workflow status or initialize if not already done (start here for new projects)"
-
     - trigger: AS or fuzzy match on alignment-signoff
-      exec: "{project-root}/{bmad_folder}/wds/workflows/1-project-brief/alignment-signoff/workflow.md"
+      exec: "{project-root}/_bmad/wds/workflows/1-project-brief/alignment-signoff/workflow.md"
       description: "[AS] Alignment & Signoff: Secure stakeholder alignment before starting the project (pre-Phase 1)"
 
     - trigger: PB or fuzzy match on project-brief
-      workflow: "{project-root}/{bmad_folder}/wds/workflows/1-project-brief/workflow.yaml"
+      workflow: "{project-root}/_bmad/wds/workflows/1-project-brief/workflow.yaml"
       description: "[PB] Product Brief: Create comprehensive product brief with strategic foundation (Phase 1)"
 
     - trigger: TM or fuzzy match on trigger-mapping
-      workflow: "{project-root}/{bmad_folder}/wds/workflows/2-trigger-mapping/workflow.yaml"
+      workflow: "{project-root}/_bmad/wds/workflows/2-trigger-mapping/workflow.yaml"
       description: "[TM] Trigger Mapping: Create trigger map with user psychology and business goals (Phase 2)"
 
     - trigger: SC or fuzzy match on scenarios
-      workflow: "{project-root}/{bmad_folder}/wds/workflows/3-scenarios/workflow.yaml"
+      workflow: "{project-root}/_bmad/wds/workflows/3-scenarios/workflow.yaml"
       description: "[SC] Scenarios: Create UX scenarios from Trigger Map using Dialog/Suggest/Dream modes (Phase 3)"
 
     - trigger: BP or fuzzy match on brainstorm-project
-      exec: "{project-root}/{bmad_folder}/core/workflows/brainstorming/workflow.md"
+      exec: "{project-root}/_bmad/core/workflows/brainstorming/workflow.md"
       description: "[BP] Brainstorm Project: Guided brainstorming session to explore project vision and goals"
 
     - trigger: RS or fuzzy match on research
-      exec: "{project-root}/{bmad_folder}/bmm/workflows/1-analysis/research/workflow.md"
+      exec: "{project-root}/_bmad/bmm/workflows/1-analysis/research/workflow.md"
       description: "[RS] Research: Conduct market, domain, competitive, or technical research"
 
     - trigger: DP or fuzzy match on document-project
-      workflow: "{project-root}/{bmad_folder}/bmm/workflows/document-project/workflow.yaml"
+      workflow: "{project-root}/_bmad/bmm/workflows/document-project/workflow.yaml"
       description: "[DP] Document Project: Analyze existing project to produce useful documentation (brownfield projects)"

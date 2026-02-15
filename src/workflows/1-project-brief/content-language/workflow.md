@@ -1,7 +1,6 @@
 ---
 name: Content & Language Workflow
 description: Define tone of voice, language strategy, and content guidelines
-web_bundle: true
 ---
 
 # Content & Language Workflow
@@ -59,7 +58,7 @@ Agent dialogs provide:
 **1. Create agent dialog file:**
 ```
 Location: {output_folder}/progress/agent-dialogs/{date}-content-language.md
-Template: {project-root}/{bmad_folder}/wds/templates/agent-dialog.template.md
+Template: {project-root}/_bmad/wds/templates/agent-dialog.template.md
 ```
 
 **2. Initialize with:**
@@ -122,7 +121,7 @@ This workflow can run:
 
 ### 1. Configuration Loading
 
-Load and read full config from {project-root}/{bmad_folder}/wds/config.yaml and resolve:
+Load and read full config from {project-root}/_bmad/wds/config.yaml and resolve:
 
 - `project_name`, `output_folder`, `user_name`, `communication_language`, `document_output_language`
 
@@ -132,7 +131,7 @@ Create agent dialog file following the AGENT DIALOG INTEGRATION instructions abo
 
 ### 3. First Step EXECUTION
 
-Load, read full file and then execute `{project-root}/{bmad_folder}/wds/workflows/1-project-brief/content-language/steps-c/step-01-init.md` to begin workflow.
+Load, read full file and then execute `{project-root}/_bmad/wds/workflows/1-project-brief/content-language/steps-c/step-01-init.md` to begin workflow.
 
 ---
 
