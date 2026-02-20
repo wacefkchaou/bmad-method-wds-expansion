@@ -2,14 +2,8 @@
 name: '4c-implement-section'
 description: 'Implement the section following the story file precisely'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-p/4c-implement-section.md'
-nextStepFile: '{workflow_path}/steps-p/4d-present-for-testing.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-prototyping.md'
+nextStepFile: './4d-present-for-testing.md'
 ---
 
 # Step 4c: Implement Section

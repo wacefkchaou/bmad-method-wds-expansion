@@ -2,14 +2,9 @@
 name: 'step-05a-contract-overview'
 description: 'Build Section 1 Project Overview of the contract from the alignment document'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-05a-contract-overview.md'
-nextStepFile: '{workflow_path}/steps-c/step-05b-contract-business-model.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-05b-contract-business-model.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 23: Build Section 1 - Project Overview

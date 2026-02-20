@@ -2,14 +2,10 @@
 name: 'step-34-create-summary'
 description: 'Create handover summary for Phase 2'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-34-create-summary.md'
-nextStepFile: '{workflow_path}/steps-c/step-35-update-design-log.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-35-update-design-log.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 34: Create Handover Summary

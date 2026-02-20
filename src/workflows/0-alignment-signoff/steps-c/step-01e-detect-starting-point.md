@@ -2,14 +2,9 @@
 name: 'step-01e-detect-starting-point'
 description: 'Determine where the user wants to start exploring alignment document sections'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-01e-detect-starting-point.md'
-nextStepFile: '{workflow_path}/steps-c/step-02a-explore-realization.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-02a-explore-realization.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 5: Detect Starting Point

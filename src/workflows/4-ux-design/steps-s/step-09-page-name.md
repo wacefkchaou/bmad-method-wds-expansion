@@ -2,14 +2,10 @@
 name: 'step-09-page-name'
 description: 'Capture the page name and generate a URL-friendly slug'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-s/step-09-page-name.md'
-nextStepFile: '{workflow_path}/steps-s/step-10-page-purpose.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-suggest.md'
+nextStepFile: './step-10-page-purpose.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-suggest.md'
 ---
 
 # Step 9: Page Name

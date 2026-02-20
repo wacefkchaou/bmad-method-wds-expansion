@@ -2,13 +2,8 @@
 name: step-09-handover
 description: Complete Phase 3 and prepare for Phase 4 UX Design
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-09-handover.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 9: Handover

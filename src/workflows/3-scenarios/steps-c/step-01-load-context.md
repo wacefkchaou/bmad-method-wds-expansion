@@ -2,14 +2,8 @@
 name: 'step-01-load-context'
 description: 'Read all prerequisite artifacts and detect project state'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-01-load-context.md'
-nextStepFile: '{workflow_path}/steps-c/step-02-analyze-scope.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-02-analyze-scope.md'
 ---
 
 # Step 1: Load Context & Detect Project State

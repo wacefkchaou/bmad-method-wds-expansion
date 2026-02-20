@@ -2,16 +2,12 @@
 name: 'step-01-design-update'
 description: 'Design incremental improvement using Kaizen principles'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-d/step-01-design-update.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-design.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-design.md'
 
 # Data References
-designTemplates: '{workflow_path}/data/design-templates.md'
+designTemplates: '../data/design-templates.md'
 ---
 
 # Step 3: Design Update

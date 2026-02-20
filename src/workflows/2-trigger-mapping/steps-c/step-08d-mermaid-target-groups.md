@@ -2,14 +2,9 @@
 name: 'step-08d-mermaid-target-groups'
 description: 'Format target group nodes with emojis, priority levels, and profile traits'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-08d-mermaid-target-groups.md'
-nextStepFile: '{workflow_path}/steps-c/step-08e-mermaid-driving-forces.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-08e-mermaid-driving-forces.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 27: Format Target Group Nodes

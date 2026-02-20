@@ -2,14 +2,8 @@
 name: step-01-scenario-coverage
 description: Verify that all Value Trigger Chains from the Trigger Map are covered by at least one scenario
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-v/step-01-scenario-coverage.md'
-nextStepFile: '{workflow_path}/steps-v/step-02-navigation-patterns.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-validate.md'
+nextStepFile: './step-02-navigation-patterns.md'
 ---
 
 # Validation Step 1: Scenario Coverage

@@ -2,14 +2,9 @@
 name: 'step-02-prioritization-integrity'
 description: 'Validate prioritization rankings are internally consistent'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-v/step-02-prioritization-integrity.md'
-nextStepFile: '{workflow_path}/steps-v/step-03-persona-consistency.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-validate.md'
+nextStepFile: './step-03-persona-consistency.md'
+activityWorkflowFile: '../workflow-validate.md'
 ---
 
 # Step 2: Prioritization Integrity Validation

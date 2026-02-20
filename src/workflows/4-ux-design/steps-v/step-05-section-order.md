@@ -2,14 +2,10 @@
 name: 'step-05-section-order'
 description: 'Verify that page specification sections appear in standard WDS order with all required sections present'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-v/step-05-section-order.md'
-nextStepFile: '{workflow_path}/steps-v/step-06-object-registry.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-validate.md'
+nextStepFile: './step-06-object-registry.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-validate.md'
 ---
 
 # Step 5: Validate Section Order & Structure

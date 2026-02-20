@@ -1,10 +1,7 @@
 ---
 name: 'step-05-review'
 description: 'Review all UI elements for design system compliance, consistency, and accessibility'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-u/step-05-review.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-ui-elements.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 5: Review and Iterate

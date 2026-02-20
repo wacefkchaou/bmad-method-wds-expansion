@@ -2,14 +2,8 @@
 name: 'step-01-prepare'
 description: 'Gather all materials and set up testing environment before starting validation'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-t/step-01-prepare.md'
-nextStepFile: '{workflow_path}/steps-t/step-02-execute.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-acceptance-testing.md'
+nextStepFile: './step-02-execute.md'
 ---
 
 # Step 1: Prepare for Acceptance Testing

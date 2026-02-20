@@ -2,14 +2,10 @@
 name: 'step-10a-platform-strategy'
 description: 'Define platform and device strategy'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-10a-platform-strategy.md'
-nextStepFile: '{workflow_path}/steps-c/step-11-tone-of-voice.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-11-tone-of-voice.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 10A: Define Platform & Device Strategy

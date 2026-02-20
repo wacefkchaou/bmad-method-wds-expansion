@@ -2,17 +2,12 @@
 name: 'step-02h-explore-value-we-create'
 description: 'Help user articulate what happens if we DO build this - ambition, success metrics, and outcomes'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-02h-explore-value-we-create.md'
-nextStepFile: '{workflow_path}/steps-c/step-02i-explore-cost-of-inaction.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-02i-explore-cost-of-inaction.md'
+workflowFile: '../workflow.md'
 
 # Data References
-sectionRoutingFile: '{workflow_path}/data/02-explore-sections-routing.md'
+sectionRoutingFile: '../data/02-explore-sections-routing.md'
 ---
 
 # Step 13: Explore The Value We'll Create

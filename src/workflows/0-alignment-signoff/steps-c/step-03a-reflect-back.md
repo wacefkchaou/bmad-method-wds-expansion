@@ -2,14 +2,9 @@
 name: 'step-03a-reflect-back'
 description: 'Synthesize and reflect back understanding of all explored sections before creating the alignment document'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-03a-reflect-back.md'
-nextStepFile: '{workflow_path}/steps-c/step-03b-synthesize-document.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-03b-synthesize-document.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 17: Reflect Back What You've Captured

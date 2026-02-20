@@ -2,14 +2,10 @@
 name: 'step-31-multilingual'
 description: 'Document multilingual requirements and technical SEO needs'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-31-multilingual.md'
-nextStepFile: '{workflow_path}/steps-c/step-32-platform-synthesize.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-32-platform-synthesize.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 31: Multilingual & SEO

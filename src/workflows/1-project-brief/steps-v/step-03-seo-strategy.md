@@ -2,14 +2,10 @@
 name: 'step-03-seo-strategy'
 description: 'Verify keyword map completeness and page assignments'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-v/step-03-seo-strategy.md'
-nextStepFile: '{workflow_path}/steps-v/step-04-content-language.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-validate.md'
+nextStepFile: './step-04-content-language.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-validate.md'
 ---
 
 # Validation Step 03: SEO Strategy

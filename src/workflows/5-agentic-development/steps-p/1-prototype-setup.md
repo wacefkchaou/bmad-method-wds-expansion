@@ -2,14 +2,8 @@
 name: '1-prototype-setup'
 description: 'Set up the prototype environment for an entire scenario (one-time setup)'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-p/1-prototype-setup.md'
-nextStepFile: '{workflow_path}/steps-p/2-scenario-analysis.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-prototyping.md'
+nextStepFile: './2-scenario-analysis.md'
 ---
 
 # Step 1: Prototype Setup

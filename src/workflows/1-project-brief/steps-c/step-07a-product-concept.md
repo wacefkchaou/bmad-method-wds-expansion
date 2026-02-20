@@ -2,14 +2,9 @@
 name: 'step-07a-product-concept'
 description: 'Capture the designer structural vision - the founding idea or core principle'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-07a-product-concept.md'
-nextStepFile: '{workflow_path}/steps-c/step-08-success-criteria.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-08-success-criteria.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 7a: Capture Product Concept

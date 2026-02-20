@@ -2,14 +2,9 @@
 name: 'step-05i-contract-work-initiation'
 description: 'Build Section 9 Work Initiation specifying when work can begin'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-05i-contract-work-initiation.md'
-nextStepFile: '{workflow_path}/steps-c/step-05j-contract-terms.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-05j-contract-terms.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 31: Build Section 9 - Work Initiation

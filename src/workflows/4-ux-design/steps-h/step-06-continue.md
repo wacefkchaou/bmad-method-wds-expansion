@@ -2,13 +2,9 @@
 name: 'step-06-continue'
 description: 'While BMad builds the current flow, start designing the next complete testable flow'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-h/step-06-continue.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-handover.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-handover.md'
 ---
 
 # Step 6: Continue with Next Flow

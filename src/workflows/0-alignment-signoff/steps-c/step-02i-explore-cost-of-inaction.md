@@ -2,17 +2,12 @@
 name: 'step-02i-explore-cost-of-inaction'
 description: 'Help user articulate what happens if we DO NOT build this - risks and consequences of inaction'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-02i-explore-cost-of-inaction.md'
-nextStepFile: '{workflow_path}/steps-c/step-02j-explore-our-commitment.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-02j-explore-our-commitment.md'
+workflowFile: '../workflow.md'
 
 # Data References
-sectionRoutingFile: '{workflow_path}/data/02-explore-sections-routing.md'
+sectionRoutingFile: '../data/02-explore-sections-routing.md'
 ---
 
 # Step 14: Explore Cost of Inaction

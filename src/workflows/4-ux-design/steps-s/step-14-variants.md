@@ -2,14 +2,10 @@
 name: 'step-14-variants'
 description: 'Determine if this page will have variants for A/B testing or localization'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-s/step-14-variants.md'
-nextStepFile: '{workflow_path}/steps-s/step-15-create-page-structure.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-suggest.md'
+nextStepFile: './step-15-create-page-structure.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-suggest.md'
 ---
 
 # Step 14: Page Variants

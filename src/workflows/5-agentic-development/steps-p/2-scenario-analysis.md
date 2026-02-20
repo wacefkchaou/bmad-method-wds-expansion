@@ -2,14 +2,8 @@
 name: '2-scenario-analysis'
 description: 'Analyze the entire scenario to identify all logical views and map which scenario steps use which views'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-p/2-scenario-analysis.md'
-nextStepFile: '{workflow_path}/steps-p/3-logical-view-breakdown.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-prototyping.md'
+nextStepFile: './3-logical-view-breakdown.md'
 ---
 
 # Step 2: Scenario Analysis & Logical View Identification

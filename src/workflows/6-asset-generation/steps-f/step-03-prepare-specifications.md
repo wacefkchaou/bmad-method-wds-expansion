@@ -1,11 +1,7 @@
 ---
 name: 'step-03-prepare-specifications'
 description: 'Locate or create specifications with OBJECT IDs for consistent Figma layer naming'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-f/step-03-prepare-specifications.md'
-nextStepFile: '{workflow_path}/steps-f/step-04-generate-validate.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-figma.md'
+nextStepFile: './step-04-generate-validate.md'
 ---
 
 # Step 3: Prepare Specifications
@@ -74,7 +70,7 @@ If no specifications exist, offer to:
 2. Generate OBJECT IDs following project conventions
 3. Create a specification document for review
 
-Reference `{workflow_path}/data/figma-spec-preparation.md` for detailed guidance.
+Reference `../data/figma-spec-preparation.md` for detailed guidance.
 
 ### 4. Validate Coverage
 

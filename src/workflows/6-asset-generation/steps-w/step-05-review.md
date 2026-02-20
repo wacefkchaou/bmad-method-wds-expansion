@@ -1,10 +1,7 @@
 ---
 name: 'step-05-review'
 description: 'Review generated wireframes as a set for consistency and iterate on flagged items'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-w/step-05-review.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-wireframes.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 5: Review and Iterate

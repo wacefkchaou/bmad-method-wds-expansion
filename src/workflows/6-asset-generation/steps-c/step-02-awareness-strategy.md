@@ -1,11 +1,7 @@
 ---
 name: 'step-02-awareness-strategy'
 description: 'Apply Customer Awareness Cycle to determine language, information, and proof strategy'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-c/step-02-awareness-strategy.md'
-nextStepFile: '{workflow_path}/steps-c/step-03-action-filter.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-content.md'
+nextStepFile: './step-03-action-filter.md'
 ---
 
 # Step 2: Apply Customer Awareness Strategy

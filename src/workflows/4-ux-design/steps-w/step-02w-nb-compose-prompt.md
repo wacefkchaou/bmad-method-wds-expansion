@@ -2,14 +2,10 @@
 name: 'step-02w-nb-compose-prompt'
 description: 'Translate page specification into an effective AI image generation prompt for Nano Banana'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-w/step-02w-nb-compose-prompt.md'
-nextStepFile: '{workflow_path}/steps-w/step-03-review-integrate.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-visual.md'
+nextStepFile: './step-03-review-integrate.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-visual.md'
 ---
 
 # Step 2W: Compose Nano Banana Prompt
@@ -18,7 +14,7 @@ activityWorkflowFile: '{workflow_path}/workflow-visual.md'
 
 Translate a page specification into an effective AI image generation prompt that balances creative exploration with spec adherence.
 
-**Reference:** Load `{installed_path}/data/guides/NANO-BANANA-PROMPT-GUIDE.md` for compression strategy and examples.
+**Reference:** Load `../data/guides/NANO-BANANA-PROMPT-GUIDE.md` for compression strategy and examples.
 
 ## MANDATORY EXECUTION RULES (READ FIRST):
 

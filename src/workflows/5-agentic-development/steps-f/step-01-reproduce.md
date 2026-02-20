@@ -2,14 +2,8 @@
 name: 'step-01-reproduce'
 description: 'Confirm the bug exists and document exact reproduction steps'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-f/step-01-reproduce.md'
-nextStepFile: '{workflow_path}/steps-f/step-02-investigate.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-bugfixing.md'
+nextStepFile: './step-02-investigate.md'
 ---
 
 # Step 1: Reproduce

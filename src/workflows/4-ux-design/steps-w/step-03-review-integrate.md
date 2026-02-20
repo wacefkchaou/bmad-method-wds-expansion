@@ -2,13 +2,9 @@
 name: 'step-03-review-integrate'
 description: 'Review visual output and integrate it back into the page specification'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-w/step-03-review-integrate.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-visual.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-visual.md'
 ---
 
 # Step 3: Review and Integrate

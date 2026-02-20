@@ -2,14 +2,8 @@
 name: 'step-04-identify-opportunities'
 description: 'Identify potential benefits of each design system decision option: reuse, variant, or create new'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-04-identify-opportunities.md'
-nextStepFile: '{workflow_path}/steps-c/step-05-identify-risks.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-create.md'
+nextStepFile: './step-05-identify-risks.md'
 ---
 
 # Step 4: Identify Opportunities

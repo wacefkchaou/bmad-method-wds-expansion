@@ -2,14 +2,9 @@
 name: 'step-04-driving-forces'
 description: 'Workshop 3: Map positive and negative driving forces per persona'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-04-driving-forces.md'
-nextStepFile: '{workflow_path}/steps-c/step-05-prioritization.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-05-prioritization.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 10: Workshop 3 - Driving Forces

@@ -2,14 +2,9 @@
 name: 'step-05-prioritization'
 description: 'Workshop 4: Prioritize business goals, target groups, and driving forces'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-05-prioritization.md'
-nextStepFile: '{workflow_path}/steps-c/step-06a-extract-features.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-06a-extract-features.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 11: Workshop 4 - Prioritization

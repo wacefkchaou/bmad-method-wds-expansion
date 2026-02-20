@@ -2,14 +2,8 @@
 name: 'step-03-plan-implementation'
 description: 'Create an ordered, incremental implementation plan with verification points'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-e/step-03-plan-implementation.md'
-nextStepFile: '{workflow_path}/steps-e/step-04-implement.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-evolution.md'
+nextStepFile: './step-04-implement.md'
 ---
 
 # Step 3: Plan Implementation

@@ -2,14 +2,9 @@
 name: 'step-01b-determine-if-needed'
 description: 'Determine if user needs alignment and signoff or can proceed directly to Project Brief'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-01b-determine-if-needed.md'
-nextStepFile: '{workflow_path}/steps-c/step-01c-offer-extract.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-01c-offer-extract.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 2: Determine If Alignment & Signoff Is Needed

@@ -2,13 +2,9 @@
 name: 'step-06b-finalize-signoff'
 description: 'Finalize the signoff document present it and guide to Project Brief workflow'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-06b-finalize-signoff.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 36: Finalize Signoff Document

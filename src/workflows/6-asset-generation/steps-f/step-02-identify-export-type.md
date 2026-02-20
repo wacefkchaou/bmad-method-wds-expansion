@@ -1,11 +1,7 @@
 ---
 name: 'step-02-identify-export-type'
 description: 'Determine the code-to-Figma export scenario type for proper ID naming and structure'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-f/step-02-identify-export-type.md'
-nextStepFile: '{workflow_path}/steps-f/step-03-prepare-specifications.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-figma.md'
+nextStepFile: './step-03-prepare-specifications.md'
 ---
 
 # Step 2: Identify Code to Figma Type

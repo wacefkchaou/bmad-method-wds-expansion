@@ -1,11 +1,7 @@
 ---
 name: 'step-02-inventory'
 description: 'Catalog all motion content needed with type, duration, complexity, and format requirements'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-v/step-02-inventory.md'
-nextStepFile: '{workflow_path}/steps-v/step-03-select-style.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-videos.md'
+nextStepFile: './step-03-select-style.md'
 ---
 
 # Step 2: Asset Inventory

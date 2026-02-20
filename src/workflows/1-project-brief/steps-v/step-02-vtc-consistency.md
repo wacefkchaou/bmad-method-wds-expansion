@@ -2,14 +2,10 @@
 name: 'step-02-vtc-consistency'
 description: 'Verify Value Trigger Chain consistency and validity'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-v/step-02-vtc-consistency.md'
-nextStepFile: '{workflow_path}/steps-v/step-03-seo-strategy.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-validate.md'
+nextStepFile: './step-03-seo-strategy.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-validate.md'
 ---
 
 # Validation Step 02: VTC Consistency

@@ -2,14 +2,8 @@
 name: 'step-04-verify'
 description: 'Confirm the fix works and has not introduced regressions'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-f/step-04-verify.md'
-nextStepFile: '{workflow_path}/steps-f/step-05-document.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-bugfixing.md'
+nextStepFile: './step-05-document.md'
 ---
 
 # Step 4: Verify

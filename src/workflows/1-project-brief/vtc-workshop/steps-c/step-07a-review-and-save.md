@@ -2,13 +2,9 @@
 name: 'step-07a-review-and-save'
 description: 'Validate completeness and save the VTC - final step of Creation Workshop'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/vtc-workshop/steps-c/step-07a-review-and-save.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/vtc-workshop/workflow.md'
+workflowFile: '../../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 7: Review and Save VTC

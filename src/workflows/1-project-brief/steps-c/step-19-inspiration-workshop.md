@@ -2,14 +2,10 @@
 name: 'step-19-inspiration-workshop'
 description: 'Analyze reference sites with client to document visual and UX preferences'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-19-inspiration-workshop.md'
-nextStepFile: '{workflow_path}/steps-c/step-20-visual-init.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-20-visual-init.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 19: Inspiration Analysis Workshop

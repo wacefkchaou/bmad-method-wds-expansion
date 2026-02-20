@@ -2,14 +2,10 @@
 name: 'step-13-content-init'
 description: 'Initialize content and language strategy'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-13-content-init.md'
-nextStepFile: '{workflow_path}/steps-c/step-14-personality.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-14-personality.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 13: Initialize Content & Language

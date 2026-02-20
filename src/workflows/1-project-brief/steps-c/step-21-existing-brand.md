@@ -2,14 +2,10 @@
 name: 'step-21-existing-brand'
 description: 'Document existing visual identity and brand assets'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-21-existing-brand.md'
-nextStepFile: '{workflow_path}/steps-c/step-22-references.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-22-references.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 21: Existing Brand Assets

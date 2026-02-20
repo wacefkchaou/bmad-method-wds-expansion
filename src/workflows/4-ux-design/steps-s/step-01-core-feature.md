@@ -2,14 +2,10 @@
 name: 'step-01-core-feature'
 description: 'Identify the core feature or experience this scenario should cover'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-s/step-01-core-feature.md'
-nextStepFile: '{workflow_path}/steps-s/step-02-entry-point.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-suggest.md'
+nextStepFile: './step-02-entry-point.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-suggest.md'
 ---
 
 # Step 1: Core Feature

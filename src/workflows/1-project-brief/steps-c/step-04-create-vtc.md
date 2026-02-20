@@ -2,14 +2,9 @@
 name: 'step-04-create-vtc'
 description: 'Create a simplified Value Trigger Chain to crystallize strategic thinking early'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-04-create-vtc.md'
-nextStepFile: '{workflow_path}/steps-c/step-05-business-model.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-05-business-model.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 4: Create Value Trigger Chain
@@ -42,7 +37,7 @@ Create a simplified Value Trigger Chain (VTC) to crystallize strategic thinking 
 ## EXECUTION PROTOCOLS:
 - 🎯 Produce a complete VTC (Business Goal, Solution, User, Driving Forces, Customer Awareness)
 - 💾 Save VTC to `{output_folder}/A-Product-Brief/vtc-primary.yaml`
-- 📖 Route to VTC Workshop at `{workflow_path}/vtc-workshop/workflow.md` if user agrees
+- 📖 Route to VTC Workshop at `../vtc-workshop/workflow.md` if user agrees
 - 🚫 Avoid starting from zero — leverage Vision and Positioning
 
 ## CONTEXT BOUNDARIES:
@@ -64,7 +59,7 @@ Explain VTC components and purpose:
 Explain this takes 20-30 minutes and is incredibly valuable for strategic clarity. Ask: "Shall we create the VTC now?"
 
 ### 2. Route to VTC Workshop
-**If user agrees:** Load and execute the VTC Workshop Router at `{workflow_path}/vtc-workshop/workflow.md`. Since Product Brief stage typically has NO Trigger Map yet, the router will likely send to the Creation Workshop.
+**If user agrees:** Load and execute the VTC Workshop Router at `../vtc-workshop/workflow.md`. Since Product Brief stage typically has NO Trigger Map yet, the router will likely send to the Creation Workshop.
 
 ### 3. Leverage Vision and Positioning Context
 Use existing strategic work:

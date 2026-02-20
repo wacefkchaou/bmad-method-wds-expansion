@@ -1,11 +1,7 @@
 ---
 name: 'step-01-load-context'
 description: 'Load design system components, tokens, and page context for UI element asset generation'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-u/step-01-load-context.md'
-nextStepFile: '{workflow_path}/steps-u/step-02-inventory.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-ui-elements.md'
+nextStepFile: './step-02-inventory.md'
 ---
 
 # Step 1: Load Context

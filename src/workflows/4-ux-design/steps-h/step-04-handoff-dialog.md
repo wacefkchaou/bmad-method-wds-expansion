@@ -2,14 +2,10 @@
 name: 'step-04-handoff-dialog'
 description: 'Initiate a structured handoff conversation with the BMad Architect to transfer design knowledge'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-h/step-04-handoff-dialog.md'
-nextStepFile: '{workflow_path}/steps-h/step-05-hand-off.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-handover.md'
+nextStepFile: './step-05-hand-off.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-handover.md'
 ---
 
 # Step 4: Handoff Dialog

@@ -1,11 +1,7 @@
 ---
 name: 'step-00-define-purpose'
 description: 'Define the measurable job and purpose for content before generation begins'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-c/step-00-define-purpose.md'
-nextStepFile: '{workflow_path}/steps-c/step-01-load-vtc-context.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-content.md'
+nextStepFile: './step-01-load-vtc-context.md'
 ---
 
 # Step 0: Define Content Purpose

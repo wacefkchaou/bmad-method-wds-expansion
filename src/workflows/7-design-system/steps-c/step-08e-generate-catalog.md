@@ -2,13 +2,8 @@
 name: 'step-08e-generate-catalog'
 description: 'Generate or update the interactive HTML catalog showcasing all design system components'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-08e-generate-catalog.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-create.md'
+activityWorkflowFile: '../workflow-create.md'
 ---
 
 # Step 8e: Generate Catalog

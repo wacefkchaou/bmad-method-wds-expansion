@@ -2,17 +2,12 @@
 name: 'step-07g-quality-check'
 description: 'Verify all documents are complete, consistent, and properly cross-linked'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-07g-quality-check.md'
-nextStepFile: '{workflow_path}/steps-c/step-08a-mermaid-init-structure.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-08a-mermaid-init-structure.md'
+activityWorkflowFile: '../workflow.md'
 
 # Data References
-qualityChecklist: '{workflow_path}/data/quality-checklist.md'
+qualityChecklist: '../data/quality-checklist.md'
 ---
 
 # Step 23: Quality Check & Verification

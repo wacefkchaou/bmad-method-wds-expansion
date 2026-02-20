@@ -1,11 +1,7 @@
 ---
 name: 'step-03-action-filter'
 description: 'Apply Action Mapping to define the required user action and filter content for relevance'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-c/step-03-action-filter.md'
-nextStepFile: '{workflow_path}/steps-c/step-04-empowerment-frame.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-content.md'
+nextStepFile: './step-04-empowerment-frame.md'
 ---
 
 # Step 3: Define Required Action

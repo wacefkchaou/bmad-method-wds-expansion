@@ -2,14 +2,9 @@
 name: 'step-02-generate-visual'
 description: 'Create the visual design using the chosen tool'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-w/step-02-generate-visual.md'
-nextStepFile: '{workflow_path}/steps-w/step-02w-nb-compose-prompt.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-visual.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-visual.md'
 ---
 
 # Step 2: Generate Visual Representation
@@ -72,7 +67,7 @@ This sub-workflow handles:
 - Prompt composition with compression strategy
 - Generation, review, and iteration loop
 
-Reference guide: `{installed_path}/data/guides/NANO-BANANA-PROMPT-GUIDE.md`
+Reference guide: `../data/guides/NANO-BANANA-PROMPT-GUIDE.md`
 
 **Figma:**
 1. Guide user through creating the design in Figma
@@ -95,7 +90,7 @@ Display: "**Select an Option:** [C] Continue to Review & Integrate | [M] Return 
 
 #### Menu Handling Logic:
 
-- IF C: Load, read entire file, then execute {workflow_path}/steps-w/step-03-review-integrate.md
+- IF C: Load, read entire file, then execute ./step-03-review-integrate.md
 - IF M: Return to {workflowFile} or {activityWorkflowFile}
 - IF Any other comments or queries: help user respond then [Redisplay Menu Options](#2-present-menu-options)
 

@@ -1,10 +1,7 @@
 ---
 name: 'step-05-review'
 description: 'Review page designs as a cohesive set for design system compliance and consistency'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-p/step-05-review.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-page-designs.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 5: Review and Iterate

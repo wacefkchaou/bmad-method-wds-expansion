@@ -2,14 +2,10 @@
 name: 'step-06-object-registry'
 description: 'Verify that page specification includes complete Object Registry with 100% coverage of all Object IDs'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-v/step-06-object-registry.md'
-nextStepFile: '{workflow_path}/steps-v/step-07-design-system-separation.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-validate.md'
+nextStepFile: './step-07-design-system-separation.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-validate.md'
 ---
 
 # Step 6: Validate Object Registry

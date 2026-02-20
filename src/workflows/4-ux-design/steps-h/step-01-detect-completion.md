@@ -2,14 +2,10 @@
 name: 'step-01-detect-completion'
 description: 'Check if you have a complete testable flow ready for handoff'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-h/step-01-detect-completion.md'
-nextStepFile: '{workflow_path}/steps-h/step-02-create-delivery.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-handover.md'
+nextStepFile: './step-02-create-delivery.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-handover.md'
 ---
 
 # Step 1: Detect Epic Completion

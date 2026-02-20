@@ -2,18 +2,11 @@
 name: 'step-01-identify'
 description: 'Identify the strategic challenge or improvement opportunity for this Kaizen cycle'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-a/step-01-identify.md'
-nextStepFile: '{workflow_path}/steps-a/step-02-gather-context.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-analyze.md'
+nextStepFile: './step-02-gather-context.md'
 
 # Data References
-contextTemplates: '{workflow_path}/data/context-templates.md'
-kaizenPrinciples: '{workflow_path}/data/kaizen-principles.md'
+contextTemplates: '../data/context-templates.md'
 ---
 
 # Step 1: Identify Opportunity

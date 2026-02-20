@@ -2,14 +2,10 @@
 name: 'step-26-visual-synthesize'
 description: 'Complete the Visual Direction document with clear actionable summary'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-26-visual-synthesize.md'
-nextStepFile: '{workflow_path}/steps-c/step-27-platform-init.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-27-platform-init.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 26: Visual Direction Synthesize & Review

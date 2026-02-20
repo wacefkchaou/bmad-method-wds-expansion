@@ -2,14 +2,9 @@
 name: 'step-06-business-customers'
 description: 'Help user define their ideal business customer profile for B2B contexts'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-06-business-customers.md'
-nextStepFile: '{workflow_path}/steps-c/step-07-target-users.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-07-target-users.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 6: Identify Business Customers (B2B)

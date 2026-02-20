@@ -2,13 +2,8 @@
 name: 'step-05-iterate'
 description: 'Either iterate with development team to fix issues, or approve the feature for production'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-t/step-05-iterate.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-acceptance-testing.md'
+activityWorkflowFile: '../workflow-acceptance-testing.md'
 ---
 
 # Step 5: Iterate or Approve

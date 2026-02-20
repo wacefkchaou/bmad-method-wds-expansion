@@ -2,14 +2,8 @@
 name: 'step-01-scope-and-plan'
 description: 'Read the approved spec, extract every deliverable, and create a sequenced implementation plan'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-d/step-01-scope-and-plan.md'
-nextStepFile: '{workflow_path}/steps-d/step-02-setup-environment.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-development.md'
+nextStepFile: './step-02-setup-environment.md'
 ---
 
 # Step 1: Scope and Plan

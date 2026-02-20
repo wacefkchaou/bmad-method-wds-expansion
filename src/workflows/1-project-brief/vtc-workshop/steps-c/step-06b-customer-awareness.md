@@ -2,14 +2,10 @@
 name: 'step-06b-customer-awareness'
 description: 'Define awareness start/end - typically NOT in Trigger Map, defined per scenario'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/vtc-workshop/steps-c/step-06b-customer-awareness.md'
-nextStepFile: '{workflow_path}/vtc-workshop/steps-c/step-07b-review-and-save.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/vtc-workshop/workflow.md'
+nextStepFile: './step-07b-review-and-save.md'
+workflowFile: '../../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 6: Position Customer Awareness

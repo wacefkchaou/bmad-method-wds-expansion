@@ -2,14 +2,9 @@
 name: 'step-09a-finalize-hub'
 description: 'Generate all Trigger Map documentation starting from the hub document'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-09a-finalize-hub.md'
-nextStepFile: '{workflow_path}/steps-c/step-09b-add-cross-references.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-09b-add-cross-references.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 32: Generate All Trigger Map Documentation

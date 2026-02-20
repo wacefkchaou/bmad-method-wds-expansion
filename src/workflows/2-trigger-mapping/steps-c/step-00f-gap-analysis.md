@@ -2,14 +2,9 @@
 name: 'step-00f-gap-analysis'
 description: 'Analyze gaps and validate strategic alignment of documentation synthesis'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-00f-gap-analysis.md'
-nextStepFile: '{workflow_path}/steps-c/step-01-overview.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-01-overview.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 6: Gap Analysis & Validation

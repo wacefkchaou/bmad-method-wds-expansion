@@ -2,14 +2,9 @@
 name: 'step-07c-generate-primary-persona'
 description: 'Generate the primary persona document with full transformation journey'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-07c-generate-primary-persona.md'
-nextStepFile: '{workflow_path}/steps-c/step-07d-generate-secondary-persona.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-07d-generate-secondary-persona.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 19: Generate Primary Persona

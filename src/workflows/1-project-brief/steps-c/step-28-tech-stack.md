@@ -2,14 +2,10 @@
 name: 'step-28-tech-stack'
 description: 'Capture core technology decisions'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-28-tech-stack.md'
-nextStepFile: '{workflow_path}/steps-c/step-29-integrations.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-29-integrations.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 28: Technology Stack

@@ -2,14 +2,10 @@
 name: 'step-11-entry-point'
 description: 'Define where users arrive from for this specific page'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-s/step-11-entry-point.md'
-nextStepFile: '{workflow_path}/steps-s/step-12-mental-state.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-suggest.md'
+nextStepFile: './step-12-mental-state.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-suggest.md'
 ---
 
 # Step 11: Page Entry Point

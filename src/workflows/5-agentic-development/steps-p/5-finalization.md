@@ -2,13 +2,8 @@
 name: '5-finalization'
 description: 'Complete integration test and final approval for the logical view'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-p/5-finalization.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-prototyping.md'
+activityWorkflowFile: '../workflow-prototyping.md'
 ---
 
 # Step 5: Finalization

@@ -1,11 +1,7 @@
 ---
 name: 'step-01-connection-check'
 description: 'Verify html.to.design MCP server connection and guide setup if needed'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-f/step-01-connection-check.md'
-nextStepFile: '{workflow_path}/steps-f/step-02-identify-export-type.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-figma.md'
+nextStepFile: './step-02-identify-export-type.md'
 ---
 
 # Step 1: Connection Check and Installation
@@ -71,7 +67,7 @@ Inform user that setup requires:
 
 Ask: **"Would you like me to guide you through the setup process?"**
 
-- If Yes: Reference the Figma Plugin Setup Guide at `{workflow_path}/data/figma-plugin-setup.md`
+- If Yes: Reference the Figma Plugin Setup Guide at `../data/figma-plugin-setup.md`
 - If No: Stop workflow, suggest alternative approach
 
 ### 3. Verify After Setup

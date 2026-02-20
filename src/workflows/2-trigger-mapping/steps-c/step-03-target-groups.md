@@ -2,14 +2,9 @@
 name: 'step-03-target-groups'
 description: 'Workshop 2: Identify target groups and build detailed personas'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-03-target-groups.md'
-nextStepFile: '{workflow_path}/steps-c/step-04-driving-forces.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-04-driving-forces.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 9: Workshop 2 - Target Groups

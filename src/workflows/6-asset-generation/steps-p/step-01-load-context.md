@@ -1,11 +1,7 @@
 ---
 name: 'step-01-load-context'
 description: 'Load everything needed for full page design compositions from specs, design system, and wireframes'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-p/step-01-load-context.md'
-nextStepFile: '{workflow_path}/steps-p/step-02-inventory.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-page-designs.md'
+nextStepFile: './step-02-inventory.md'
 ---
 
 # Step 1: Load Context

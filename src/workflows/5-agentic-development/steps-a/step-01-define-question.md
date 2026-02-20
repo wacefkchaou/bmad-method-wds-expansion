@@ -2,14 +2,8 @@
 name: 'step-01-define-question'
 description: 'Articulate exactly what you need to understand about the codebase before reading a single file'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-a/step-01-define-question.md'
-nextStepFile: '{workflow_path}/steps-a/step-02-scan-codebase.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-analysis.md'
+nextStepFile: './step-02-scan-codebase.md'
 ---
 
 # Step 1: Define Question

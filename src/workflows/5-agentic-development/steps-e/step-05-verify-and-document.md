@@ -2,13 +2,8 @@
 name: 'step-05-verify-and-document'
 description: 'Comprehensive verification of all new and existing functionality, then document and create PR'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-e/step-05-verify-and-document.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-evolution.md'
+activityWorkflowFile: '../workflow-evolution.md'
 ---
 
 # Step 5: Verify and Document

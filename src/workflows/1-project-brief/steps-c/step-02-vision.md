@@ -2,14 +2,9 @@
 name: 'step-02-vision'
 description: 'Help user explore and articulate their vision through natural conversation'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-02-vision.md'
-nextStepFile: '{workflow_path}/steps-c/step-03-positioning.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-03-positioning.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 2: Capture Vision

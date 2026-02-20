@@ -2,13 +2,8 @@
 name: 'step-04-document-findings'
 description: 'Create a structured architecture document that answers the original questions, includes diagrams, and provides actionable recommendations'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-a/step-04-document-findings.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-analysis.md'
+activityWorkflowFile: '../workflow-analysis.md'
 ---
 
 # Step 4: Document Findings

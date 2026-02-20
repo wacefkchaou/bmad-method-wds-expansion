@@ -2,14 +2,9 @@
 name: 'step-06a-build-internal-signoff'
 description: 'Build internal signoff document as an alternative to external contract for internal company projects'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-06a-build-internal-signoff.md'
-nextStepFile: '{workflow_path}/steps-c/step-06b-finalize-signoff.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-06b-finalize-signoff.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 35: Build Internal Signoff Document

@@ -2,14 +2,10 @@
 name: 'step-15-tone'
 description: 'Define specific tone of voice that expresses brand personality'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-15-tone.md'
-nextStepFile: '{workflow_path}/steps-c/step-16-languages.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-16-languages.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 15: Tone of Voice

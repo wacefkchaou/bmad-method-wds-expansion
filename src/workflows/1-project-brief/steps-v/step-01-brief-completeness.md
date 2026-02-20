@@ -2,14 +2,10 @@
 name: 'step-01-brief-completeness'
 description: 'Verify Product Brief contains all required sections'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-v/step-01-brief-completeness.md'
-nextStepFile: '{workflow_path}/steps-v/step-02-vtc-consistency.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-validate.md'
+nextStepFile: './step-02-vtc-consistency.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-validate.md'
 ---
 
 # Validation Step 01: Brief Completeness

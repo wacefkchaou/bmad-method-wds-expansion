@@ -2,14 +2,8 @@
 name: 'step-08a-initialize-design-system'
 description: 'Create design system folder structure and initialize for the first component'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-08a-initialize-design-system.md'
-nextStepFile: '{workflow_path}/steps-c/step-08b-create-new-component.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-create.md'
+nextStepFile: './step-08b-create-new-component.md'
 ---
 
 # Step 8a: Initialize Design System

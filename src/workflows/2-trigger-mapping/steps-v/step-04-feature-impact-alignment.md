@@ -2,14 +2,9 @@
 name: 'step-04-feature-impact-alignment'
 description: 'Validate feature impact scores reference actual priorities'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-v/step-04-feature-impact-alignment.md'
-nextStepFile: '{workflow_path}/steps-v/step-05-cross-document-coherence.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-validate.md'
+nextStepFile: './step-05-cross-document-coherence.md'
+activityWorkflowFile: '../workflow-validate.md'
 ---
 
 # Step 4: Feature Impact Alignment Validation

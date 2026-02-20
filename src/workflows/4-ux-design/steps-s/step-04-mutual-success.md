@@ -2,14 +2,10 @@
 name: 'step-04-mutual-success'
 description: 'Define what mutual success looks like for both the business and the user'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-s/step-04-mutual-success.md'
-nextStepFile: '{workflow_path}/steps-s/step-05-shortest-path.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-suggest.md'
+nextStepFile: './step-05-shortest-path.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-suggest.md'
 ---
 
 # Step 4: Mutual Success

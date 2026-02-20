@@ -2,14 +2,10 @@
 name: 'step-03-components-objects'
 description: 'Identify all interactive elements, route to object-specific instructions, and assign Object IDs'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-p/step-03-components-objects.md'
-nextStepFile: '{workflow_path}/steps-p/step-04-content-languages.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-specify.md'
+nextStepFile: './step-04-content-languages.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-specify.md'
 ---
 
 # Step 3: Components & Object IDs

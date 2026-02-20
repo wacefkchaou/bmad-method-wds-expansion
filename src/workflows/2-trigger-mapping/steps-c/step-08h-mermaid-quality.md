@@ -2,14 +2,9 @@
 name: 'step-08h-mermaid-quality'
 description: 'Verify Mermaid diagram meets all quality standards before finalization'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-08h-mermaid-quality.md'
-nextStepFile: '{workflow_path}/steps-c/step-09a-finalize-hub.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-09a-finalize-hub.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 31: Mermaid Diagram Quality Check

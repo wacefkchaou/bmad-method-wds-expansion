@@ -2,14 +2,10 @@
 name: 'step-02a-identify-solution'
 description: 'Define what specific solution is being built to achieve the business goal'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/vtc-workshop/steps-c/step-02a-identify-solution.md'
-nextStepFile: '{workflow_path}/vtc-workshop/steps-c/step-03a-describe-user.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/vtc-workshop/workflow.md'
+nextStepFile: './step-03a-describe-user.md'
+workflowFile: '../../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 2: Identify Solution

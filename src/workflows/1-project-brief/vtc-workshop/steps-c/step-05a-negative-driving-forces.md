@@ -2,14 +2,10 @@
 name: 'step-05a-negative-driving-forces'
 description: 'Discover what the user FEARS or wants to avoid - anxieties and frustrations'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/vtc-workshop/steps-c/step-05a-negative-driving-forces.md'
-nextStepFile: '{workflow_path}/vtc-workshop/steps-c/step-06a-customer-awareness.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/vtc-workshop/workflow.md'
+nextStepFile: './step-06a-customer-awareness.md'
+workflowFile: '../../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 5: Identify Negative Driving Forces

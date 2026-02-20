@@ -2,17 +2,11 @@
 name: step-05-outline-scenario
 description: Create detailed outline for ONE scenario, repeating for each in the approved plan
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-05-outline-scenario.md'
-nextStepFile: '{workflow_path}/steps-c/step-06-generate-overview.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-06-generate-overview.md'
 
 # Data References
-scenarioTemplate: '{installed_path}/data/scenario-outline-template.md'
+scenarioTemplate: '../data/scenario-outline-template.md'
 ---
 
 # Step 5: Outline Scenario (One at a Time)

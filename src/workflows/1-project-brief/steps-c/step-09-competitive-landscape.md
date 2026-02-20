@@ -2,14 +2,10 @@
 name: 'step-09-competitive-landscape'
 description: 'Help user explore alternatives and discover their unfair advantage'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-09-competitive-landscape.md'
-nextStepFile: '{workflow_path}/steps-c/step-10-constraints.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-10-constraints.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 9: Analyze Competitive Landscape

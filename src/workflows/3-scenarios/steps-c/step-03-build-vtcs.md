@@ -2,14 +2,8 @@
 name: 'step-03-build-vtcs'
 description: 'Extract Value Trigger Chains from Trigger Map to identify which scenarios to create'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-03-build-vtcs.md'
-nextStepFile: '{workflow_path}/steps-c/step-04-suggest-scenarios.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-04-suggest-scenarios.md'
 ---
 
 # Step 3: Build Value Trigger Chains

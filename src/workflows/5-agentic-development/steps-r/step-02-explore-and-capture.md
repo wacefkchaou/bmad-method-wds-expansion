@@ -2,14 +2,8 @@
 name: 'step-02-explore-and-capture'
 description: 'Systematically explore the target and capture a complete inventory of pages, components, patterns, and design tokens'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-r/step-02-explore-and-capture.md'
-nextStepFile: '{workflow_path}/steps-r/step-03-generate-specs.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-reverse-engineering.md'
+nextStepFile: './step-03-generate-specs.md'
 ---
 
 # Step 2: Explore and Capture

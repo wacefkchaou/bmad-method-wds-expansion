@@ -2,14 +2,8 @@
 name: '3-logical-view-breakdown'
 description: 'Select a logical view to build and break it into implementable sections'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-p/3-logical-view-breakdown.md'
-nextStepFile: '{workflow_path}/steps-p/4a-announce-and-gather.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-prototyping.md'
+nextStepFile: './4a-announce-and-gather.md'
 ---
 
 # Step 3: Logical View Selection & Section Breakdown

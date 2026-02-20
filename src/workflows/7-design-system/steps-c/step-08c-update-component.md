@@ -2,14 +2,8 @@
 name: 'step-08c-update-component'
 description: 'Update an existing component definition with new states, styling, or behavior'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-08c-update-component.md'
-nextStepFile: '{workflow_path}/steps-c/step-08d-add-variant.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-create.md'
+nextStepFile: './step-08d-add-variant.md'
 ---
 
 # Step 8c: Update Component

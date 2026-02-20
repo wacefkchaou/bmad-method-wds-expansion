@@ -2,14 +2,8 @@
 name: step-06-generate-overview
 description: Create the 00-ux-scenarios.md index file linking all scenarios
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-06-generate-overview.md'
-nextStepFile: '{workflow_path}/steps-c/step-07-quality-review.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-07-quality-review.md'
 ---
 
 # Step 6: Generate Scenario Overview

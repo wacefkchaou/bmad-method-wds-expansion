@@ -2,14 +2,8 @@
 name: step-03-outline-completeness
 description: Verify every scenario outline has all 7 required components with sufficient quality
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-v/step-03-outline-completeness.md'
-nextStepFile: '{workflow_path}/steps-v/step-04-cross-scenario-consistency.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-validate.md'
+nextStepFile: './step-04-cross-scenario-consistency.md'
 ---
 
 # Validation Step 3: Outline Completeness

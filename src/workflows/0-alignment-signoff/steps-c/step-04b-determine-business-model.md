@@ -2,14 +2,9 @@
 name: 'step-04b-determine-business-model'
 description: 'Determine the business model for external contracts before building contract sections'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-04b-determine-business-model.md'
-nextStepFile: '{workflow_path}/steps-c/step-05a-contract-overview.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-05a-contract-overview.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 22: Determine Business Model

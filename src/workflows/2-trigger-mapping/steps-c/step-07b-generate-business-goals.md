@@ -2,17 +2,12 @@
 name: 'step-07b-generate-business-goals'
 description: 'Generate the 01-Business-Goals.md document with vision, objectives, and flywheel'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-07b-generate-business-goals.md'
-nextStepFile: '{workflow_path}/steps-c/step-07c-generate-primary-persona.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-07c-generate-primary-persona.md'
+activityWorkflowFile: '../workflow.md'
 
 # Data References
-businessGoalsTemplate: '{workflow_path}/data/business-goals-template.md'
+businessGoalsTemplate: '../data/business-goals-template.md'
 ---
 
 # Step 18: Generate Business Goals Document

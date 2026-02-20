@@ -2,14 +2,8 @@
 name: 'step-05-identify-risks'
 description: 'Identify potential risks and problems with each design system decision option'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-05-identify-risks.md'
-nextStepFile: '{workflow_path}/steps-c/step-06-present-decision.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-create.md'
+nextStepFile: './step-06-present-decision.md'
 ---
 
 # Step 5: Identify Risks

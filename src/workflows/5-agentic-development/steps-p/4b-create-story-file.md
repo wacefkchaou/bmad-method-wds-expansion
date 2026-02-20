@@ -2,14 +2,8 @@
 name: '4b-create-story-file'
 description: 'Create the focused story file for this section with all implementation details'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-p/4b-create-story-file.md'
-nextStepFile: '{workflow_path}/steps-p/4c-implement-section.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-prototyping.md'
+nextStepFile: './4c-implement-section.md'
 ---
 
 # Step 4b: Create Story File

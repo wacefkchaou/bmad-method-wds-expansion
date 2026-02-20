@@ -2,13 +2,8 @@
 name: 'step-05-document'
 description: 'Document the bug, the fix, and create a clean PR'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-f/step-05-document.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-bugfixing.md'
+activityWorkflowFile: '../workflow-bugfixing.md'
 ---
 
 # Step 5: Document

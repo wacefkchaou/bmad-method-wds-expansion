@@ -2,14 +2,10 @@
 name: 'step-03b-select-user'
 description: 'Choose which user/target group from Trigger Map this VTC focuses on'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/vtc-workshop/steps-c/step-03b-select-user.md'
-nextStepFile: '{workflow_path}/vtc-workshop/steps-c/step-04b-select-driving-forces.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/vtc-workshop/workflow.md'
+nextStepFile: './step-04b-select-driving-forces.md'
+workflowFile: '../../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 3: Select User

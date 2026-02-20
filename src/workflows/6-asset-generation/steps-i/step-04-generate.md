@@ -1,11 +1,7 @@
 ---
 name: 'step-04-generate'
 description: 'Batch-generate icons with consistent style across the entire set'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-i/step-04-generate.md'
-nextStepFile: '{workflow_path}/steps-i/step-05-review.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-icons.md'
+nextStepFile: './step-05-review.md'
 ---
 
 # Step 4: Generate Icons

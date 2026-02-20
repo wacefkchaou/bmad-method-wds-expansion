@@ -2,14 +2,10 @@
 name: 'step-12-mental-state'
 description: 'Understand the user mental state when arriving at this specific page'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-s/step-12-mental-state.md'
-nextStepFile: '{workflow_path}/steps-s/step-13-desired-outcome.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-suggest.md'
+nextStepFile: './step-13-desired-outcome.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-suggest.md'
 ---
 
 # Step 12: Page Mental State

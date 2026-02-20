@@ -2,14 +2,8 @@
 name: '4g-section-approved'
 description: 'Finalize section approval, update status, and determine next action'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-p/4g-section-approved.md'
-nextStepFile: '{workflow_path}/steps-p/5-finalization.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-prototyping.md'
+nextStepFile: './5-finalization.md'
 ---
 
 # Step 4g: Section Approved & Next Steps
@@ -96,7 +90,7 @@ Display based on status:
 - **If all complete**: "[C] Continue to Step 5: Finalization"
 
 #### Menu Handling Logic:
-- IF C (more sections): Update agent dialog, then load, read entire file, then execute `{workflow_path}/steps-p/4a-announce-and-gather.md`
+- IF C (more sections): Update agent dialog, then load, read entire file, then execute `./4a-announce-and-gather.md`
 - IF C (all complete): Update agent dialog, then load, read entire file, then execute {nextStepFile}
 - IF Any other comments or queries: help user respond then [Redisplay Menu Options]
 

@@ -2,17 +2,12 @@
 name: 'step-07f-generate-key-insights'
 description: 'Generate the 05-Key-Insights.md strategic implications document'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-07f-generate-key-insights.md'
-nextStepFile: '{workflow_path}/steps-c/step-07g-quality-check.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-07g-quality-check.md'
+activityWorkflowFile: '../workflow.md'
 
 # Data References
-keyInsightsStructure: '{workflow_path}/data/key-insights-structure.md'
+keyInsightsStructure: '../data/key-insights-structure.md'
 ---
 
 # Step 22: Generate Key Insights Document

@@ -2,14 +2,9 @@
 name: 'step-01c-offer-extract'
 description: 'Offer optional step to extract information from existing communications or documents'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-01c-offer-extract.md'
-nextStepFile: '{workflow_path}/steps-c/step-01d-extract-info.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-01d-extract-info.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 3: Offer to Extract Information from Communications

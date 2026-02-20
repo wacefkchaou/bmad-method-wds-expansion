@@ -2,14 +2,8 @@
 name: 'step-02-compare-attributes'
 description: 'Systematically compare current component to existing candidates across visual, functional, behavioral, and contextual dimensions'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-02-compare-attributes.md'
-nextStepFile: '{workflow_path}/steps-c/step-03-calculate-similarity.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-create.md'
+nextStepFile: './step-03-calculate-similarity.md'
 ---
 
 # Step 2: Compare Attributes

@@ -2,13 +2,8 @@
 name: 'step-05-finalize'
 description: 'Clean up, run the full test suite, document deviations, and prepare the work for review'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-d/step-05-finalize.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-development.md'
+activityWorkflowFile: '../workflow-development.md'
 ---
 
 # Step 5: Finalize

@@ -2,14 +2,9 @@
 name: 'step-05-business-model'
 description: 'Help user identify and understand their business model through conversational exploration'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-05-business-model.md'
-nextStepFile: '{workflow_path}/steps-c/step-06-business-customers.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-06-business-customers.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 5: Determine Business Model

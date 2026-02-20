@@ -1,11 +1,7 @@
 ---
 name: 'step-03-select-style'
 description: 'Choose design style and content style that define the visual character of page designs'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-p/step-03-select-style.md'
-nextStepFile: '{workflow_path}/steps-p/step-04-generate.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-page-designs.md'
+nextStepFile: './step-04-generate.md'
 ---
 
 # Step 3: Select Style

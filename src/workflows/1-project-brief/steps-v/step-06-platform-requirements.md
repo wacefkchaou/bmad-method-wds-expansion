@@ -2,13 +2,9 @@
 name: 'step-06-platform-requirements'
 description: 'Verify platform requirements and compile final validation report'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-v/step-06-platform-requirements.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-validate.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-validate.md'
 ---
 
 # Validation Step 06: Platform Requirements

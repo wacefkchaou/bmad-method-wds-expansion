@@ -2,14 +2,9 @@
 name: 'step-06e-feature-wrap-up'
 description: 'Feature Impact Workshop wrap-up with completion summary and next steps'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-06e-feature-wrap-up.md'
-nextStepFile: '{workflow_path}/steps-c/step-07a-generate-hub.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-07a-generate-hub.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 16: Feature Workshop Wrap-Up

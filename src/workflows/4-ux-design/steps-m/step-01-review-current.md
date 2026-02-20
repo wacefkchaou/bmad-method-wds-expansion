@@ -2,14 +2,9 @@
 name: 'step-01-review-current'
 description: 'Understand the current state of the design system before making changes'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-m/step-01-review-current.md'
-nextStepFile: '{workflow_path}/steps-m/step-02-define-component.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-design-system.md'
+nextStepFile: './step-02-define-component.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 1: Review Current Design System
@@ -92,7 +87,7 @@ Display: "**Select an Option:** [C] Continue to Define Component | [V] Jump to V
 #### Menu Handling Logic:
 
 - IF C: Load, read entire file, then execute {nextStepFile}
-- IF V: Load, read entire file, then execute {workflow_path}/steps-m/step-03-validate-usage.md
+- IF V: Load, read entire file, then execute ./step-03-validate-usage.md
 - IF M: Return to {workflowFile}
 - IF Any other comments or queries: help user respond then [Redisplay Menu Options](#5-present-menu-options)
 

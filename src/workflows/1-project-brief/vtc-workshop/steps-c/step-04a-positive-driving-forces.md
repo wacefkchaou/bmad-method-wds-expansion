@@ -2,14 +2,10 @@
 name: 'step-04a-positive-driving-forces'
 description: 'Discover what the user WANTS to achieve - aspirations and wishes'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/vtc-workshop/steps-c/step-04a-positive-driving-forces.md'
-nextStepFile: '{workflow_path}/vtc-workshop/steps-c/step-05a-negative-driving-forces.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/vtc-workshop/workflow.md'
+nextStepFile: './step-05a-negative-driving-forces.md'
+workflowFile: '../../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 4: Identify Positive Driving Forces

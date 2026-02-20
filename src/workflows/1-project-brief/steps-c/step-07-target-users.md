@@ -2,14 +2,9 @@
 name: 'step-07-target-users'
 description: 'Help user define their ideal customer profile through guided exploration'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-07-target-users.md'
-nextStepFile: '{workflow_path}/steps-c/step-07a-product-concept.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-07a-product-concept.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 7: Identify Target Users

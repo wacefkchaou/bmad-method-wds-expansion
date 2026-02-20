@@ -2,14 +2,10 @@
 name: 'step-02-create-delivery'
 description: 'Package complete testable flow into Design Delivery YAML file'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-h/step-02-create-delivery.md'
-nextStepFile: '{workflow_path}/steps-h/step-03-create-test-scenario.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-handover.md'
+nextStepFile: './step-03-create-test-scenario.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-handover.md'
 ---
 
 # Step 2: Create Design Delivery

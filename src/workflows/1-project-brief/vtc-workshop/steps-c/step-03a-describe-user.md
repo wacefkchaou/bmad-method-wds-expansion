@@ -2,14 +2,10 @@
 name: 'step-03a-describe-user'
 description: 'Identify and describe the primary user with psychological depth'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/vtc-workshop/steps-c/step-03a-describe-user.md'
-nextStepFile: '{workflow_path}/vtc-workshop/steps-c/step-04a-positive-driving-forces.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/vtc-workshop/workflow.md'
+nextStepFile: './step-04a-positive-driving-forces.md'
+workflowFile: '../../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 3: Describe User

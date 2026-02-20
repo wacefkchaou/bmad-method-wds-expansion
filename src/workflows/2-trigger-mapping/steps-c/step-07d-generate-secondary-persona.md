@@ -2,14 +2,9 @@
 name: 'step-07d-generate-secondary-persona'
 description: 'Generate the secondary persona document with validation strategy'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-07d-generate-secondary-persona.md'
-nextStepFile: '{workflow_path}/steps-c/step-07e-generate-tertiary-persona.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-07e-generate-tertiary-persona.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 20: Generate Secondary Persona

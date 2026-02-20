@@ -2,14 +2,9 @@
 name: 'step-07e-generate-tertiary-persona'
 description: 'Generate the optional tertiary persona document with organic discovery focus'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-07e-generate-tertiary-persona.md'
-nextStepFile: '{workflow_path}/steps-c/step-07f-generate-key-insights.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-07f-generate-key-insights.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 21: Generate Tertiary Persona (Optional)

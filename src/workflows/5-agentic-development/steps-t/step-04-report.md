@@ -2,14 +2,8 @@
 name: 'step-04-report'
 description: 'Create a comprehensive test report summarizing all testing results'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-t/step-04-report.md'
-nextStepFile: '{workflow_path}/steps-t/step-05-iterate.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-acceptance-testing.md'
+nextStepFile: './step-05-iterate.md'
 ---
 
 # Step 4: Create Test Report

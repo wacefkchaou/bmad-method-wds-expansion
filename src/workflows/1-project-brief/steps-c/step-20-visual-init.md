@@ -2,14 +2,10 @@
 name: 'step-20-visual-init'
 description: 'Initialize visual direction capture'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-20-visual-init.md'
-nextStepFile: '{workflow_path}/steps-c/step-21-existing-brand.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-21-existing-brand.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 20: Initialize Visual Direction

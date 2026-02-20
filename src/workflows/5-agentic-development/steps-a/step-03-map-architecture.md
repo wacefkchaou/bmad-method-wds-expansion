@@ -2,14 +2,8 @@
 name: 'step-03-map-architecture'
 description: 'Build a detailed map of components, data flow, dependencies, and patterns as the analytical core of the workflow'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-a/step-03-map-architecture.md'
-nextStepFile: '{workflow_path}/steps-a/step-04-document-findings.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-analysis.md'
+nextStepFile: './step-04-document-findings.md'
 ---
 
 # Step 3: Map Architecture

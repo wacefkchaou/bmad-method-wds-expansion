@@ -1,11 +1,7 @@
 ---
 name: 'step-04-empowerment-frame'
 description: 'Apply Badass Users principles to frame content around user capability and transformation'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-c/step-04-empowerment-frame.md'
-nextStepFile: '{workflow_path}/steps-c/step-05-structural-order.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-content.md'
+nextStepFile: './step-05-structural-order.md'
 ---
 
 # Step 4: Frame User Empowerment

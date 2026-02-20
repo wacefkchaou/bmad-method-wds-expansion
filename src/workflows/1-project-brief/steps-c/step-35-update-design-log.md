@@ -2,14 +2,10 @@
 name: 'step-35-update-design-log'
 description: 'Document Phase 1 completion in the project design log'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-35-update-design-log.md'
-nextStepFile: '{workflow_path}/steps-c/step-36-provide-activation.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-36-provide-activation.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 35: Update Design Log

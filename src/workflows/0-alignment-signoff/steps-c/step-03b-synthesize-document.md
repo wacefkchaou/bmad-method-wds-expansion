@@ -2,14 +2,9 @@
 name: 'step-03b-synthesize-document'
 description: 'Create the alignment document from all explored and confirmed sections'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-03b-synthesize-document.md'
-nextStepFile: '{workflow_path}/steps-c/step-03c-create-vtc.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-03c-create-vtc.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 18: Synthesize Alignment Document

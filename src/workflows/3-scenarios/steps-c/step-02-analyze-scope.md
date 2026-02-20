@@ -2,14 +2,8 @@
 name: 'step-02-analyze-scope'
 description: 'Determine site type, list all pages/views, assess scale, and select approach mode'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-02-analyze-scope.md'
-nextStepFile: '{workflow_path}/steps-c/step-03-build-vtcs.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-03-build-vtcs.md'
 ---
 
 # Step 2: Analyze Scope & Scale Strategy

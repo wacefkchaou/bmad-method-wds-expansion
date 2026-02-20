@@ -2,14 +2,9 @@
 name: 'step-06d-generate-document'
 description: 'Generate the complete Feature Impact Analysis document'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-06d-generate-document.md'
-nextStepFile: '{workflow_path}/steps-c/step-06e-feature-wrap-up.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-06e-feature-wrap-up.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 15: Generate Feature Impact Document

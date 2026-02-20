@@ -2,14 +2,10 @@
 name: 'step-33-analyze-brief'
 description: 'Analyze Product Brief completeness for handover'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-33-analyze-brief.md'
-nextStepFile: '{workflow_path}/steps-c/step-34-create-summary.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-34-create-summary.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 33: Analyze Product Brief Completeness

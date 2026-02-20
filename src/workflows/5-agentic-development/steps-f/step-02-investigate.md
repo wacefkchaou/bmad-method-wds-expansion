@@ -2,14 +2,8 @@
 name: 'step-02-investigate'
 description: 'Identify the root cause of the bug, not just the symptom'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-f/step-02-investigate.md'
-nextStepFile: '{workflow_path}/steps-f/step-03-fix.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-bugfixing.md'
+nextStepFile: './step-03-fix.md'
 ---
 
 # Step 2: Investigate

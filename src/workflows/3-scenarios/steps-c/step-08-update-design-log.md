@@ -2,14 +2,8 @@
 name: step-08-update-design-log
 description: Document Phase 3 completion in the project design log
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-08-update-design-log.md'
-nextStepFile: '{workflow_path}/steps-c/step-09-handover.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-09-handover.md'
 ---
 
 # Step 8: Update Design Log

@@ -1,11 +1,7 @@
 ---
 name: 'step-04-generate'
 description: 'Generate UI element assets for all components in priority order'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-u/step-04-generate.md'
-nextStepFile: '{workflow_path}/steps-u/step-05-review.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-ui-elements.md'
+nextStepFile: './step-05-review.md'
 ---
 
 # Step 4: Generate UI Elements

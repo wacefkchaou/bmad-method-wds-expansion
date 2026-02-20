@@ -2,14 +2,9 @@
 name: 'step-00e-prioritization-extract'
 description: 'Extract and validate strategic prioritization from existing documentation'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-00e-prioritization-extract.md'
-nextStepFile: '{workflow_path}/steps-c/step-00f-gap-analysis.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-00f-gap-analysis.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 5: Prioritization Extraction

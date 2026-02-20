@@ -1,15 +1,6 @@
 ---
 name: '4d-present-for-testing'
 description: 'Present the implemented section to user with clear test instructions after agent self-verification'
-
-# Path Definitions
-workflow_path: '{installed_path}'
-
-# File References
-thisStepFile: '{workflow_path}/steps-p/4d-present-for-testing.md'
-nextStepFile: '{workflow_path}/steps-p/4e-handle-issue.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-prototyping.md'
 ---
 
 # Step 4d: Present Section for Testing

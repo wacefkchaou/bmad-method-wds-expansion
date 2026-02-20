@@ -1,11 +1,7 @@
 ---
 name: 'step-04-generate'
 description: 'Craft detailed prompts and generate full page design compositions'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-p/step-04-generate.md'
-nextStepFile: '{workflow_path}/steps-p/step-05-review.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-page-designs.md'
+nextStepFile: './step-05-review.md'
 ---
 
 # Step 4: Generate Page Designs

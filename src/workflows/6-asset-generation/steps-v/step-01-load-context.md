@@ -1,11 +1,7 @@
 ---
 name: 'step-01-load-context'
 description: 'Load motion content requirements including what needs to move, where, and why'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-v/step-01-load-context.md'
-nextStepFile: '{workflow_path}/steps-v/step-02-inventory.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-videos.md'
+nextStepFile: './step-02-inventory.md'
 ---
 
 # Step 1: Load Context

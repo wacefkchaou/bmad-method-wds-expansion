@@ -1,11 +1,7 @@
 ---
 name: 'step-03-select-style'
 description: 'Define the icon style including outline weight, fill treatment, grid, and color mode'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-i/step-03-select-style.md'
-nextStepFile: '{workflow_path}/steps-i/step-04-generate.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-icons.md'
+nextStepFile: './step-04-generate.md'
 ---
 
 # Step 3: Select Style

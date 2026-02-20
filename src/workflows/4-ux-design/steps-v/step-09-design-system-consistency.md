@@ -2,14 +2,10 @@
 name: 'step-09-design-system-consistency'
 description: 'Verify components are used correctly and consistently across all page specifications'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-v/step-09-design-system-consistency.md'
-nextStepFile: '{workflow_path}/steps-v/step-10-final-validation.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-validate.md'
+nextStepFile: './step-10-final-validation.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-validate.md'
 ---
 
 # Step 9: Validate Design System Consistency

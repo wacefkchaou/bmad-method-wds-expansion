@@ -2,14 +2,8 @@
 name: 'step-04-verify'
 description: 'Systematically confirm that the implementation satisfies every requirement in the spec'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-d/step-04-verify.md'
-nextStepFile: '{workflow_path}/steps-d/step-05-finalize.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-development.md'
+nextStepFile: './step-05-finalize.md'
 ---
 
 # Step 4: Verify

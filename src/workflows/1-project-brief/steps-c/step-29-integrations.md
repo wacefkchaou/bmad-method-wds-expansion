@@ -2,14 +2,10 @@
 name: 'step-29-integrations'
 description: 'Document required integrations and third-party services'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-29-integrations.md'
-nextStepFile: '{workflow_path}/steps-c/step-30-contact-strategy.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-30-contact-strategy.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 29: Integrations & Plugins

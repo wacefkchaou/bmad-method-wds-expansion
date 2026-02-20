@@ -1,11 +1,7 @@
 ---
 name: 'step-02-inventory'
 description: 'Create a complete inventory of UI elements organized by component type, variant, and state'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-u/step-02-inventory.md'
-nextStepFile: '{workflow_path}/steps-u/step-03-select-style.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-ui-elements.md'
+nextStepFile: './step-03-select-style.md'
 ---
 
 # Step 2: Asset Inventory

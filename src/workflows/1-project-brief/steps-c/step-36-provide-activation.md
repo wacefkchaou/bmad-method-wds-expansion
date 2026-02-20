@@ -2,13 +2,9 @@
 name: 'step-36-provide-activation'
 description: 'Provide Phase 2 activation instructions - final step'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-36-provide-activation.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 36: Provide Next Phase Activation

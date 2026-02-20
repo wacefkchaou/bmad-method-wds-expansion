@@ -2,14 +2,9 @@
 name: 'step-05b-contract-business-model'
 description: 'Build Section 2 Business Model of the contract based on user selection'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-05b-contract-business-model.md'
-nextStepFile: '{workflow_path}/steps-c/step-05c-contract-scope.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-05c-contract-scope.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 24: Build Section 2 - Business Model

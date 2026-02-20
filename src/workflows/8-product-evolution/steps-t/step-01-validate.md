@@ -2,16 +2,12 @@
 name: 'step-01-validate'
 description: 'Validate that Design Delivery was implemented correctly'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-t/step-01-validate.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-test.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-test.md'
 
 # Data References
-deliveryTemplates: '{workflow_path}/data/delivery-templates.md'
+deliveryTemplates: '../data/delivery-templates.md'
 ---
 
 # Step 6: Validate Implementation

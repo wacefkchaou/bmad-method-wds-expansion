@@ -2,13 +2,8 @@
 name: 'step-05-cross-document-coherence'
 description: 'Validate all trigger map documents are coherent as a set'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-v/step-05-cross-document-coherence.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-validate.md'
+activityWorkflowFile: '../workflow-validate.md'
 ---
 
 # Step 5: Cross-Document Coherence Validation

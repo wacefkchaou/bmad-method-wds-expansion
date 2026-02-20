@@ -2,13 +2,9 @@
 name: 'step-15-create-page-structure'
 description: 'Create the physical page folder structure, specification document, and update tracking'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-s/step-15-create-page-structure.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-suggest.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-suggest.md'
 ---
 
 # Step 15: Create Page Structure
@@ -188,8 +184,8 @@ Display: "**Select an Option:** [A] Add Another Page | [S] Add Another Scenario 
 
 #### Menu Handling Logic:
 
-- IF A: Load, read entire file, then execute {workflow_path}/steps-s/step-08-page-context.md
-- IF S: Load, read entire file, then execute {workflow_path}/steps-s/step-01-core-feature.md
+- IF A: Load, read entire file, then execute ./step-08-page-context.md
+- IF S: Load, read entire file, then execute ./step-01-core-feature.md
 - IF M: Return to {workflowFile} or {activityWorkflowFile}
 - IF Any other comments or queries: help user respond then [Redisplay Menu Options](#2-present-menu-options)
 

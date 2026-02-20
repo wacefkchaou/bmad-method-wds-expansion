@@ -2,14 +2,10 @@
 name: 'step-02-entry-point'
 description: 'Determine where the user first encounters this scenario'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-s/step-02-entry-point.md'
-nextStepFile: '{workflow_path}/steps-s/step-03-mental-state.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-suggest.md'
+nextStepFile: './step-03-mental-state.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-suggest.md'
 ---
 
 # Step 2: Entry Point

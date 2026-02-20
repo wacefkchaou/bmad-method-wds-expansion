@@ -2,16 +2,12 @@
 name: 'step-02-gather-context'
 description: 'Understand the existing product context before making changes'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-a/step-02-gather-context.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-analyze.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-analyze.md'
 
 # Data References
-contextTemplates: '{workflow_path}/data/context-templates.md'
+contextTemplates: '../data/context-templates.md'
 ---
 
 # Step 2: Gather Context

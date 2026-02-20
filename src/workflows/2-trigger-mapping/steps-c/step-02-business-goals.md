@@ -2,14 +2,9 @@
 name: 'step-02-business-goals'
 description: 'Workshop 1: Define business vision and SMART objectives'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-02-business-goals.md'
-nextStepFile: '{workflow_path}/steps-c/step-03-target-groups.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-03-target-groups.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 8: Workshop 1 - Business Goals

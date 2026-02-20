@@ -2,14 +2,8 @@
 name: 'step-03-fix'
 description: 'Implement the minimal fix targeting the root cause'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-f/step-03-fix.md'
-nextStepFile: '{workflow_path}/steps-f/step-04-verify.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-bugfixing.md'
+nextStepFile: './step-04-verify.md'
 ---
 
 # Step 3: Fix

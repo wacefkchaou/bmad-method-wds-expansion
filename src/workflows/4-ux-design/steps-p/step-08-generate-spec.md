@@ -2,13 +2,9 @@
 name: 'step-08-generate-spec'
 description: 'Compile all gathered information into the complete page specification document'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-p/step-08-generate-spec.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-specify.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-specify.md'
 ---
 
 # Step 8: Generate Specification Document

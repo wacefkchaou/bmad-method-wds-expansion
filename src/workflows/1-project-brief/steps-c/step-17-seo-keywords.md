@@ -2,14 +2,10 @@
 name: 'step-17-seo-keywords'
 description: 'Capture SEO strategy including keywords, URL structure, local SEO, and structured data'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-17-seo-keywords.md'
-nextStepFile: '{workflow_path}/steps-c/step-17a-content-structure.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-17a-content-structure.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 17: SEO Strategy

@@ -2,13 +2,9 @@
 name: 'step-01-exploration'
 description: 'Help user think through the concept, flow, and solution before sketching begins'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-01-exploration.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-conceptualize.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-conceptualize.md'
 ---
 
 # Step 1: Scenario Exploration

@@ -2,14 +2,10 @@
 name: 'step-27-platform-init'
 description: 'Initialize platform requirements capture'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-27-platform-init.md'
-nextStepFile: '{workflow_path}/steps-c/step-28-tech-stack.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-28-tech-stack.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 27: Initialize Platform Requirements

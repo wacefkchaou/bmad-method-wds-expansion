@@ -2,14 +2,10 @@
 name: 'step-03-mental-state'
 description: 'Understand the user mental state when arriving at the scenario entry point'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-s/step-03-mental-state.md'
-nextStepFile: '{workflow_path}/steps-s/step-04-mutual-success.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-suggest.md'
+nextStepFile: './step-04-mutual-success.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-suggest.md'
 ---
 
 # Step 3: Mental State

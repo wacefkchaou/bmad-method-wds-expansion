@@ -1,10 +1,7 @@
 ---
 name: 'step-06-generate-content'
 description: 'Generate strategically grounded content variations, review, and finalize'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-c/step-06-generate-content.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-content.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 6: Generate and Review Content

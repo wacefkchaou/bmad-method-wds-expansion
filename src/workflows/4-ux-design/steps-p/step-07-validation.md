@@ -2,14 +2,10 @@
 name: 'step-07-validation'
 description: 'Define all validation rules and error messages for form fields and inputs'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-p/step-07-validation.md'
-nextStepFile: '{workflow_path}/steps-p/step-08-generate-spec.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-specify.md'
+nextStepFile: './step-08-generate-spec.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-specify.md'
 ---
 
 # Step 7: Validation & Errors

@@ -2,14 +2,8 @@
 name: 'step-02-setup-environment'
 description: 'Verify the development environment is ready, all dependencies are installed, and the project runs cleanly before writing any new code'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-d/step-02-setup-environment.md'
-nextStepFile: '{workflow_path}/steps-d/step-03-implement.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-development.md'
+nextStepFile: './step-03-implement.md'
 ---
 
 # Step 2: Setup Environment

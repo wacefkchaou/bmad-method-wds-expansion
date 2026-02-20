@@ -1,11 +1,7 @@
 ---
 name: 'step-04-generate'
 description: 'Craft optimized prompts and generate wireframes through MCP service or prompt export'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-w/step-04-generate.md'
-nextStepFile: '{workflow_path}/steps-w/step-05-review.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-wireframes.md'
+nextStepFile: './step-05-review.md'
 ---
 
 # Step 4: Generate Wireframes

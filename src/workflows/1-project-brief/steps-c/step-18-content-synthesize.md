@@ -2,14 +2,10 @@
 name: 'step-18-content-synthesize'
 description: 'Complete the Content and Language document with actionable guidelines'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-18-content-synthesize.md'
-nextStepFile: '{workflow_path}/steps-c/step-19-inspiration-workshop.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-19-inspiration-workshop.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 18: Content & Language Synthesize & Review

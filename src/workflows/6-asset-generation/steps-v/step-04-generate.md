@@ -1,11 +1,7 @@
 ---
 name: 'step-04-generate'
 description: 'Generate video and motion assets using appropriate tools per complexity level'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-v/step-04-generate.md'
-nextStepFile: '{workflow_path}/steps-v/step-05-review.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-videos.md'
+nextStepFile: './step-05-review.md'
 ---
 
 # Step 4: Generate Motion Content

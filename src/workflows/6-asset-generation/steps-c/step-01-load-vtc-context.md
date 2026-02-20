@@ -1,11 +1,7 @@
 ---
 name: 'step-01-load-vtc-context'
 description: 'Establish the strategic foundation by loading Value Trigger Chain context for content creation'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-c/step-01-load-vtc-context.md'
-nextStepFile: '{workflow_path}/steps-c/step-02-awareness-strategy.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-content.md'
+nextStepFile: './step-02-awareness-strategy.md'
 ---
 
 # Step 1: Load VTC Context

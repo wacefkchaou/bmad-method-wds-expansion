@@ -2,14 +2,10 @@
 name: 'step-03-create-test-scenario'
 description: 'Define how to validate Design Delivery after implementation'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-h/step-03-create-test-scenario.md'
-nextStepFile: '{workflow_path}/steps-h/step-04-handoff-dialog.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-handover.md'
+nextStepFile: './step-04-handoff-dialog.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-handover.md'
 ---
 
 # Step 3: Create Test Scenario

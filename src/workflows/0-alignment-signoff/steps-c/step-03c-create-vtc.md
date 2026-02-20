@@ -2,14 +2,9 @@
 name: 'step-03c-create-vtc'
 description: 'Create a simplified Value Trigger Chain to strengthen the pitch with strategic clarity'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-03c-create-vtc.md'
-nextStepFile: '{workflow_path}/steps-c/step-03d-present-approval.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-03d-present-approval.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 19: Create Value Trigger Chain

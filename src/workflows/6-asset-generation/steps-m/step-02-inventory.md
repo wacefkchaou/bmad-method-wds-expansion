@@ -1,11 +1,7 @@
 ---
 name: 'step-02-inventory'
 description: 'Build a complete image inventory organized by type, page, and batch opportunity'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-m/step-02-inventory.md'
-nextStepFile: '{workflow_path}/steps-m/step-03-select-style.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-images.md'
+nextStepFile: './step-03-select-style.md'
 ---
 
 # Step 2: Asset Inventory

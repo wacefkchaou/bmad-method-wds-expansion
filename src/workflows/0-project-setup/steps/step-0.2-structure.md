@@ -2,13 +2,9 @@
 name: 'step-0.2-structure'
 description: 'Configure project settings create folder structure and generate project outline'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps/step-0.2-structure.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 2: Project Configuration & Structure

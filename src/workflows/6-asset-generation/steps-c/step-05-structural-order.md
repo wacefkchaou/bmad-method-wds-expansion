@@ -1,11 +1,7 @@
 ---
 name: 'step-05-structural-order'
 description: 'Apply the Golden Circle to create persuasive WHY-HOW-WHAT content flow'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-c/step-05-structural-order.md'
-nextStepFile: '{workflow_path}/steps-c/step-06-generate-content.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-content.md'
+nextStepFile: './step-06-generate-content.md'
 ---
 
 # Step 5: Determine Structural Order

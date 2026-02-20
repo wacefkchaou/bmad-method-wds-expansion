@@ -2,14 +2,8 @@
 name: 'step-03-implement'
 description: 'Build every feature in the implementation plan, one at a time, following existing codebase patterns'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-d/step-03-implement.md'
-nextStepFile: '{workflow_path}/steps-d/step-04-verify.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-development.md'
+nextStepFile: './step-04-verify.md'
 ---
 
 # Step 3: Implement

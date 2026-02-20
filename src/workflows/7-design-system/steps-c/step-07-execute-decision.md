@@ -2,14 +2,8 @@
 name: 'step-07-execute-decision'
 description: 'Execute the designer decision: reuse, add variant, or create new component'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-07-execute-decision.md'
-nextStepFile: '{workflow_path}/steps-c/step-08a-initialize-design-system.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-create.md'
+nextStepFile: './step-08a-initialize-design-system.md'
 ---
 
 # Step 7: Execute Decision

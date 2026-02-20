@@ -2,14 +2,9 @@
 name: 'step-00c-target-groups-extract'
 description: 'Extract and deepen target group definitions from existing documentation'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-00c-target-groups-extract.md'
-nextStepFile: '{workflow_path}/steps-c/step-00d-driving-forces-extract.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-00d-driving-forces-extract.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 3: Target Groups Extraction

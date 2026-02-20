@@ -2,14 +2,10 @@
 name: 'step-02-navigation'
 description: 'Verify that page specification has proper navigation structure with headers, links, and embedded sketch'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-v/step-02-navigation.md'
-nextStepFile: '{workflow_path}/steps-v/step-03-page-overview.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-validate.md'
+nextStepFile: './step-03-page-overview.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-validate.md'
 ---
 
 # Step 2: Validate Navigation Structure

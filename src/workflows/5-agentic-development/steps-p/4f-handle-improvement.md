@@ -1,15 +1,6 @@
 ---
 name: '4f-handle-improvement'
 description: 'Implement user improvement suggestion, capture learning, and consider specification update'
-
-# Path Definitions
-workflow_path: '{installed_path}'
-
-# File References
-thisStepFile: '{workflow_path}/steps-p/4f-handle-improvement.md'
-nextStepFile: '{workflow_path}/steps-p/4g-section-approved.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-prototyping.md'
 ---
 
 # Step 4f: Handle Improvement Suggestion
@@ -99,7 +90,7 @@ After re-presenting, route back to Step 4d for user feedback.
 Display: "**Select an Option:** [C] Continue to Step 4d: Present for Testing (re-test)"
 
 #### Menu Handling Logic:
-- IF C: Update agent dialog, then load, read entire file, then execute `{workflow_path}/steps-p/4d-present-for-testing.md`
+- IF C: Update agent dialog, then load, read entire file, then execute `./4d-present-for-testing.md`
 - IF Any other comments or queries: help user respond then [Redisplay Menu Options]
 
 #### EXECUTION RULES:

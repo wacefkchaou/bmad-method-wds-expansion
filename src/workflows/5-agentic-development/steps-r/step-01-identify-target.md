@@ -2,14 +2,8 @@
 name: 'step-01-identify-target'
 description: 'Define what to reverse engineer, how to access it, and what to extract'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-r/step-01-identify-target.md'
-nextStepFile: '{workflow_path}/steps-r/step-02-explore-and-capture.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-reverse-engineering.md'
+nextStepFile: './step-02-explore-and-capture.md'
 ---
 
 # Step 1: Identify Target

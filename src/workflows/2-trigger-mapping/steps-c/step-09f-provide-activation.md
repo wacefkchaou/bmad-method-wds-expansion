@@ -2,13 +2,8 @@
 name: 'step-09f-provide-activation'
 description: 'Provide UX Design activation instructions and complete Phase 2'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-09f-provide-activation.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 37: Provide UX Design Activation

@@ -2,17 +2,12 @@
 name: 'step-02f-explore-recommended-solution'
 description: 'Help user articulate their preferred approach and why they recommend it'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-02f-explore-recommended-solution.md'
-nextStepFile: '{workflow_path}/steps-c/step-02g-explore-path-forward.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-02g-explore-path-forward.md'
+workflowFile: '../workflow.md'
 
 # Data References
-sectionRoutingFile: '{workflow_path}/data/02-explore-sections-routing.md'
+sectionRoutingFile: '../data/02-explore-sections-routing.md'
 ---
 
 # Step 11: Explore Recommended Solution

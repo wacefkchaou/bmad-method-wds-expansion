@@ -2,14 +2,10 @@
 name: 'step-05-shortest-path'
 description: 'Map the shortest possible journey from entry point to mutual success'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-s/step-05-shortest-path.md'
-nextStepFile: '{workflow_path}/steps-s/step-06-scenario-name.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-suggest.md'
+nextStepFile: './step-06-scenario-name.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-suggest.md'
 ---
 
 # Step 5: Shortest Path

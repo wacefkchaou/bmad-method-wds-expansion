@@ -2,14 +2,10 @@
 name: 'step-04b-select-driving-forces'
 description: 'Choose 2-5 most relevant driving forces from Trigger Map for this VTC'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/vtc-workshop/steps-c/step-04b-select-driving-forces.md'
-nextStepFile: '{workflow_path}/vtc-workshop/steps-c/step-05b-define-solution.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/vtc-workshop/workflow.md'
+nextStepFile: './step-05b-define-solution.md'
+workflowFile: '../../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 4: Select Driving Forces

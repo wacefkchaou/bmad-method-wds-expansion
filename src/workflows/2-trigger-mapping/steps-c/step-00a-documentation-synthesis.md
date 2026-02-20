@@ -2,14 +2,9 @@
 name: 'step-00a-documentation-synthesis'
 description: 'Receive and analyze existing documentation to create a Trigger Map'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-00a-documentation-synthesis.md'
-nextStepFile: '{workflow_path}/steps-c/step-00b-business-goals-extract.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-00b-business-goals-extract.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 1: Documentation Synthesis

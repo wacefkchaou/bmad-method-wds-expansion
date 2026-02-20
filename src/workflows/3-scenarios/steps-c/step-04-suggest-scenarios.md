@@ -2,14 +2,8 @@
 name: 'step-04-suggest-scenarios'
 description: 'Present scenario plan to user for approval before creating outlines'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-04-suggest-scenarios.md'
-nextStepFile: '{workflow_path}/steps-c/step-05-outline-scenario.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-05-outline-scenario.md'
 ---
 
 # Step 4: Suggest Scenarios (USER CHECKPOINT)

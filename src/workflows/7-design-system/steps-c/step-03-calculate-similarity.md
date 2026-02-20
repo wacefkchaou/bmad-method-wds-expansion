@@ -2,14 +2,8 @@
 name: 'step-03-calculate-similarity'
 description: 'Interpret comparison data, calculate weighted similarity score, and classify similarity level'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-03-calculate-similarity.md'
-nextStepFile: '{workflow_path}/steps-c/step-04-identify-opportunities.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-create.md'
+nextStepFile: './step-04-identify-opportunities.md'
 ---
 
 # Step 3: Calculate Similarity

@@ -2,14 +2,10 @@
 name: 'step-07-create-scenario-folder'
 description: 'Create the physical folder structure and overview documents for the scenario'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-s/step-07-create-scenario-folder.md'
-nextStepFile: '{workflow_path}/steps-s/step-08-page-context.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-suggest.md'
+nextStepFile: './step-08-page-context.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-suggest.md'
 ---
 
 # Step 7: Create Structure

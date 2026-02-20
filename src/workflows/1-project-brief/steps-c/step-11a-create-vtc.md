@@ -2,14 +2,10 @@
 name: 'step-11a-create-vtc'
 description: 'Create simplified Value Trigger Chain for strategic summary'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-11a-create-vtc.md'
-nextStepFile: '{workflow_path}/steps-c/step-12-synthesize.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-12-synthesize.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 11A: Create Value Trigger Chain
@@ -71,7 +67,7 @@ Create a simplified Value Trigger Chain (VTC) to capture strategic essence for s
 **If user agrees:**
 
 Load and execute the VTC Workshop Router:
-`{workflow_path}/vtc-workshop/workflow.md`
+`../vtc-workshop/workflow.md`
 
 **Note:** Since Product Brief stage typically has NO Trigger Map yet, the router will likely send you to the **Creation Workshop**.
 
@@ -133,7 +129,7 @@ This VTC provides quick strategic reference and will inform all design decisions
 
 **Response:**
 > "No problem! You can create a VTC later using:
-> `{workflow_path}/vtc-workshop/workflow.md`
+> `../vtc-workshop/workflow.md`
 >
 > However, I recommend creating it before pitching to stakeholders or starting Phase 4 (UX Design). It takes 30 minutes and provides valuable strategic clarity.
 >

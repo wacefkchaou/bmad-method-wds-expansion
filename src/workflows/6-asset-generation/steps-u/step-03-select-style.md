@@ -1,11 +1,7 @@
 ---
 name: 'step-03-select-style'
 description: 'Confirm rendering approach, state visualization, and design system token mapping for UI elements'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-u/step-03-select-style.md'
-nextStepFile: '{workflow_path}/steps-u/step-04-generate.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-ui-elements.md'
+nextStepFile: './step-04-generate.md'
 ---
 
 # Step 3: Select Style

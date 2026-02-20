@@ -1,11 +1,7 @@
 ---
 name: 'step-03-select-style'
 description: 'Choose content style and visual parameters for image generation per batch'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-m/step-03-select-style.md'
-nextStepFile: '{workflow_path}/steps-m/step-04-references.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-images.md'
+nextStepFile: './step-04-references.md'
 ---
 
 # Step 3: Select Style

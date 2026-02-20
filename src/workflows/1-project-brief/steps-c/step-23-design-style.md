@@ -2,14 +2,10 @@
 name: 'step-23-design-style'
 description: 'Define design style choices using Design Nomenclature vocabulary'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-23-design-style.md'
-nextStepFile: '{workflow_path}/steps-c/step-24-layout-effects.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-24-layout-effects.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 23: Design Style

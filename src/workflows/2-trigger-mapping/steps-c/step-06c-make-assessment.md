@@ -2,14 +2,9 @@
 name: 'step-06c-make-assessment'
 description: 'Run initial feature impact assessment against persona driving forces'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-06c-make-assessment.md'
-nextStepFile: '{workflow_path}/steps-c/step-06d-generate-document.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-06d-generate-document.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 14: Make Initial Assessment

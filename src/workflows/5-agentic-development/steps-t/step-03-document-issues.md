@@ -2,14 +2,8 @@
 name: 'step-03-document-issues'
 description: 'Document all problems found during testing as issue tickets'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-t/step-03-document-issues.md'
-nextStepFile: '{workflow_path}/steps-t/step-04-report.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-acceptance-testing.md'
+nextStepFile: './step-04-report.md'
 ---
 
 # Step 3: Create Issues

@@ -2,14 +2,8 @@
 name: 'step-04-implement'
 description: 'Implement changes incrementally, verifying at each step'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-e/step-04-implement.md'
-nextStepFile: '{workflow_path}/steps-e/step-05-verify-and-document.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-evolution.md'
+nextStepFile: './step-05-verify-and-document.md'
 ---
 
 # Step 4: Implement

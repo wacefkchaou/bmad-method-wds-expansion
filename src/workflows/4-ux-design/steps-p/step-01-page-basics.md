@@ -2,14 +2,10 @@
 name: 'step-01-page-basics'
 description: 'Capture fundamental page information including title, route, goals, and SEO data'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-p/step-01-page-basics.md'
-nextStepFile: '{workflow_path}/steps-p/step-02-layout-sections.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-specify.md'
+nextStepFile: './step-02-layout-sections.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-specify.md'
 ---
 
 # Step 1: Page Basics

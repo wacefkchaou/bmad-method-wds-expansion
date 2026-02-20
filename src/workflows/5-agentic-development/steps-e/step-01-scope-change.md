@@ -2,14 +2,8 @@
 name: 'step-01-scope-change'
 description: 'Define exactly what is new, what is modified, and what must remain untouched'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-e/step-01-scope-change.md'
-nextStepFile: '{workflow_path}/steps-e/step-02-analyze-impact.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-evolution.md'
+nextStepFile: './step-02-analyze-impact.md'
 ---
 
 # Step 1: Scope Change

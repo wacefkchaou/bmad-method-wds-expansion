@@ -2,14 +2,10 @@
 name: 'step-13-desired-outcome'
 description: 'Define the desired outcome for both business and user on this page'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-s/step-13-desired-outcome.md'
-nextStepFile: '{workflow_path}/steps-s/step-14-variants.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-suggest.md'
+nextStepFile: './step-14-variants.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-suggest.md'
 ---
 
 # Step 13: Desired Outcome

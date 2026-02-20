@@ -2,14 +2,9 @@
 name: 'step-05h-contract-not-to-exceed'
 description: 'Build Section 8 Not to Exceed Clause conditionally based on business model'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-05h-contract-not-to-exceed.md'
-nextStepFile: '{workflow_path}/steps-c/step-05i-contract-work-initiation.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-05i-contract-work-initiation.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 30: Build Section 8 - Not to Exceed Clause (Conditional)

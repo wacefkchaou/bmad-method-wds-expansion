@@ -2,14 +2,10 @@
 name: 'step-05-hand-off'
 description: 'Officially hand off the Design Delivery to BMad and confirm they have everything needed'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-h/step-05-hand-off.md'
-nextStepFile: '{workflow_path}/steps-h/step-06-continue.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-handover.md'
+nextStepFile: './step-06-continue.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-handover.md'
 ---
 
 # Step 5: Hand Off to BMad

@@ -2,14 +2,8 @@
 name: 'step-03-generate-specs'
 description: 'Create WDS-format page specifications from the observations captured in Step 02'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-r/step-03-generate-specs.md'
-nextStepFile: '{workflow_path}/steps-r/step-04-extract-design-system.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-reverse-engineering.md'
+nextStepFile: './step-04-extract-design-system.md'
 ---
 
 # Step 3: Generate Specs

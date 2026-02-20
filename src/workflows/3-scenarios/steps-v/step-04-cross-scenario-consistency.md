@@ -2,14 +2,8 @@
 name: step-04-cross-scenario-consistency
 description: Verify scenarios are consistent with each other with no contradictions and balanced coverage
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-v/step-04-cross-scenario-consistency.md'
-nextStepFile: '{workflow_path}/steps-v/step-05-seo-keyword-alignment.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-validate.md'
+nextStepFile: './step-05-seo-keyword-alignment.md'
 ---
 
 # Validation Step 4: Cross-Scenario Consistency

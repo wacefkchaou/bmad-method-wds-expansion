@@ -2,14 +2,9 @@
 name: 'step-01-init'
 description: 'Welcome user and set expectations for the Product Brief workflow'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-01-init.md'
-nextStepFile: '{workflow_path}/steps-c/step-02-vision.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-02-vision.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 1: Welcome and Set Expectations

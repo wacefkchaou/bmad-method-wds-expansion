@@ -2,14 +2,9 @@
 name: 'step-01-overview'
 description: 'Present engagement mode options and route to appropriate workshop path'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-01-overview.md'
-nextStepFile: '{workflow_path}/steps-c/step-02-business-goals.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-02-business-goals.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 7: Trigger Mapping Overview

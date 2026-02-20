@@ -2,14 +2,9 @@
 name: 'step-05f-contract-availability'
 description: 'Build Section 6 Availability for retainer contracts defining response times and working hours'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-05f-contract-availability.md'
-nextStepFile: '{workflow_path}/steps-c/step-05g-contract-confidentiality.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-05g-contract-confidentiality.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 28: Build Section 6 - Availability (Retainer Only)

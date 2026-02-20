@@ -2,14 +2,9 @@
 name: 'step-09b-add-cross-references'
 description: 'Verify and add navigation links to all trigger map documents'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-09b-add-cross-references.md'
-nextStepFile: '{workflow_path}/steps-c/step-09c-quality-check.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-09c-quality-check.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 33: Add Cross-References

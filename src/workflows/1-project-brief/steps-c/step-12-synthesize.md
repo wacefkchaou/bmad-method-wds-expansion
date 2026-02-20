@@ -2,14 +2,10 @@
 name: 'step-12-synthesize'
 description: 'Synthesize all captured information and generate the complete Product Brief document'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-12-synthesize.md'
-nextStepFile: '{workflow_path}/steps-c/step-13-content-init.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-13-content-init.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 12: Synthesize and Create Brief

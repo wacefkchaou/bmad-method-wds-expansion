@@ -2,14 +2,8 @@
 name: 'step-02-analyze-impact'
 description: 'Understand how the proposed changes affect existing code and identify risks'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-e/step-02-analyze-impact.md'
-nextStepFile: '{workflow_path}/steps-e/step-03-plan-implementation.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-evolution.md'
+nextStepFile: './step-03-plan-implementation.md'
 ---
 
 # Step 2: Analyze Impact

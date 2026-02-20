@@ -2,14 +2,8 @@
 name: 'step-08d-add-variant'
 description: 'Add a new variant to an existing component in the design system'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-08d-add-variant.md'
-nextStepFile: '{workflow_path}/steps-c/step-08e-generate-catalog.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-create.md'
+nextStepFile: './step-08e-generate-catalog.md'
 ---
 
 # Step 8d: Add Variant

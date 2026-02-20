@@ -2,14 +2,9 @@
 name: 'step-06a-extract-features'
 description: 'Extract features from project documentation for impact analysis'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-06a-extract-features.md'
-nextStepFile: '{workflow_path}/steps-c/step-06b-confirm-assessment.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-06b-confirm-assessment.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 12: Extract Features

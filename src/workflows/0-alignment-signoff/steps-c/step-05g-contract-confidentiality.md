@@ -2,14 +2,9 @@
 name: 'step-05g-contract-confidentiality'
 description: 'Build Section 7 Confidentiality Clause protecting sensitive information for both parties'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-05g-contract-confidentiality.md'
-nextStepFile: '{workflow_path}/steps-c/step-05h-contract-not-to-exceed.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-05h-contract-not-to-exceed.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 29: Build Section 7 - Confidentiality Clause

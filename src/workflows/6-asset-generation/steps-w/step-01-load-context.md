@@ -1,11 +1,7 @@
 ---
 name: 'step-01-load-context'
 description: 'Load all inputs needed for wireframe generation from page specifications and design system'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-w/step-01-load-context.md'
-nextStepFile: '{workflow_path}/steps-w/step-02-inventory.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-wireframes.md'
+nextStepFile: './step-02-inventory.md'
 ---
 
 # Step 1: Load Context

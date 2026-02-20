@@ -2,14 +2,9 @@
 name: 'step-09c-quality-check'
 description: 'Run final quality check on all trigger map documents'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-09c-quality-check.md'
-nextStepFile: '{workflow_path}/steps-c/step-09d-create-handover-package.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-09d-create-handover-package.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 34: Final Quality Check

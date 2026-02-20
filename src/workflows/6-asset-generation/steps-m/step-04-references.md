@@ -1,11 +1,7 @@
 ---
 name: 'step-04-references'
 description: 'Attach reference images that guide visual consistency across batch generation'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-m/step-04-references.md'
-nextStepFile: '{workflow_path}/steps-m/step-05-generate.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-images.md'
+nextStepFile: './step-05-generate.md'
 ---
 
 # Step 4: Reference Images

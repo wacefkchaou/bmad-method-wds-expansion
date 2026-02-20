@@ -2,14 +2,10 @@
 name: 'step-16-languages'
 description: 'Define language requirements and translation approach'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-16-languages.md'
-nextStepFile: '{workflow_path}/steps-c/step-17-seo-keywords.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-17-seo-keywords.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 16: Language Strategy

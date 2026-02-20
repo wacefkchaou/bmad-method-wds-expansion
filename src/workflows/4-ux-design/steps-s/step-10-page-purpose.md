@@ -2,14 +2,10 @@
 name: 'step-10-page-purpose'
 description: 'Define what this page should accomplish'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-s/step-10-page-purpose.md'
-nextStepFile: '{workflow_path}/steps-s/step-11-entry-point.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-suggest.md'
+nextStepFile: './step-11-entry-point.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-suggest.md'
 ---
 
 # Step 10: Page Purpose

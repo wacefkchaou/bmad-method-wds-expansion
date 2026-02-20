@@ -1,10 +1,7 @@
 ---
 name: 'step-05-review'
 description: 'Review all motion content for consistency, performance, and accessibility compliance'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-v/step-05-review.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-videos.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 5: Review and Iterate

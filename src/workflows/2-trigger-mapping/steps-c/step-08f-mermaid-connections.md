@@ -2,14 +2,9 @@
 name: 'step-08f-mermaid-connections'
 description: 'Create connections between all nodes in the proper flow pattern'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-08f-mermaid-connections.md'
-nextStepFile: '{workflow_path}/steps-c/step-08g-mermaid-styling.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-08g-mermaid-styling.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 29: Create Connections

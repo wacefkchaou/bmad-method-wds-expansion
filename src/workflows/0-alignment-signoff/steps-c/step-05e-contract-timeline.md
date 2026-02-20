@@ -2,14 +2,9 @@
 name: 'step-05e-contract-timeline'
 description: 'Build Section 5 Timeline with milestones and delivery dates'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-05e-contract-timeline.md'
-nextStepFile: '{workflow_path}/steps-c/step-05f-contract-availability.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-05f-contract-availability.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 27: Build Section 5 - Timeline

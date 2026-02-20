@@ -2,14 +2,10 @@
 name: 'step-02-layout-sections'
 description: 'Define high-level page structure and sections'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-p/step-02-layout-sections.md'
-nextStepFile: '{workflow_path}/steps-p/step-03-components-objects.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-specify.md'
+nextStepFile: './step-03-components-objects.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-specify.md'
 ---
 
 # Step 2: Layout Sections

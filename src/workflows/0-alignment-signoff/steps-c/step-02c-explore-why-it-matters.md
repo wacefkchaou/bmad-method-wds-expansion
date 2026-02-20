@@ -2,17 +2,12 @@
 name: 'step-02c-explore-why-it-matters'
 description: 'Help user articulate why this matters and who they are helping'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-02c-explore-why-it-matters.md'
-nextStepFile: '{workflow_path}/steps-c/step-02d-explore-how-we-see-it-working.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-02d-explore-how-we-see-it-working.md'
+workflowFile: '../workflow.md'
 
 # Data References
-sectionRoutingFile: '{workflow_path}/data/02-explore-sections-routing.md'
+sectionRoutingFile: '../data/02-explore-sections-routing.md'
 ---
 
 # Step 8: Explore Why It Matters

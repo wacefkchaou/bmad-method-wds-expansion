@@ -2,14 +2,10 @@
 name: 'step-06-scenario-name'
 description: 'Choose a descriptive, outcome-focused name for the scenario'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-s/step-06-scenario-name.md'
-nextStepFile: '{workflow_path}/steps-s/step-07-create-scenario-folder.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-suggest.md'
+nextStepFile: './step-07-create-scenario-folder.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-suggest.md'
 ---
 
 # Step 6: Scenario Name

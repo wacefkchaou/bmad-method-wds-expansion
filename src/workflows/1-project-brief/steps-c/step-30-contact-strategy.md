@@ -2,14 +2,10 @@
 name: 'step-30-contact-strategy'
 description: 'Define contact methods and communication strategy'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-30-contact-strategy.md'
-nextStepFile: '{workflow_path}/steps-c/step-31-multilingual.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-31-multilingual.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 30: Contact Strategy

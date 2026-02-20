@@ -2,14 +2,10 @@
 name: 'step-11-tone-of-voice'
 description: 'Establish the product communication personality and style'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-11-tone-of-voice.md'
-nextStepFile: '{workflow_path}/steps-c/step-11a-create-vtc.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-11a-create-vtc.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 11: Define Tone of Voice

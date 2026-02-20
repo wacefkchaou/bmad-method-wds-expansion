@@ -2,14 +2,8 @@
 name: 'step-02-execute'
 description: 'Execute all test scenarios defined in the test scenario file and document results'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-t/step-02-execute.md'
-nextStepFile: '{workflow_path}/steps-t/step-03-document-issues.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-acceptance-testing.md'
+nextStepFile: './step-03-document-issues.md'
 ---
 
 # Step 2: Run Test Scenarios

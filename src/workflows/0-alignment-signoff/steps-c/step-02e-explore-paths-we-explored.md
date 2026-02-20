@@ -2,17 +2,12 @@
 name: 'step-02e-explore-paths-we-explored'
 description: 'Help user articulate alternative approaches they considered'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-02e-explore-paths-we-explored.md'
-nextStepFile: '{workflow_path}/steps-c/step-02f-explore-recommended-solution.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-02f-explore-recommended-solution.md'
+workflowFile: '../workflow.md'
 
 # Data References
-sectionRoutingFile: '{workflow_path}/data/02-explore-sections-routing.md'
+sectionRoutingFile: '../data/02-explore-sections-routing.md'
 ---
 
 # Step 10: Explore Paths We Explored

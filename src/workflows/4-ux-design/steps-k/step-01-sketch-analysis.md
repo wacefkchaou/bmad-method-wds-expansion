@@ -2,13 +2,9 @@
 name: 'step-01-sketch-analysis'
 description: 'AI reads entire sketch, identifies sections, interprets function/purpose, user confirms before detailed specification'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-k/step-01-sketch-analysis.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-sketch.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-sketch.md'
 ---
 
 # Step 1: Sketch Analysis

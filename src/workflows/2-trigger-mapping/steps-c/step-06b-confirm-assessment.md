@@ -2,14 +2,9 @@
 name: 'step-06b-confirm-assessment'
 description: 'Confirm assessment approach before running feature impact analysis'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-06b-confirm-assessment.md'
-nextStepFile: '{workflow_path}/steps-c/step-06c-make-assessment.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-06c-make-assessment.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 13: Confirm Assessment Approach

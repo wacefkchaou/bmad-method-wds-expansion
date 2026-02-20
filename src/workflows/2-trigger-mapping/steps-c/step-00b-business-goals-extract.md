@@ -2,14 +2,9 @@
 name: 'step-00b-business-goals-extract'
 description: 'Extract and validate business goals from existing documentation'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-00b-business-goals-extract.md'
-nextStepFile: '{workflow_path}/steps-c/step-00c-target-groups-extract.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-00c-target-groups-extract.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 2: Business Goals Extraction

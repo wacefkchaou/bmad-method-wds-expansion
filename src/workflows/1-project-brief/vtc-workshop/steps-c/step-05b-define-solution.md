@@ -2,14 +2,10 @@
 name: 'step-05b-define-solution'
 description: 'Define what solution is being built - NOT in Trigger Map, solutions stay out of map'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/vtc-workshop/steps-c/step-05b-define-solution.md'
-nextStepFile: '{workflow_path}/vtc-workshop/steps-c/step-06b-customer-awareness.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/vtc-workshop/workflow.md'
+nextStepFile: './step-06b-customer-awareness.md'
+workflowFile: '../../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 5: Define Solution

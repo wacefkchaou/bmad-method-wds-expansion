@@ -2,13 +2,8 @@
 name: 'step-00-simplified-brief'
 description: 'Capture essential project context through a quick 5-10 minute simplified brief'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-00-simplified-brief.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 0: Simplified Project Brief

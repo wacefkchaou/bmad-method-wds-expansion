@@ -2,14 +2,10 @@
 name: 'step-03-page-overview'
 description: 'Verify that page specification includes strategic context through page description, User Situation, and Page Purpose'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-v/step-03-page-overview.md'
-nextStepFile: '{workflow_path}/steps-v/step-04-page-sections.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-validate.md'
+nextStepFile: './step-04-page-sections.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-validate.md'
 ---
 
 # Step 3: Validate Page Overview

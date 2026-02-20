@@ -2,14 +2,9 @@
 name: 'step-03d-present-approval'
 description: 'Present the alignment document for stakeholder review and guide next steps'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-03d-present-approval.md'
-nextStepFile: '{workflow_path}/steps-c/step-04a-offer-signoff.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-04a-offer-signoff.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 20: Present Alignment Document for Approval

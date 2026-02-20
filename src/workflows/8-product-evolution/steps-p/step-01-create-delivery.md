@@ -2,17 +2,11 @@
 name: 'step-01-create-delivery'
 description: 'Package incremental improvement as Design Delivery (DD-XXX)'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-p/step-01-create-delivery.md'
-nextStepFile: '{workflow_path}/steps-p/step-02-hand-off.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-deploy.md'
+nextStepFile: './step-02-hand-off.md'
 
 # Data References
-deliveryTemplates: '{workflow_path}/data/delivery-templates.md'
+deliveryTemplates: '../data/delivery-templates.md'
 ---
 
 # Step 4: Create Design Delivery

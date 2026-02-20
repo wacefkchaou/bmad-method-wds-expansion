@@ -2,14 +2,10 @@
 name: 'step-04-content-languages'
 description: 'Specify all text content in all supported languages'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-p/step-04-content-languages.md'
-nextStepFile: '{workflow_path}/steps-p/step-05-interactions.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-specify.md'
+nextStepFile: './step-05-interactions.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-specify.md'
 ---
 
 # Step 4: Content & Languages

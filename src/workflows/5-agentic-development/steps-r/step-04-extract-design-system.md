@@ -2,13 +2,8 @@
 name: 'step-04-extract-design-system'
 description: 'Consolidate all design tokens and component patterns into a structured WDS-compatible design system document'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-r/step-04-extract-design-system.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-reverse-engineering.md'
+activityWorkflowFile: '../workflow-reverse-engineering.md'
 ---
 
 # Step 4: Extract Design System

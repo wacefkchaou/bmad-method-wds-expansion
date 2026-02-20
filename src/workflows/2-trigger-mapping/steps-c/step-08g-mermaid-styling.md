@@ -2,14 +2,9 @@
 name: 'step-08g-mermaid-styling'
 description: 'Apply professional light gray styling with dark text to all diagram nodes'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-08g-mermaid-styling.md'
-nextStepFile: '{workflow_path}/steps-c/step-08h-mermaid-quality.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-08h-mermaid-quality.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 30: Apply Styling

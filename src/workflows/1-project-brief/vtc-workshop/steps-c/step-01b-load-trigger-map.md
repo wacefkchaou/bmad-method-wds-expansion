@@ -2,14 +2,10 @@
 name: 'step-01b-load-trigger-map'
 description: 'Load and verify existing Trigger Map for VTC extraction'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/vtc-workshop/steps-c/step-01b-load-trigger-map.md'
-nextStepFile: '{workflow_path}/vtc-workshop/steps-c/step-02b-select-business-goal.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/vtc-workshop/workflow.md'
+nextStepFile: './step-02b-select-business-goal.md'
+workflowFile: '../../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 1: Load Trigger Map

@@ -2,14 +2,9 @@
 name: 'step-02b-explore-solution'
 description: 'Capture solution idea and explore the underlying realization when user starts with a solution'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-02b-explore-solution.md'
-nextStepFile: '{workflow_path}/steps-c/step-02c-explore-why-it-matters.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-02c-explore-why-it-matters.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 7: Explore Solution (If Starting with Solution)

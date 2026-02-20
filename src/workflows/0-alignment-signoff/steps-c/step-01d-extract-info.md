@@ -2,14 +2,9 @@
 name: 'step-01d-extract-info'
 description: 'Extract key information from provided communications and documents to inform the alignment document'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-01d-extract-info.md'
-nextStepFile: '{workflow_path}/steps-c/step-01e-detect-starting-point.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-01e-detect-starting-point.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 4: Extract Information from Communications

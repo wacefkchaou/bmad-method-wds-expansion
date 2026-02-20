@@ -2,14 +2,9 @@
 name: 'step-08a-mermaid-init-structure'
 description: 'Initialize the Mermaid diagram structure with configuration and node IDs'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-08a-mermaid-init-structure.md'
-nextStepFile: '{workflow_path}/steps-c/step-08b-mermaid-business-goals.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-08b-mermaid-business-goals.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 24: Initialize Diagram Structure

@@ -2,14 +2,9 @@
 name: 'step-01a-understand-situation'
 description: 'Clarify the users situation before proceeding with the alignment workflow'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-01a-understand-situation.md'
-nextStepFile: '{workflow_path}/steps-c/step-01b-determine-if-needed.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-01b-determine-if-needed.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 1: Understand Situation

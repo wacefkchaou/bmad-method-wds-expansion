@@ -2,13 +2,9 @@
 name: 'step-10-final-validation'
 description: 'Cross-reference all sections, verify sketch coverage, check for broken links, and generate comprehensive quality report'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-v/step-10-final-validation.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-validate.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-validate.md'
 ---
 
 # Step 10: Final Validation & Quality Report

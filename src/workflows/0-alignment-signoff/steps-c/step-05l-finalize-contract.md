@@ -2,14 +2,9 @@
 name: 'step-05l-finalize-contract'
 description: 'Finalize the contract document review it with user and present for signing'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-05l-finalize-contract.md'
-nextStepFile: '{workflow_path}/steps-c/step-06a-build-internal-signoff.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-06a-build-internal-signoff.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 34: Finalize Contract

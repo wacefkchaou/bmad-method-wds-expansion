@@ -2,13 +2,8 @@
 name: step-05-seo-keyword-alignment
 description: Verify that scenario pages align with the SEO keyword strategy defined in Phase 1
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-v/step-05-seo-keyword-alignment.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-validate.md'
+workflowFile: '../workflow.md'
 ---
 
 # Validation Step 5: SEO Keyword Alignment

@@ -1,10 +1,7 @@
 ---
 name: 'step-05-review'
 description: 'Review the complete icon set for visual consistency, clarity, and completeness'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-i/step-05-review.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-icons.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 5: Review and Iterate

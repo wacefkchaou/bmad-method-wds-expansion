@@ -2,14 +2,10 @@
 name: 'step-02b-select-business-goal'
 description: 'Choose which business goal from Trigger Map this VTC serves'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/vtc-workshop/steps-c/step-02b-select-business-goal.md'
-nextStepFile: '{workflow_path}/vtc-workshop/steps-c/step-03b-select-user.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/vtc-workshop/workflow.md'
+nextStepFile: './step-03b-select-user.md'
+workflowFile: '../../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 2: Select Business Goal

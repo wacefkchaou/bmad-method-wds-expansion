@@ -1,11 +1,7 @@
 ---
 name: 'step-04-generate-validate'
 description: 'Generate Figma-compatible HTML with OBJECT IDs and validate before export'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-f/step-04-generate-validate.md'
-nextStepFile: '{workflow_path}/steps-f/step-05-execute-export.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-figma.md'
+nextStepFile: './step-05-execute-export.md'
 ---
 
 # Step 4: Generate and Validate

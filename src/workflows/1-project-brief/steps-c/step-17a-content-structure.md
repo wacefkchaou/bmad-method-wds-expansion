@@ -2,14 +2,10 @@
 name: 'step-17a-content-structure'
 description: 'Capture content structure principles and client vision for product pages'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-17a-content-structure.md'
-nextStepFile: '{workflow_path}/steps-c/step-18-content-synthesize.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-18-content-synthesize.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 17A: Content Structure Principles

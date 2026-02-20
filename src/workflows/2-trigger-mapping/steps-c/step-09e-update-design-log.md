@@ -2,14 +2,9 @@
 name: 'step-09e-update-design-log'
 description: 'Document Phase 2 completion in the project design log'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-09e-update-design-log.md'
-nextStepFile: '{workflow_path}/steps-c/step-09f-provide-activation.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-09f-provide-activation.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 36: Update Design Log

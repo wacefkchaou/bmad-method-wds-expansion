@@ -2,14 +2,9 @@
 name: 'step-04a-offer-signoff'
 description: 'Offer to generate signoff document after alignment acceptance with document type options'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-04a-offer-signoff.md'
-nextStepFile: '{workflow_path}/steps-c/step-04b-determine-business-model.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-04b-determine-business-model.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 21: Offer to Generate Signoff Document

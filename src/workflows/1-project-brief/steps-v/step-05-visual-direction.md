@@ -2,14 +2,10 @@
 name: 'step-05-visual-direction'
 description: 'Verify visual direction is documented for Phase 4'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-v/step-05-visual-direction.md'
-nextStepFile: '{workflow_path}/steps-v/step-06-platform-requirements.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-validate.md'
+nextStepFile: './step-06-platform-requirements.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-validate.md'
 ---
 
 # Validation Step 05: Visual Direction

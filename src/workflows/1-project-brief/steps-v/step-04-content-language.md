@@ -2,14 +2,10 @@
 name: 'step-04-content-language'
 description: 'Verify tone, personality, and content guidelines are coherent'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-v/step-04-content-language.md'
-nextStepFile: '{workflow_path}/steps-v/step-05-visual-direction.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-validate.md'
+nextStepFile: './step-05-visual-direction.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-validate.md'
 ---
 
 # Validation Step 04: Content & Language

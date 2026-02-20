@@ -2,14 +2,9 @@
 name: 'step-08c-mermaid-platform'
 description: 'Format the central platform node with product name and transformation statement'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-08c-mermaid-platform.md'
-nextStepFile: '{workflow_path}/steps-c/step-08d-mermaid-target-groups.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-08d-mermaid-target-groups.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 26: Format Platform Node

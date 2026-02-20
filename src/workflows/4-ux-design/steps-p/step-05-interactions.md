@@ -2,14 +2,10 @@
 name: 'step-05-interactions'
 description: 'Define what happens when users interact with each component'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-p/step-05-interactions.md'
-nextStepFile: '{workflow_path}/steps-p/step-06-states.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-specify.md'
+nextStepFile: './step-06-states.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-specify.md'
 ---
 
 # Step 5: Interactions

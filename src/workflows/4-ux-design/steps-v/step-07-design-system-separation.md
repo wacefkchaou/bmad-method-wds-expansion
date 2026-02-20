@@ -2,14 +2,10 @@
 name: 'step-07-design-system-separation'
 description: 'Verify that page specification focuses on strategic design intent without CSS implementation details or unnecessary information'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-v/step-07-design-system-separation.md'
-nextStepFile: '{workflow_path}/steps-v/step-08-seo-compliance.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-validate.md'
+nextStepFile: './step-08-seo-compliance.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-validate.md'
 ---
 
 # Step 7: Validate Design System Separation & Unnecessary Information

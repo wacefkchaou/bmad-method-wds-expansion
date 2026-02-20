@@ -1,11 +1,7 @@
 ---
 name: 'step-02-inventory'
 description: 'Identify all pages needing full design compositions and assess readiness'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-p/step-02-inventory.md'
-nextStepFile: '{workflow_path}/steps-p/step-03-select-style.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-page-designs.md'
+nextStepFile: './step-03-select-style.md'
 ---
 
 # Step 2: Asset Inventory

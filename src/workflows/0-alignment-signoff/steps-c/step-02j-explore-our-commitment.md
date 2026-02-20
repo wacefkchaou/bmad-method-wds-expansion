@@ -2,17 +2,12 @@
 name: 'step-02j-explore-our-commitment'
 description: 'Help user articulate resources needed and potential risks for the project'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-02j-explore-our-commitment.md'
-nextStepFile: '{workflow_path}/steps-c/step-02k-explore-summary.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-02k-explore-summary.md'
+workflowFile: '../workflow.md'
 
 # Data References
-sectionRoutingFile: '{workflow_path}/data/02-explore-sections-routing.md'
+sectionRoutingFile: '../data/02-explore-sections-routing.md'
 ---
 
 # Step 15: Explore Our Commitment

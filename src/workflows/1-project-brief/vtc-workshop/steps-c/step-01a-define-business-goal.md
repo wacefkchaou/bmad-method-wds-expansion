@@ -2,14 +2,10 @@
 name: 'step-01a-define-business-goal'
 description: 'Define a clear, measurable business goal for the VTC'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/vtc-workshop/steps-c/step-01a-define-business-goal.md'
-nextStepFile: '{workflow_path}/vtc-workshop/steps-c/step-02a-identify-solution.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/vtc-workshop/workflow.md'
+nextStepFile: './step-02a-identify-solution.md'
+workflowFile: '../../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 1: Define Business Goal

@@ -2,14 +2,9 @@
 name: 'step-08e-mermaid-driving-forces'
 description: 'Format driving forces nodes with wants and fears for each persona'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-08e-mermaid-driving-forces.md'
-nextStepFile: '{workflow_path}/steps-c/step-08f-mermaid-connections.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-08f-mermaid-connections.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 28: Format Driving Forces Nodes

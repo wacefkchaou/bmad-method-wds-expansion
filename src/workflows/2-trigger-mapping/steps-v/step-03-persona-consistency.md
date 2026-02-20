@@ -2,14 +2,9 @@
 name: 'step-03-persona-consistency'
 description: 'Validate persona documents match trigger map data and are internally consistent'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-v/step-03-persona-consistency.md'
-nextStepFile: '{workflow_path}/steps-v/step-04-feature-impact-alignment.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-validate.md'
+nextStepFile: './step-04-feature-impact-alignment.md'
+activityWorkflowFile: '../workflow-validate.md'
 ---
 
 # Step 3: Persona Consistency Validation

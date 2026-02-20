@@ -2,14 +2,10 @@
 name: 'step-06a-customer-awareness'
 description: 'Define where user starts and where we move them in their awareness journey'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/vtc-workshop/steps-c/step-06a-customer-awareness.md'
-nextStepFile: '{workflow_path}/vtc-workshop/steps-c/step-07a-review-and-save.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/vtc-workshop/workflow.md'
+nextStepFile: './step-07a-review-and-save.md'
+workflowFile: '../../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 6: Position Customer Awareness

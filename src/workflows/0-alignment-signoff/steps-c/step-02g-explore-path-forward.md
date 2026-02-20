@@ -2,17 +2,12 @@
 name: 'step-02g-explore-path-forward'
 description: 'Help user articulate how the work will be done practically including WDS phases and workflow'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-02g-explore-path-forward.md'
-nextStepFile: '{workflow_path}/steps-c/step-02h-explore-value-we-create.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-02h-explore-value-we-create.md'
+workflowFile: '../workflow.md'
 
 # Data References
-sectionRoutingFile: '{workflow_path}/data/02-explore-sections-routing.md'
+sectionRoutingFile: '../data/02-explore-sections-routing.md'
 ---
 
 # Step 12: Explore The Path Forward

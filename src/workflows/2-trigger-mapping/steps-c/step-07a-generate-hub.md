@@ -2,14 +2,9 @@
 name: 'step-07a-generate-hub'
 description: 'Generate the 00-trigger-map.md hub document with Mermaid diagram and navigation'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-07a-generate-hub.md'
-nextStepFile: '{workflow_path}/steps-c/step-07b-generate-business-goals.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-07b-generate-business-goals.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 17: Generate Hub Document

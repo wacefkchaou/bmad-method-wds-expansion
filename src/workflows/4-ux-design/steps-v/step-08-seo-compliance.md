@@ -2,14 +2,10 @@
 name: 'step-08-seo-compliance'
 description: 'Verify page specifications follow SEO best practices aligned with Phase 1 keyword strategy'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-v/step-08-seo-compliance.md'
-nextStepFile: '{workflow_path}/steps-v/step-09-design-system-consistency.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-validate.md'
+nextStepFile: './step-09-design-system-consistency.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-validate.md'
 ---
 
 # Step 8: Validate SEO Compliance

@@ -2,14 +2,10 @@
 name: 'step-04-page-sections'
 description: 'Verify that page specification has properly structured Page Sections with Object IDs, component references, and behavior specifications'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-v/step-04-page-sections.md'
-nextStepFile: '{workflow_path}/steps-v/step-05-section-order.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-validate.md'
+nextStepFile: './step-05-section-order.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-validate.md'
 ---
 
 # Step 4: Validate Page Sections

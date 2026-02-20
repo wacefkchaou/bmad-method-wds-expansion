@@ -2,14 +2,10 @@
 name: 'step-01-visual-approach'
 description: 'Determine which visual tool and approach to use for page design'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-w/step-01-visual-approach.md'
-nextStepFile: '{workflow_path}/steps-w/step-02-generate-visual.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-visual.md'
+nextStepFile: './step-02-generate-visual.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-visual.md'
 ---
 
 # Step 1: Choose Visual Approach
@@ -71,11 +67,17 @@ Load the page specification and understand:
 ```
 How would you like to create the visual design?
 
-[N] Nano Banana — AI-generated mockup (quick, exploratory)
+[E] Excalidraw Wireframe — Editable layout sketch (fast, user can iterate directly)
+[N] Nano Banana Assets — AI-generated images and mood visuals (hero photos, card images, placeholders)
+[G] Google Stitch — AI-generated UI with real HTML/CSS code (production-quality mockups)
 [F] Figma — Professional design tool (precise, production-ready)
 [H] HTML Prototype — Code-based design (interactive, responsive)
-[W] Wireframe — Quick layout sketch (fast, structural)
 ```
+
+**Recommended workflow for page design:**
+1. Start with [E] Excalidraw to sketch and iterate on layout — user can drag, resize, annotate
+2. Use [N] Nano Banana to generate image assets (hero photos, card images, seasonal photos)
+3. Use [G] Google Stitch or [H] HTML Prototype for production mockups with real text and code
 
 ### 3. Setup Gate (Nano Banana only)
 

@@ -2,14 +2,10 @@
 name: 'step-02-define-component'
 description: 'Create a new design system component or update an existing one'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-m/step-02-define-component.md'
-nextStepFile: '{workflow_path}/steps-m/step-03-validate-usage.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-design-system.md'
+nextStepFile: './step-03-validate-usage.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-design-system.md'
 ---
 
 # Step 2: Define or Update Component
@@ -47,7 +43,7 @@ Create a new design system component or update an existing one — defining its 
 
 - 🎯 Define component through structured questions about properties, states, variants
 - 💾 Save component definition to design system folder
-- 📖 Reference object-types templates in `{installed_path}/data/object-types/templates/`
+- 📖 Reference object-types templates in `../data/object-types/templates/`
 - 🚫 FORBIDDEN to save incomplete component definitions
 
 ## CONTEXT BOUNDARIES:
@@ -67,7 +63,7 @@ Create a new design system component or update an existing one — defining its 
 
 ### 2. Define Component
 
-Using the object-types templates in `{installed_path}/data/object-types/templates/`:
+Using the object-types templates in `../data/object-types/templates/`:
 
 - **Properties:** configurable attributes
 - **States:** default, hover, active, disabled, error, loading
@@ -78,7 +74,7 @@ Using the object-types templates in `{installed_path}/data/object-types/template
 
 ### 3. Complexity Assessment
 
-Reference `{installed_path}/data/object-types/COMPLEXITY-ROUTER.md`:
+Reference `../data/object-types/COMPLEXITY-ROUTER.md`:
 
 - Simple (single element, few states)
 - Moderate (multiple elements, several states)
@@ -95,7 +91,7 @@ Display: "**Select an Option:** [C] Continue to Validate Usage | [R] Return to R
 #### Menu Handling Logic:
 
 - IF C: Load, read entire file, then execute {nextStepFile}
-- IF R: Load, read entire file, then execute {workflow_path}/steps-m/step-01-review-current.md
+- IF R: Load, read entire file, then execute ./step-01-review-current.md
 - IF M: Return to {workflowFile} or {activityWorkflowFile}
 - IF Any other comments or queries: help user respond then [Redisplay Menu Options](#5-present-menu-options)
 

@@ -2,14 +2,8 @@
 name: 'step-01-scan-existing'
 description: 'Scan existing design system components to find matches for the current component type'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-01-scan-existing.md'
-nextStepFile: '{workflow_path}/steps-c/step-02-compare-attributes.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-create.md'
+nextStepFile: './step-02-compare-attributes.md'
 ---
 
 # Step 1: Scan Existing Components

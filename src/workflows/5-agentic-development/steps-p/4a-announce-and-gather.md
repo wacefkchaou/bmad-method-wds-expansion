@@ -2,14 +2,8 @@
 name: '4a-announce-and-gather'
 description: 'Announce which section is being built and gather all requirements from specifications'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-p/4a-announce-and-gather.md'
-nextStepFile: '{workflow_path}/steps-p/4b-create-story-file.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-prototyping.md'
+nextStepFile: './4b-create-story-file.md'
 ---
 
 # Step 4a: Announce Section & Gather Requirements

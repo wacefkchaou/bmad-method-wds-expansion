@@ -2,14 +2,10 @@
 name: 'step-32-platform-synthesize'
 description: 'Complete the Platform Requirements document and prepare for next steps'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-32-platform-synthesize.md'
-nextStepFile: '{workflow_path}/steps-c/step-33-analyze-brief.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-33-analyze-brief.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 32: Platform Requirements Synthesize & Review

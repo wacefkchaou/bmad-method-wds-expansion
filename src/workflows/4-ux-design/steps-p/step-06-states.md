@@ -2,14 +2,10 @@
 name: 'step-06-states'
 description: 'Define all possible page and component states'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-p/step-06-states.md'
-nextStepFile: '{workflow_path}/steps-p/step-07-validation.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-specify.md'
+nextStepFile: './step-07-validation.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-specify.md'
 ---
 
 # Step 6: States

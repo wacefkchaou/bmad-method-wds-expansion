@@ -2,14 +2,8 @@
 name: 'step-06-present-decision'
 description: 'Present complete analysis to designer with trade-offs for informed decision'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-06-present-decision.md'
-nextStepFile: '{workflow_path}/steps-c/step-07-execute-decision.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-create.md'
+nextStepFile: './step-07-execute-decision.md'
 ---
 
 # Step 6: Present Decision

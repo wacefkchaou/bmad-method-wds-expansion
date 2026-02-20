@@ -2,14 +2,10 @@
 name: 'step-08-page-context'
 description: 'Route user to appropriate page creation workflow based on their context'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-s/step-08-page-context.md'
-nextStepFile: '{workflow_path}/steps-s/step-09-page-name.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-suggest.md'
+nextStepFile: './step-09-page-name.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-suggest.md'
 ---
 
 # Step 8: Page Init - Entry Point

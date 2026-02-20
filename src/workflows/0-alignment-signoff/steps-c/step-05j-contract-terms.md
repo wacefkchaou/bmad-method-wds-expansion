@@ -2,14 +2,9 @@
 name: 'step-05j-contract-terms'
 description: 'Build Section 10 Terms and Conditions covering legal framework for the agreement'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-05j-contract-terms.md'
-nextStepFile: '{workflow_path}/steps-c/step-05k-contract-approval.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-05k-contract-approval.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 32: Build Section 10 - Terms and Conditions

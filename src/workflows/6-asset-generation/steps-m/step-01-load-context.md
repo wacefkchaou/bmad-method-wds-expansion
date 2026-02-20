@@ -1,11 +1,7 @@
 ---
 name: 'step-01-load-context'
 description: 'Load all inputs for image generation including page specs, visual direction, and existing imagery'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-m/step-01-load-context.md'
-nextStepFile: '{workflow_path}/steps-m/step-02-inventory.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-images.md'
+nextStepFile: './step-02-inventory.md'
 ---
 
 # Step 1: Load Context

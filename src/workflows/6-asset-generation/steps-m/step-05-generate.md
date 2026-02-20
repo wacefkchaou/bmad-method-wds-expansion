@@ -1,11 +1,7 @@
 ---
 name: 'step-05-generate'
 description: 'Execute image generation for all batches with reference chaining for consistency'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-m/step-05-generate.md'
-nextStepFile: '{workflow_path}/steps-m/step-06-review.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-images.md'
+nextStepFile: './step-06-review.md'
 ---
 
 # Step 5: Generate Images

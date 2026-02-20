@@ -1,11 +1,7 @@
 ---
 name: 'step-03-select-style'
 description: 'Choose wireframe fidelity level, design style influence, and annotation options'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-w/step-03-select-style.md'
-nextStepFile: '{workflow_path}/steps-w/step-04-generate.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-wireframes.md'
+nextStepFile: './step-04-generate.md'
 ---
 
 # Step 3: Select Style

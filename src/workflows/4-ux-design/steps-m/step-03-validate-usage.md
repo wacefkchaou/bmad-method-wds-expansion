@@ -2,13 +2,9 @@
 name: 'step-03-validate-usage'
 description: 'Check that design system components are used correctly and consistently across page specifications'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-m/step-03-validate-usage.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-design-system.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow-design-system.md'
 ---
 
 # Step 3: Validate Component Usage

@@ -2,14 +2,8 @@
 name: 'step-08b-create-new-component'
 description: 'Add a new component to the design system with full specification'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-08b-create-new-component.md'
-nextStepFile: '{workflow_path}/steps-c/step-08c-update-component.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-create.md'
+nextStepFile: './step-08c-update-component.md'
 ---
 
 # Step 8b: Create New Component

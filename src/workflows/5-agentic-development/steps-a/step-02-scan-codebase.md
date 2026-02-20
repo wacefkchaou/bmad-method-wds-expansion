@@ -2,14 +2,8 @@
 name: 'step-02-scan-codebase'
 description: 'Build a mental model of the codebase through systematic exploration of structure, tech stack, and entry points'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-a/step-02-scan-codebase.md'
-nextStepFile: '{workflow_path}/steps-a/step-03-map-architecture.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-analysis.md'
+nextStepFile: './step-03-map-architecture.md'
 ---
 
 # Step 2: Scan Codebase

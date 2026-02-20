@@ -2,14 +2,9 @@
 name: 'step-08b-mermaid-business-goals'
 description: 'Format business goals nodes with emojis, titles, and key points'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-08b-mermaid-business-goals.md'
-nextStepFile: '{workflow_path}/steps-c/step-08c-mermaid-platform.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-08c-mermaid-platform.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 25: Format Business Goals Nodes

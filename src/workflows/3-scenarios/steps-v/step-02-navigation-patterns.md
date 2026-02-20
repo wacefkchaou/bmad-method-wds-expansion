@@ -2,14 +2,8 @@
 name: step-02-navigation-patterns
 description: Verify that all scenario shortest paths follow WDS navigation conventions
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-v/step-02-navigation-patterns.md'
-nextStepFile: '{workflow_path}/steps-v/step-03-outline-completeness.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-validate.md'
+nextStepFile: './step-03-outline-completeness.md'
 ---
 
 # Validation Step 2: Navigation Patterns

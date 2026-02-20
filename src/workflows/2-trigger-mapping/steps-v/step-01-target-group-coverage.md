@@ -2,14 +2,9 @@
 name: 'step-01-target-group-coverage'
 description: 'Validate all target groups have complete driving forces'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-v/step-01-target-group-coverage.md'
-nextStepFile: '{workflow_path}/steps-v/step-02-prioritization-integrity.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-validate.md'
+nextStepFile: './step-02-prioritization-integrity.md'
+activityWorkflowFile: '../workflow-validate.md'
 ---
 
 # Step 1: Target Group Coverage Validation

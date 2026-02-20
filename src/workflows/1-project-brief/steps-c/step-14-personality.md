@@ -2,14 +2,10 @@
 name: 'step-14-personality'
 description: 'Capture brand personality attributes'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-14-personality.md'
-nextStepFile: '{workflow_path}/steps-c/step-15-tone.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-15-tone.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 14: Brand Personality

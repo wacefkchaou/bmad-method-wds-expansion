@@ -1,10 +1,7 @@
 ---
 name: 'step-06-review'
 description: 'Review all generated images as a cohesive set for brand consistency and quality'
-workflow_path: '{installed_path}'
-thisStepFile: '{workflow_path}/steps-m/step-06-review.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow-images.md'
+workflowFile: '../workflow.md'
 ---
 
 # Step 6: Review and Iterate

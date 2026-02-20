@@ -2,14 +2,10 @@
 name: 'step-25-imagery'
 description: 'Define photography style, image sources, and imagery guidelines'
 
-# Path Definitions
-workflow_path: '{installed_path}'
-
 # File References
-thisStepFile: '{workflow_path}/steps-c/step-25-imagery.md'
-nextStepFile: '{workflow_path}/steps-c/step-26-visual-synthesize.md'
-workflowFile: '{workflow_path}/workflow.md'
-activityWorkflowFile: '{workflow_path}/workflow.md'
+nextStepFile: './step-26-visual-synthesize.md'
+workflowFile: '../workflow.md'
+activityWorkflowFile: '../workflow.md'
 ---
 
 # Step 25: Photography & Imagery
