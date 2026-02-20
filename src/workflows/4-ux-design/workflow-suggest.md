@@ -1,3 +1,8 @@
+---
+name: 'workflow-suggest'
+description: 'Build a scenario's page flow step by step, with the agent proposing and the user confirming at each stage.'
+---
+
 # [S] Suggest — Agent Proposes, User Confirms Each Step
 
 **Goal:** Build a scenario's page flow step by step, with the agent proposing and the user confirming at each stage.
@@ -12,7 +17,7 @@ Load scenario context from `{output_folder}/C-UX-Scenarios/`.
 
 ## Steps
 
-Execute steps in `{installed_path}/steps-s/`:
+Execute steps in `./steps-s/`:
 
 ### Scenario Setup (if new scenario)
 
@@ -42,8 +47,8 @@ Execute steps in `{installed_path}/steps-s/`:
 **Agent behavior:** Propose each step, wait for user confirmation before proceeding. Adjust based on feedback.
 
 **Reference data:**
-- `{installed_path}/data/scenario-init/` — scenario guides and examples
-- `{installed_path}/data/page-creation-flows/` — page creation approaches
+- `./data/scenario-init/` — scenario guides and examples
+- `./data/page-creation-flows/` — page creation approaches
 
 ---
 

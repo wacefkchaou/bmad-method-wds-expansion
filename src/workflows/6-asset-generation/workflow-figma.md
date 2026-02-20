@@ -33,7 +33,7 @@ Send code to Figma when:
 
 ## STEPS
 
-Execute steps in `{installed_path}/steps-f/`:
+Execute steps in `./steps-f/`:
 
 | Step | File | Purpose | Time |
 |------|------|---------|------|

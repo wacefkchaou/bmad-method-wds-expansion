@@ -1,3 +1,8 @@
+---
+name: 'workflow-validate'
+description: 'Systematically audit page specifications for completeness, consistency, and quality.'
+---
+
 # [V] Validate — Quality Audit
 
 **Goal:** Systematically audit page specifications for completeness, consistency, and quality.
@@ -27,12 +32,12 @@ Execute each step in order. Each step produces a section of the validation repor
 
 1. Load project config
 2. Locate page specifications at `{output_folder}/D-UX-Design/`
-3. Begin: Load and execute `{installed_path}/steps-v/step-01-page-metadata.md`
+3. Begin: Load and execute `./steps-v/step-01-page-metadata.md`
 
 **Reference data:**
-- `{installed_path}/data/quality-guide.md`
-- `{installed_path}/data/validation-standards.md`
-- `{installed_path}/templates/diagnostic-report-template.md`
+- `./data/quality-guide.md`
+- `./data/validation-standards.md`
+- `./templates/diagnostic-report-template.md`
 
 ---
 

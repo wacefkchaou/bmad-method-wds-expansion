@@ -11,7 +11,7 @@ description: Generate full page design compositions from specifications
 
 ## Steps
 
-Execute steps in `{installed_path}/steps-p/`:
+Execute steps in `./steps-p/`:
 
 | Step | File | Purpose |
 |------|------|---------|

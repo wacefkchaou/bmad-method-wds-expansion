@@ -23,7 +23,7 @@ Check design system status:
 
 ### Step 1: Initialize Design System
 
-Execute `{installed_path}/steps-c/step-08a-initialize-design-system.md`
+Execute `./steps-c/step-08a-initialize-design-system.md`
 
 Sets up the design system structure: token categories, component organization, naming conventions.
 

@@ -1,3 +1,8 @@
+---
+name: 'workflow-specify'
+description: 'Create a complete, implementation-ready page specification with layout, components, content, interactions, and states.'
+---
+
 # [P] Specify — Detail a Page Specification
 
 **Goal:** Create a complete, implementation-ready page specification with layout, components, content, interactions, and states.
@@ -12,7 +17,7 @@ Load page context from existing page structure in `{output_folder}/D-UX-Design/`
 
 ## Steps
 
-Execute steps in `{installed_path}/steps-p/`:
+Execute steps in `./steps-p/`:
 
 | Step | File | Purpose |
 |------|------|---------|
@@ -26,10 +31,10 @@ Execute steps in `{installed_path}/steps-p/`:
 | 08 | step-08-generate-spec.md | Generate final specification document |
 
 **Reference data:**
-- `{installed_path}/data/object-types/` — component types and templates
-- `{installed_path}/data/guides/WDS-SPECIFICATION-PATTERN.md` — specification format
-- `{installed_path}/data/modular-architecture/` — three-tier architecture
-- `{installed_path}/templates/page-specification.template.md` — output template
+- `./data/object-types/` — component types and templates
+- `./data/guides/WDS-SPECIFICATION-PATTERN.md` — specification format
+- `./data/modular-architecture/` — three-tier architecture
+- `./templates/page-specification.template.md` — output template
 
 ---
 

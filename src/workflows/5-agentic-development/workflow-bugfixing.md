@@ -37,7 +37,7 @@ description: Fix bugs in existing code through structured investigation and veri
 
 ## STEPS
 
-Execute steps in `{installed_path}/steps-f/`:
+Execute steps in `./steps-f/`:
 
 | Step | File | Purpose |
 |------|------|---------|

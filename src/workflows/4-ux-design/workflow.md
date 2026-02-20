@@ -49,7 +49,7 @@ Load and read full config from `{project-root}/_bmad/wds/config.yaml` and resolv
 ### 3. Mode Determination
 
 **Check invocation:**
-- "validate" / -v → Load and execute `{installed_path}/workflow-validate.md`
+- "validate" / -v → Load and execute `./workflow-validate.md`
 - Default → Continue to Scenario Dashboard
 
 ### 4. Scenario Dashboard

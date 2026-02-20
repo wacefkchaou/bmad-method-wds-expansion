@@ -11,7 +11,7 @@ description: Generate icon sets and individual icons matching design system
 
 ## Steps
 
-Execute steps in `{installed_path}/steps-i/`:
+Execute steps in `./steps-i/`:
 
 | Step | File | Purpose |
 |------|------|---------|

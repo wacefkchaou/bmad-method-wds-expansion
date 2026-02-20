@@ -37,7 +37,7 @@ description: Add features to existing products through targeted changes
 
 ## STEPS
 
-Execute steps in `{installed_path}/steps-e/`:
+Execute steps in `./steps-e/`:
 
 | Step | File | Purpose |
 |------|------|---------|

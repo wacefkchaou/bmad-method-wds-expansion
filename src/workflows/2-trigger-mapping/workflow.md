@@ -60,9 +60,9 @@ Load and read full config from `{project-root}/_bmad/wds/config.yaml` and resolv
 ### 3. Mode Determination
 
 **Check invocation:**
-- "validate" / -v → Load and execute `{installed_path}/workflow-validate.md`
-- "existing" / from docs → Load and execute `{installed_path}/steps-c/step-00a-documentation-synthesis.md`
-- Default (create from scratch) → Load and execute `{installed_path}/steps-c/step-01-overview.md`
+- "validate" / -v → Load and execute `./workflow-validate.md`
+- "existing" / from docs → Load and execute `./steps-c/step-00a-documentation-synthesis.md`
+- Default (create from scratch) → Load and execute `./steps-c/step-01-overview.md`
 
 ---
 

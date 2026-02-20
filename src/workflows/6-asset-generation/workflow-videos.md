@@ -11,7 +11,7 @@ description: Generate motion content and animations from specifications
 
 ## Steps
 
-Execute steps in `{installed_path}/steps-v/`:
+Execute steps in `./steps-v/`:
 
 | Step | File | Purpose |
 |------|------|---------|

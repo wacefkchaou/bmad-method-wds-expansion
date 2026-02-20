@@ -1,3 +1,8 @@
+---
+name: 'workflow-sketch'
+description: 'Analyze user-provided sketches (photos, screenshots, wireframes) and translate them into structured page specifications.'
+---
+
 # [K] Share Sketches — Interpret User Sketches
 
 **Goal:** Analyze user-provided sketches (photos, screenshots, wireframes) and translate them into structured page specifications.
@@ -12,16 +17,16 @@ User provides sketch (image file, photo, or description of sketch).
 
 ## Steps
 
-Execute steps in `{installed_path}/steps-k/`:
+Execute steps in `./steps-k/`:
 
 | Step | File | Purpose |
 |------|------|---------|
 | 01 | step-01-sketch-analysis.md | Analyze and interpret the sketch |
 
 **Reference data:**
-- `{installed_path}/data/guides/SKETCH-TEXT-ANALYSIS-GUIDE.md` — sketch analysis methodology
-- `{installed_path}/data/guides/SKETCH-TEXT-QUICK-REFERENCE.md` — quick reference
-- `{installed_path}/data/object-types/` — component identification
+- `./data/guides/SKETCH-TEXT-ANALYSIS-GUIDE.md` — sketch analysis methodology
+- `./data/guides/SKETCH-TEXT-QUICK-REFERENCE.md` — quick reference
+- `./data/object-types/` — component identification
 
 ---
 

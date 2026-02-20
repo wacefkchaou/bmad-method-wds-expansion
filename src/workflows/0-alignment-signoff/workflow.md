@@ -47,7 +47,7 @@ Load and read full config from `{project-root}/_bmad/wds/config.yaml` and resolv
 
 ### 3. Start
 
-Load and execute `{installed_path}/steps-c/step-01a-understand-situation.md`
+Load and execute `./steps-c/step-01a-understand-situation.md`
 
 ---
 

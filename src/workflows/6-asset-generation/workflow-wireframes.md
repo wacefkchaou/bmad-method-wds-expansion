@@ -11,7 +11,7 @@ description: Generate outline wireframes from page specifications
 
 ## Steps
 
-Execute steps in `{installed_path}/steps-w/`:
+Execute steps in `./steps-w/`:
 
 | Step | File | Purpose |
 |------|------|---------|

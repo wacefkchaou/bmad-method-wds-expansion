@@ -1,3 +1,8 @@
+---
+name: 'workflow-design-system'
+description: 'Define, update, and review design system components used across page specifications.'
+---
+
 # [M] Manage Design System — Define and Update Components
 
 **Goal:** Define, update, and review design system components used across page specifications.
@@ -12,7 +17,7 @@ Load design system from `{output_folder}/D-UX-Design/design-system/` (if exists)
 
 ## Steps
 
-Execute steps in `{installed_path}/steps-m/`:
+Execute steps in `./steps-m/`:
 
 | Step | File | Purpose |
 |------|------|---------|
@@ -21,9 +26,9 @@ Execute steps in `{installed_path}/steps-m/`:
 | 03 | step-03-validate-usage.md | Check component usage across specs |
 
 **Reference data:**
-- `{installed_path}/data/object-types/` — component type definitions and templates
-- `{installed_path}/data/modular-architecture/` — three-tier architecture guide
-- `{installed_path}/data/guides/TRANSLATION-ORGANIZATION-GUIDE.md` — content organization
+- `./data/object-types/` — component type definitions and templates
+- `./data/modular-architecture/` — three-tier architecture guide
+- `./data/guides/TRANSLATION-ORGANIZATION-GUIDE.md` — content organization
 
 ---
 

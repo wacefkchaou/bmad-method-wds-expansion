@@ -22,7 +22,7 @@ description: Strategic text content generation using the 5-model framework
 
 ## Steps
 
-Execute steps in `{installed_path}/steps-c/`:
+Execute steps in `./steps-c/`:
 
 | Step | File | Purpose |
 |------|------|---------|

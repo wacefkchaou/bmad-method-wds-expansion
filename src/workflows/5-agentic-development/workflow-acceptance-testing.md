@@ -23,7 +23,7 @@ description: Design and run acceptance tests from specification criteria
 
 ## STEPS
 
-Execute steps in `{installed_path}/steps-t/`:
+Execute steps in `./steps-t/`:
 
 | Step | File | Purpose |
 |------|------|---------|
@@ -34,9 +34,9 @@ Execute steps in `{installed_path}/steps-t/`:
 | 05 | step-05-iterate.md | Iterate fixes or approve |
 
 **Reference data:**
-- `{installed_path}/data/testing-guide.md`
-- `{installed_path}/data/test-result-templates.md`
-- `{installed_path}/data/issue-templates.md`
+- `./data/testing-guide.md`
+- `./data/test-result-templates.md`
+- `./data/issue-templates.md`
 
 ---
 

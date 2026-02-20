@@ -23,7 +23,7 @@ description: Package complete testable flows and hand off to development
 
 ## STEPS
 
-Execute steps in `{installed_path}/steps-h/`:
+Execute steps in `./steps-h/`:
 
 | Step | File | Purpose |
 |------|------|---------|
@@ -35,9 +35,9 @@ Execute steps in `{installed_path}/steps-h/`:
 | 06 | step-06-continue.md | Return to design or next flow |
 
 **Reference data:**
-- `{installed_path}/data/delivery-templates.md`
-- `{installed_path}/data/handoff-dialog-scripts.md`
-- `{installed_path}/data/design-deliveries-guide.md`
+- `./data/delivery-templates.md`
+- `./data/handoff-dialog-scripts.md`
+- `./data/design-deliveries-guide.md`
 
 ---
 

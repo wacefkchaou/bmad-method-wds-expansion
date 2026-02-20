@@ -1,3 +1,8 @@
+---
+name: 'workflow-conceptualize'
+description: 'Collaboratively explore what a scenario's design should achieve before committing to specific pages or layouts.'
+---
+
 # [C] Conceptualize — Explore What the Design Needs
 
 **Goal:** Collaboratively explore what a scenario's design should achieve before committing to specific pages or layouts.
@@ -12,15 +17,15 @@ Load scenario context (VTC, scenario overview) from `{output_folder}/C-UX-Scenar
 
 ## Steps
 
-Execute steps in `{installed_path}/steps-c/`:
+Execute steps in `./steps-c/`:
 
 | Step | File | Purpose |
 |------|------|---------|
 | 01 | step-01-exploration.md | Open-ended design exploration |
 
 **Reference data:**
-- `{installed_path}/data/scenario-init/` — scenario initialization guides
-- `{installed_path}/data/page-creation-flows/` — page creation flow options
+- `./data/scenario-init/` — scenario initialization guides
+- `./data/page-creation-flows/` — page creation flow options
 
 ---
 

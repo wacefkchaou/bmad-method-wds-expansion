@@ -1,3 +1,8 @@
+---
+name: 'workflow-dream'
+description: 'The agent creates a complete scenario flow autonomously, then presents the result for user review.'
+---
+
 # [D] Dream Up — Agent Creates Autonomously, User Reviews
 
 **Goal:** The agent creates a complete scenario flow autonomously, then presents the result for user review.
@@ -12,7 +17,7 @@ Load scenario context from `{output_folder}/C-UX-Scenarios/`.
 
 ## Process
 
-The Dream workflow uses the same steps as Suggest (`{installed_path}/steps-s/`) but with **autonomous execution**:
+The Dream workflow uses the same steps as Suggest (`./steps-s/`) but with **autonomous execution**:
 
 1. **Agent executes all scenario setup steps** (step-01 through step-07) without pausing
 2. **Agent creates all pages** (step-08 through step-15) for each page in the flow
@@ -27,8 +32,8 @@ The Dream workflow uses the same steps as Suggest (`{installed_path}/steps-s/`) 
 - User can accept, request changes, or switch to **[S] Suggest** for finer control
 
 **Reference data:**
-- `{installed_path}/data/scenario-init/` — scenario guides and examples
-- `{installed_path}/data/page-creation-flows/` — page creation approaches
+- `./data/scenario-init/` — scenario guides and examples
+- `./data/page-creation-flows/` — page creation approaches
 
 ---
 

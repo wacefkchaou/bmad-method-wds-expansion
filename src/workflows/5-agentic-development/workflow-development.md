@@ -37,7 +37,7 @@ description: Write production code from approved specifications
 
 ## REFERENCE MATERIAL
 
-Guides in `{installed_path}/data/guides/` support this workflow:
+Guides in `./data/guides/` support this workflow:
 
 | Guide | Use When |
 |-------|----------|
@@ -61,7 +61,7 @@ Guides in `{installed_path}/data/guides/` support this workflow:
 
 ## STEPS
 
-Execute steps in `{installed_path}/steps-d/`:
+Execute steps in `./steps-d/`:
 
 | Step | File | Purpose |
 |------|------|---------|

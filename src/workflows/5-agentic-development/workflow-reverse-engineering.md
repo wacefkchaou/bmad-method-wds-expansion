@@ -40,7 +40,7 @@ description: Analyze any software or website to extract specifications and desig
 
 ## STEPS
 
-Execute steps in `{installed_path}/steps-r/`:
+Execute steps in `./steps-r/`:
 
 | Step | File | Purpose |
 |------|------|---------|

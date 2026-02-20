@@ -36,7 +36,7 @@ description: Understand an existing codebase through systematic exploration
 
 ## STEPS
 
-Execute steps in `{installed_path}/steps-a/`:
+Execute steps in `./steps-a/`:
 
 | Step | File | Purpose |
 |------|------|---------|

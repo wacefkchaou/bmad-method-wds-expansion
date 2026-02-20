@@ -1,3 +1,8 @@
+---
+name: 'workflow-visual'
+description: 'Create visual representations of page designs using external tools and integrate results back into specifications.'
+---
+
 # [W] Visual Design — Work with Visual Tools
 
 **Goal:** Create visual representations of page designs using external tools and integrate results back into specifications.
@@ -12,7 +17,7 @@ Load page specification from `{output_folder}/D-UX-Design/`.
 
 ## Steps
 
-Execute steps in `{installed_path}/steps-w/`:
+Execute steps in `./steps-w/`:
 
 | Step | File | Purpose |
 |------|------|---------|
@@ -28,8 +33,8 @@ Execute steps in `{installed_path}/steps-w/`:
 - **HTML prototype** — Code-based visual design
 
 **Reference data:**
-- `{installed_path}/data/guides/HTML-VS-VISUAL-STYLES.md` — choosing between approaches
-- `{installed_path}/data/guides/NANO-BANANA-PROMPT-GUIDE.md` — prompt composition for AI image generation
+- `./data/guides/HTML-VS-VISUAL-STYLES.md` — choosing between approaches
+- `./data/guides/NANO-BANANA-PROMPT-GUIDE.md` — prompt composition for AI image generation
 
 ---
 

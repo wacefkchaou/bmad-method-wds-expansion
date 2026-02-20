@@ -1,3 +1,8 @@
+---
+name: 'workflow-validate'
+description: 'Verify all Product Brief artifacts are complete, consistent, and ready for Phase 2.'
+---
+
 # Phase 1 Validation: Product Brief
 
 **Goal:** Verify all Product Brief artifacts are complete, consistent, and ready for Phase 2.
@@ -23,7 +28,7 @@ Execute each step in order. Each step produces a section of the final validation
 
 1. Load project config from `{project-root}/_bmad/wds/config.yaml`
 2. Locate Product Brief at `{output_folder}/A-Product-Brief/`
-3. Begin validation: Load and execute `{installed_path}/steps-v/step-01-brief-completeness.md`
+3. Begin validation: Load and execute `./steps-v/step-01-brief-completeness.md`
 
 ---
 

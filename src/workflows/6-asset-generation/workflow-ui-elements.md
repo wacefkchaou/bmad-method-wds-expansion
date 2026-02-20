@@ -11,7 +11,7 @@ description: Generate UI components — buttons, cards, forms, navigation elemen
 
 ## Steps
 
-Execute steps in `{installed_path}/steps-u/`:
+Execute steps in `./steps-u/`:
 
 | Step | File | Purpose |
 |------|------|---------|

@@ -29,7 +29,7 @@ description: Build interactive prototypes from specifications
 
 ## STEPS
 
-Execute steps in `{installed_path}/steps-p/`:
+Execute steps in `./steps-p/`:
 
 | Step | File | Purpose |
 |------|------|---------|

@@ -11,7 +11,7 @@ description: Generate photos, illustrations, and backgrounds from specifications
 
 ## Steps
 
-Execute steps in `{installed_path}/steps-m/`:
+Execute steps in `./steps-m/`:
 
 | Step | File | Purpose |
 |------|------|---------|
