@@ -31,17 +31,35 @@ Figma is where you go for pixel-level control. In WDS, you don't live in Figma �
 
 ---
 
-### 2. Image Generators — Visual Concepts and Inspiration
+### 2. Image Generators — Visual Assets and Inspiration
 
-AI image generation creates visuals — mood boards, concept art, design inspiration — that inform your design direction. These aren't working code. They're visual reference material that feeds into your specifications and guides the coding agent.
+AI image generation creates visual assets — hero photos, card images, persona illustrations, mood boards — that feed into your designs. These aren't working code or editable layouts. They're image assets.
 
-**Nanobanana MCP (Gemini 2.5 Flash Image)** — generates images directly from your AI coding agent and saves them to your repository. We've tested this and it works well for generating visual concepts, mood boards, and design inspiration within your workflow. The images land right in your project folder.
+**Nanobanana MCP (Gemini 2.5 Flash / Gemini 3 Pro)** — generates images directly from your AI coding agent and saves them to your repository. We've tested this extensively and learned what it does well and what it doesn't.
+
+**What NB does well:**
+- **Image assets** — Hero photos, card images, seasonal photos, persona illustrations
+- **Mood visualization** — Captures atmosphere and visual direction
+- **Style transfer** — Reference images influence the generated style
+- **Quick exploration** — Fast to generate multiple visual directions
+
+**What NB does NOT do well (critical limitations):**
+- **All text is garbled** — AI-rendered text is never readable. Never trust it.
+- **Logos cannot be reproduced** — Generates "inspired by" versions, not the real logo
+- **Cannot edit results** — If something is wrong, you regenerate entirely. You cannot move, resize, or adjust elements.
+- **Wireframe labels leak into mockups** — Annotation text bleeds through in edit mode
+- **2x2 grids flatten** — Multi-row layouts are a consistent weak point
+- **Broad edits cause section loss** — Unfocused instructions drop entire sections
+
+**NB is an asset production tool, not a design tool.** The images are excellent as placeholders and visual references, but you cannot iterate on them the way you can with code or Figma. For wireframing, use Excalidraw. For production mockups, use Stitch or code generation.
 
 **Best for:**
-- Generating mood boards and visual direction
-- Creating inspiration images for specifications
-- Exploring visual concepts before building
-- Communicating visual intent to stakeholders
+- Hero photos, card images, seasonal visuals, background images
+- Persona illustrations for Trigger Map documents
+- Mood boards and visual direction exploration
+- Placeholder imagery during prototyping
+
+For detailed guidance on AI wireframe generation (and why we recommend against it for iterative design), see [Module 09, Lesson 6: AI Wireframe Generation](../module-09-conceptual-sketching/lesson-06-ai-wireframe-generation.md).
 
 ---
 
@@ -61,7 +79,7 @@ Agent: Creates working HTML/CSS with all elements,
 You: Open in browser. Review. Give feedback.
 ```
 
-**Google Stitch** — Google has released an API and MCP specifically for generating UI designs and working interfaces. This is designed for producing UI components and page layouts. We have not tested this yet, but it's a promising tool for UI generation alongside the standard code generation workflow.
+**Google Stitch** — Google's AI UI design tool that generates real HTML/CSS code from text prompts or wireframe images. Available as an API with MCP server integration. Produces production-quality layouts with readable text, proper structure, and Figma export. 350 standard + 50 experimental generations per month.
 
 **Best for:**
 - Building working prototypes from specifications
@@ -76,14 +94,21 @@ You: Open in browser. Review. Give feedback.
 We are actively exploring these techniques as tools and capabilities develop rapidly. New image generation models, UI-specific generators, and Figma integrations appear regularly.
 
 **What we've tested:**
-- Nanobanana MCP for image generation — works, saves directly to repo
-- code.to.design for Figma round-trips — established workflow
-- Figma MCP for reading designs into code — works
-- AI code generation (Claude, GPT) for UI building — core WDS workflow
+- **Nanobanana MCP** for image generation — excellent for image assets (hero photos, card images, persona illustrations). Not suitable for wireframes or mockups due to garbled text, non-editable output, and layout limitations. See [Module 09, Lesson 6](../module-09-conceptual-sketching/lesson-06-ai-wireframe-generation.md) for detailed findings.
+- **code.to.design** for Figma round-trips — established workflow
+- **Figma MCP** for reading designs into code — works
+- **AI code generation** (Claude, GPT) for UI building — core WDS workflow
+- **Google Stitch** for UI generation — API and MCP available, generates real HTML/CSS
 
-**What we're exploring:**
-- Google Stitch for UI generation — released API and MCP, not yet tested
-- Emerging tools for design-to-code and code-to-design workflows
+**Recommended tool roles (as of February 2026):**
+
+| Tool | Role | Why |
+|------|------|-----|
+| **Excalidraw** | Wireframes | Editable, fast iteration, user can drag and resize |
+| **Nano Banana** | Image assets | Hero photos, card images, illustrations, mood visuals |
+| **Google Stitch** | Production mockups | Real HTML/CSS output, readable text, Figma export |
+| **Figma** | Final polish | Pixel-level refinement, design system management |
+| **AI code gen** | Prototypes | Working interactive prototypes from specs |
 
 **Share your experience:** If you discover techniques that work well, or tools we haven't covered, share them in the Discord forum **#UX-design-channel**. This course evolves based on what the community learns together.
 

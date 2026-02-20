@@ -154,6 +154,25 @@ You interact with Figma through two tools:
 
 **Figma MCP** — connects your AI coding agent directly to Figma. The agent can read your Figma designs, extract styles, and apply them to code — without you manually exporting or copying values.
 
+### AI Visual Tools — What We've Learned
+
+Different AI tools serve different purposes in visual design. Here's what works based on real project testing:
+
+| Tool | Best For | Limitation |
+|------|----------|------------|
+| **Excalidraw** | Wireframes, layout iteration | Manual, no AI generation |
+| **Nano Banana** | Image assets (hero photos, card images, personas) | Cannot render text, output is non-editable |
+| **Google Stitch** | Production HTML/CSS mockups | Requires Google Cloud setup |
+| **Figma** | Final visual polish, pixel-level refinement | Manual, slower |
+| **AI code gen** | Interactive prototypes | May need visual refinement |
+
+**Nano Banana is an asset production tool, not a design tool.** It generates excellent placeholder images but cannot produce wireframes or mockups suitable for iterative design. All text is garbled, output cannot be edited. For the full analysis, see [Module 09, Lesson 6: AI Wireframe Generation](../module-09-conceptual-sketching/lesson-06-ai-wireframe-generation.md).
+
+**Recommended workflow for page design:**
+1. **Excalidraw** — Sketch and iterate on layout (editable, user controls)
+2. **Nano Banana** — Generate image assets (hero photos, card images, seasonal visuals)
+3. **Stitch or code gen** — Generate production HTML/CSS from approved wireframe
+
 ### AI Asset Generation (Phase 6 Pipeline)
 
 WDS Phase 6 provides a full **creative production pipeline** for generating visual assets with AI:

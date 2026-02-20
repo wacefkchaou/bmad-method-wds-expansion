@@ -227,6 +227,7 @@ Take one scenario from Module 08:
 - **[Lesson 3: Why Hand Sketching is Still King](lesson-03-why-hand-sketching.md)** — The case for paper and tablet in the AI era
 - **[Lesson 4: Image Sketching Best Practices](lesson-04-image-sketching-best-practices.md)** — How to represent images in UI sketches
 - **[Lesson 5: Sketch Text Strategy](lesson-05-sketch-text-strategy.md)** — Actual text vs. markers in sketches
+- **[Lesson 6: AI Wireframe Generation](lesson-06-ai-wireframe-generation.md)** — Using Nano Banana for wireframe exploration — what works, what doesn't
 - **[Tutorial: Sketch Your Views](tutorial-09.md)** — Hands-on practice with Freya
 
 ---
